@@ -1,0 +1,330 @@
+li {
+    list-style: none;
+}
+
+/*----- Start Footer -----*/
+#footer {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    background-color:#203774;
+    padding: 20px 0px 0px 0px;
+    justify-content: center;
+    position:relative;
+}
+#footer .title {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    padding:30px 50px;
+}
+#footer .title h4 {
+    font-size:3rem;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.6mm;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#footer .title p {
+    font-size:1.1rem;
+    font-weight:100;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3mm;
+    color: rgb(255, 255, 255);
+    margin:20px 10px 30px;
+}
+#footer .title ul {
+    display:flex;
+    flex-direction:row;
+}
+#footer .title ul li {
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    width:45px;
+    height:45px;
+    margin:0 10px;
+    background:rgb(255, 255, 255);
+    border-radius:510px;
+}
+#footer .title ul li a i {
+    font-size:1.4rem;
+    transition:color 250ms linear,background 250ms linear;
+    padding:11px;
+    border-radius: 100px;
+    color: #0f235a;
+}
+#footer .title ul li a i:hover {
+    color: #647cbe;
+}
+#mouhcine {
+    text-align: center;
+    margin-top:10px;
+}
+#mouhcine p {
+    color:white;
+    font-size:0.9rem;
+}
+#mouhcine p span {
+    font-family: 'Nunito', sans-serif;
+    font-size:1.2rem;
+}
+
+#footer .footer-container {
+    width:900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#footer .about {
+    width: 220px;
+    height: fit-content;
+    padding:50px 10px 20px 50px;
+}
+#footer .about h4 {
+    font-size:2rem;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.6mm;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#footer .about ul {
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+#footer .about ul li a {
+    display:block;
+    text-decoration:none;
+    font-size:1rem;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3mm;
+    color: rgb(255, 255, 255);
+    padding:3px 0px;
+    border-bottom:2px solid transparent;
+    transition:border 250ms linear;
+}
+#footer .about ul li a:hover {
+    border-bottom:2px solid rgb(255, 255, 255);
+}
+
+#footer .service {
+    width: 220px;
+    height: fit-content;
+    padding:50px 10px 20px 50px;
+}
+#footer .service h4 {
+    font-size:2rem;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.6mm;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#footer .service ul {
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+#footer .service ul li a {
+    display:block;
+    text-decoration:none;
+    font-size:1rem;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3mm;
+    color: rgb(255, 255, 255);
+    padding:3px 0px;
+    border-bottom:2px solid transparent;
+    transition:border 250ms linear;
+}
+#footer .service ul li a:hover {
+    border-bottom:2px solid rgb(255, 255, 255);
+}
+
+#footer .other {
+    width: 220px;
+    height: fit-content;
+    padding:50px 10px 20px 50px;
+}
+#footer .other h4 {
+    font-size:2rem;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.6mm;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#footer .other ul {
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+#footer .other ul li a {
+    display:block;
+    text-decoration:none;
+    font-size:1rem;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3mm;
+    color: rgb(255, 255, 255);
+    padding:3px 0px;
+    border-bottom:2px solid transparent;
+    transition:border 250ms linear;
+}
+#footer .other ul li a:hover {
+    border-bottom:2px solid rgb(255, 255, 255);
+}
+
+#footer .up {
+    height:4.5rem;
+    width:4.5rem;
+    border-radius:100%;
+    position:absolute;
+    top:-2.3rem;
+    right:6rem;
+    background:white;
+    display:flex;
+    animation:up 1300ms infinite forwards linear;
+    cursor:pointer;
+}
+
+#footer .up i {
+    font-size:2rem;
+    color:rgb(16, 7, 66);
+    margin:auto;
+}
+
+@keyframes up {
+    0%{
+        box-shadow: 0 0 0px 2px #0f235ab7; 
+    }
+    50%{
+        box-shadow: 0 0 5px 15px #0f235a1e; 
+    }
+    80%{
+        box-shadow: 0 0 5px 23px #1a398b1e; 
+    }
+    100%{
+        box-shadow: 0 0 10px 23px #547ef102; 
+    }
+}
+/*----- End Footer -----*/
+
+@media (max-width:540px) {
+    
+    #footer {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footer .title {
+        width:80vw;
+        display: flex;
+        flex-direction: column;
+        padding:10px 30px 10px 0;
+    }
+    
+#footer .title h4 {
+    font-size:2.5rem;
+    font-weight:400;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.6mm;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+#footer .title p {
+    font-size:1rem;
+    font-weight:100;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.3mm;
+    color: rgb(255, 255, 255);
+    margin:20px 10px 30px;
+}
+#footer .title ul {
+    display:flex;
+    flex-direction:row;
+}
+#footer .title ul li {
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    width:45px;
+    height:45px;
+    margin:0 10px;
+    background:rgb(255, 255, 255);
+    border-radius:510px;
+}
+#footer .title ul li a i {
+    font-size:1.4rem;
+    transition:color 250ms linear,background 250ms linear;
+    padding:11px;
+    border-radius: 100px;
+    color: #0f235a;
+}
+}
+
+
+@media (max-width:420px) {
+    #footer .up {
+        height:3.8rem;
+        width:3.8rem;
+        border-radius:100%;
+        position:absolute;
+        top:-1.9rem;
+        right:3rem;
+        background:white;
+        display:flex;
+        animation:up 1300ms infinite forwards linear;
+        cursor:pointer;
+    }
+    
+    #footer .up i {
+        font-size:1.7rem;
+        color:rgb(16, 7, 66);
+        margin:auto;
+    }
+}
+@media (max-width:290px) {
+    #footer .title h4 {
+        font-size:2rem;
+
+    }
+    #footer .title p {
+        font-size:0.85rem;
+        font-weight:100;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 0.3mm;
+        color: rgb(255, 255, 255);
+        margin:20px 10px 30px;
+    }
+
+    #footer .title ul li {
+        width:40px;
+        height:40px;
+        margin:0 10px;
+    }
+    #footer .title ul li a i {
+        font-size:1.4rem;
+        padding:10px;
+    }
+    #footer .up {
+        height:3rem;
+        width:3rem;
+        border-radius:100%;
+        position:absolute;
+        top:-1.5rem;
+        right:2rem;
+        background:white;
+        display:flex;
+        animation:up 1300ms infinite forwards linear;
+        cursor:pointer;
+    }
+    
+    #footer .up i {
+        font-size:1.3rem;
+        color:rgb(16, 7, 66);
+        margin:auto;
+    }
+} 

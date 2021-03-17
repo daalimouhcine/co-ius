@@ -1,0 +1,693 @@
+
+
+.side {
+   text-align: center;
+}
+body{
+   color:#175071;
+   font-family: 'Raleway', sans-serif;
+   margin:0px;
+   background:#FFF;
+}
+#content #menutop a{color:black;}
+#bloc_texte-titre {
+text-align:center;
+width:100%;
+height: 400px;
+margin:auto;
+border:1px solid #f6f6f6;
+padding: 18px 70px;
+}
+.staat {
+    text-align: right;
+    font-family: 'Staatliches', cursive;
+    Color: #4b4c4c;
+    font-size: 70px;
+    line-height: 76%;
+    margin-bottom: 0px;
+    margin-top:0
+}
+
+
+.mot_bleu{
+   color: #1eb6c3;
+
+text-transform: uppercase;
+
+font-weight: bold;
+
+font-family: Oswald;
+
+font-size: 30px;
+}
+
+
+.mot_curs{font-family: DESYREL;color:black;font-size: 35px;}
+
+.txt_marg{width:1320px;margin:auto}
+
+.titre_metier1{font-family:"Oswald"}
+.titre_metier2{font-family:"DESYREL";font-size:35px}
+.titre_metier3{font-family:BebasNeue;font-size:35px}
+
+.font_desyrel{font-family:"DESYREL"}
+
+
+.list_contact{
+   width:80%;
+   margin:20px auto;
+   /* margin-top:20px; */
+   text-align: center;
+}
+.list_contact select{
+   width:80%;
+   padding: 10px 15px;
+   font-size:16px;
+}
+
+#all .btn_link{
+   display:inline-block;
+   background: #002d42;
+   padding: 8px 30px;
+   margin: 15px 5px;
+   color: #FFF;
+   font-weight: normal;
+   border: none;
+   cursor: pointer;
+   text-decoration:none;
+   font-family:BebasNeue;
+   font-size:20px;
+}
+#all .btn_link:hover{background:#71c4ca}
+.clear{clear:both;}
+.tcenter{text-align:center;}
+table.tcenter{margin:auto;}
+.tleft {text-align:left;}
+.tright {text-align:right;position: absolute;}
+table.tright {float:right;}
+.vtop{vertical-align:top;}
+.vmiddle{vertical-align: middle;}
+.link:hover{cursor:pointer;}
+.jHide{display:none;}
+.twin{float:left;width:48%;padding:10px 1%;}
+.no-js .jHide{display:block;}
+
+
+
+
+#header{
+   position:fixed;
+   top:0px;
+   z-index:1000;
+   height:135px;
+   margin:auto;
+   margin-bottom:20px;
+}
+#header h1{color:#036;font-size:30px;}
+#header h2{color:#036;font-size:22px;margin-left:350px;}
+#logo{
+   overflow:hidden;
+   position:relative;
+   margin-left:150px;
+   width:500px;
+   transition:all 500ms linear;
+   background:url(../images/polygone.png) no-repeat;
+   background-size:contain;
+   
+}
+#logo img{margin-top: 0px;width: 300px;margin-left: 60px; margin-bottom:8px}
+.scroll #logo{margin-left:15px;}
+.scroll #logo img{width: 170px;}
+
+
+/* --- CONTENU --- */
+#content{text-align:left;margin-bottom:0px;width:100%;padding-top:10px;max-width: 100%;position: relative;z-index: 999;}
+.page #content{    margin-top: 180px;}
+
+
+
+/*texte*/
+p, td, li{font-size:14px;color:#333030;}
+a:link{color:#005b86;text-decoration:none;font-weight:bold;}
+a:visited{color:#005b86;text-decoration:none;}
+a:hover{color:#005b86;text-decoration:underline;}
+/* --- IMAGES - GALERIES --- */
+img{border:none;}
+
+/* .contact_1,.contact_2{width:50%;display: inline-block;vertical-align: top;} */
+
+
+.contact h2{margin: 20px 0px;text-align:center;font-family:DESYREL;font-size:35px;font-weight: normal;}
+
+#message{ display: flex;width: 100%;max-width: 95%;background:#EDEDED;resize:none;font-size:16px;}
+   
+#side{
+   position: fixed;
+   right: 0px;
+   z-index: 10000;
+   top: 0;
+   margin-top: 8px;
+   margin-right: 30px;
+   transition: top 400ms linear;
+}
+#side .soc{
+   /*background: #696259;*/
+   color:#FFF;
+   text-align: center;
+   border-radius: 0px 07px 07px 0px;
+   
+   transition:all 1s; 
+   width:85px;
+   text-transform:uppercase;
+   display:inline-block;
+   vertical-align: top;
+}
+#side .soc.btn{padding: 0px;width:50px;margin:0}
+#side .soc.btn.tel{width:150px;}
+#side .soc a{padding: 0px;color:white;text-decoration:none;display:block;font-size: 20px;font-weight: bold;}
+#side .soc.btn.tel span,#side .soc.btn.tel img{display:inline-block;vertical-align:middle;margin: 0 5px;font-size:13px;color:#002d42;font-weight:bold;cursor:pointer;font-family: Oswald;}
+#side .soc.btn.tel span{width: fit-content;text-align: right;}
+#side .soc.btn.tel span:hover {
+   text-decoration: underline;
+}
+#side .soc a:hover{color:#99c4f8}
+#side .soc a {font-size: 1.4rem;color: #385292;}
+
+/* --- MENU --- */
+/* --- MENU CATEGORIES (Horizontal) --- */
+#fond-head{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 41px;
+   background: white;
+   z-index: 998;
+   transition: top 400ms linear; 
+}
+.scroll #side {
+   top:-7.9%;
+}
+.scroll #content #menu {
+   top: 0.5%;
+}
+.scroll #css3menu {
+   margin-top: 10px;
+}
+
+#menu {
+   padding: 0;
+   top: 40px;
+   background:#385292;
+   position: fixed;
+   z-index: 998;
+   width:100%;
+   left: 0px;
+   max-height: 50px; /* Ajout d'un max-height pour permettre le déborderment du hover */
+   transition: top 400ms linear;
+}
+.sousmenu{display:none;position: absolute;margin-left: -40px;}
+#all #menu ul#css3menu .sousmenu a{border-radius:0px;position: absolute;}
+#all #menu ul#css3menu .sousmenu ul{padding:0px;}
+#all #menu ul#css3menu .sousmenu li a{background:rgba(85, 78, 68, 0.87);font-size:13px;line-height:15px;}
+#all #menu ul#css3menu .sousmenu li a:hover{background:rgba(229, 124, 7, 0.87);}
+#all #menu ul#css3menu .sousmenu.submenu22 li a:hover{background:rgba(108, 195, 198, 0.87);}
+         /*********************************************
+         ****************   Nouveau menu   ************
+         *********************************************/
+
+ul#css3menu .toproot,ul#css3menu .topmenu {
+    float:left;
+    /*border: solid 0px #CCC;*/
+    transition-property: border;
+    transition-duration: 1s;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    border: outset 4px rgba(0,0,0,0);
+    bottom: 4px;
+}
+ul#css3menu .toproot:hover a:after,ul#css3menu .topmenu:hover a:after{
+    content: "";
+    height: 2px;
+    width: 80%;
+    position: absolute;
+    background: white;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+ul#css3menu .toproot:hover a,ul#css3menu .topmenu:hover a{cursor:pointer;}
+
+ul#css3menu,ul#css3menu ul{margin:0;padding:0;list-style:none;}
+#all .submenu{
+   display:none;
+   position:absolute;
+   top:50%;
+   margin-top: 20px;
+   float:left;
+   color:#333333;
+   z-index:100;
+   width:0px;
+   left:50%;
+   margin-left: -70px;
+   z-index: 1000;
+}
+#all .submenu img{
+   box-shadow:  3px 5px 15px #333;
+   margin-bottom:10px;
+}
+ul#css3menu{position:relative;display:block;font-size:0;float:left;left: 650px;}
+ul#css3menu ul{padding:0 10px 10px;}
+
+
+
+
+
+ul#css3menu li{display:block;font-size:0;float:left;}
+ul#css3menu>li,ul#css3menu li{margin-right:100px;}
+ul#css3menu ul>li{margin:10px 0 0;}
+ul#css3menu a:active, ul#css3menu a:focus{outline-style:none;}
+ul#css3menu a{
+   display:block;
+   vertical-align:middle;
+   text-align:left;
+   text-decoration:none;
+   color:#333333;
+   cursor:default;
+   padding:16px 35px;
+   font-size:15px;
+   
+}
+ul#css3menu ul li{float:none;margin:1px 0 0;}
+ul#css3menu ul a{text-align:center;padding:5px 15px;font-size:12px;color:#9ed9b3;text-decoration:none;}
+ul#css3menu li:hover>a{   border-style:none;color:#EEEEEE;text-decoration:none;}
+ul#css3menu img{display:block;border:none;vertical-align:middle;margin:auto;}
+ul#css3menu img.over{display:none;}
+ul#css3menu li:hover > a img.def{display:none;}
+ul#css3menu li:hover > a img.over{display:inline;}
+ul#css3menu span{display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+
+
+ /*Style des listes 'top' du menu*/
+ul#css3menu li.toproot>a, ul#css3menu li.topmenu>a, ul#css3menu ul li.menu>a{
+   display:block;
+   height:1%;
+   margin:0;
+   font-weight:bold;
+   color:#FFF;
+   text-decoration:none;
+   border:none;
+   
+}
+/*Listes sous-menu*/
+/*Si sous-menu*/
+ul#css3menu ul li.root:hover>a{
+   background:none;
+   text-decoration:none;
+   font-size:17px;
+}
+ul#css3menu ul li.root>a{
+   font-size:17px;
+   background:none;
+   color:#333333;
+   border:none;
+   text-decoration:none;
+}
+/*Si PAS de sous-menu*/
+ul#css3menu ul li.menu:hover>a{
+   text-decoration:none;
+}
+/*Listes survol menu top*/
+ul#css3menu li:hover>a{
+}
+ul#css3menu ul li.menu > a {
+   font-size:11px;
+   text-align:left;
+   text-transform:uppercase;
+}
+ul#css3menu  li > a:hover{
+   border-radius:0px;
+}
+ul#css3menu ul li.root > a:first-letter{
+   font-size:20px;
+   text-shadow:1px 1px black;
+}
+
+
+#all ul#css3menu li a.toplink{transition:all 500ms;min-width: 100px;text-align: center;border-radius: 0px 0px 10px 10px;text-transform: uppercase;}
+#all ul#css3menu li a.toplink:hover{margin-top: -5px;}
+
+#all ul#css3menu li a.toplink .img{position:absolute;transition:all 1s;}
+#all ul#css3menu li a.link_1 .img{margin-left: -45px;width:144px;height:148px;background:url(/img/link_1.png) no-repeat;}
+#all ul#css3menu li a.link_2 .img{width:107px;height:136px;background:url(/img/link_2.png) no-repeat;}
+#all ul#css3menu li a.link_3 .img{margin-left: -20px;width:161px;height:136px;background:url(/img/link_3.png) no-repeat;}
+#all ul#css3menu li a.link_4 .img{margin-left: -30px;width:149px;height:161px;background:url(/img/link_4.png) no-repeat;}
+
+
+#all .scroll ul#css3menu li a.toplink .img{height:0px;}
+#all .scroll ul#css3menu li a.toplink{padding-top:5px;}
+#all .scroll ul#css3menu li a.toplink:hover{padding-top:5px;}
+
+
+@media all and (max-width:1800px){
+    ul#css3menu>li, ul#css3menu li {
+        margin-right: 85px;
+    }
+}
+@media all and (max-width:1775px){
+   #mask_diapo{bottom:145px;}
+}
+@media all and (max-width:1700px){
+    ul#css3menu>li, ul#css3menu li {
+        margin-right: 65px;
+    }
+    #mask_diapo {bottom: 180px;}
+    
+}
+@media all and (max-width:1654px){
+   
+}
+@media all and (max-width:1600px){
+    ul#css3menu>li, ul#css3menu li {
+        margin-right: 30px;
+    }
+    #mask_diapo{bottom:210px}
+}
+
+@media all and (max-width:1570px){
+	.hexagone{    margin: 140px 10px;}
+}
+@media all and (max-width:1550px){
+	#diaporama .label_skitter .info_diapo{width:35%;}
+}
+@media all and (max-width:1535px){
+   #mask_diapo {bottom: 230px;}
+}
+@media all and (max-width:1500px){
+    ul#css3menu>li, ul#css3menu li {
+        margin-right: 0px;
+    }
+}
+@media all and (max-width:1475px){
+   #mask_diapo {bottom: 275px;}
+}
+
+@media all and (max-width:1400px){
+    ul#css3menu a {
+        padding: 16px 22px;
+    }
+    
+    #diaporama .label_skitter .info_diapo h2{font-size:80px;}
+    #mask_diapo {bottom: 300px;}
+}
+/*
+@media all and (max-width:1430px){
+}
+*/
+/* --- MEDIA QUERY --- */
+#btn_mobile{
+   background-color: #203774;
+   text-align: center;
+   font-size: 20px;
+   color: #FFF;
+   border-top: solid 1px #FFF;
+   display:none;
+   padding: 5px;
+   cursor:pointer;
+
+}
+#btn_mobile img{vertical-align: middle;height:20px;margin-top: -4px;}
+@media print{
+   #menu,#info_slide_dots,#menutop,#languages{display:none;}
+}
+@media all and (max-width:1395px){
+   #metier .flippingcard{width:355px}
+   #metier h2{font-size:35px;}
+   .txt_marg{width:85%}
+}
+@media all and (max-width:1380px){
+   /*#all ul#css3menu>li, #all ul#css3menu li {margin-right: 15px;}*/
+    #all #menu{right:10px;}
+    /*#logo {
+        margin-left: 45px;
+    }
+    ul#css3menu {
+        left: 550px;
+    }*/
+    #logo img {
+        margin-top: 5px;
+        width: 190px;
+        margin-left: 55px;
+    }
+       #logo {
+        margin-left: 150px;
+        width: 400px;
+    }
+       ul#css3menu {
+        left: 500px;
+    }
+}
+@media all and (max-width:1340px){
+   .grdref .galerie{width:25%;}
+}
+@media all and (max-width:1315px){
+   #mask_diapo {bottom: 325px;}
+}
+@media all and (max-width:1275px){
+	.title_spec{ width:auto; margin-left: 0; }
+}
+@media all and (max-width:1255px){
+   #mask_diapo {bottom: 355px;}
+}
+@media all and (max-width:1240px){
+   /* .bloc_article.bloc_art_accueil{width:100%;} */
+   #all .article.article_accueil .vignette img{max-width:none;max-height:100%;}
+   #metier .flippingcard{margin:25px 10px}
+}
+@media all and (max-width:1205px){
+   .bloc_texte_photo{margin: 0 10px;}
+}
+@media all and (max-width:1200px){
+    #logo {
+        margin-left: 70px;
+    }
+    ul#css3menu {
+        left: 460px;
+    }
+}
+@media all and (max-width:1190px){
+   #mask_diapo {bottom: 380px;}
+}
+@media all and (max-width:1185px){
+   .txt_metier{width:655px;}
+   #bloc_clients{width:900px;}
+}
+@media all and (max-width:1180px){
+   #diaporama .label_skitter .info_diapo h2 {font-size: 65px;}
+   #bloc_liens_metier a{display:block;}
+   #bloc_liens_metier .metier_prev{margin-bottom:10px;}
+}
+
+@media all and (max-width:1170px){
+   #metier .flippingcard{width:325px;height: 480px;}
+}
+@media all and (max-width:1120px){
+    #logo{margin-left: 45px;}
+    .reference.ref1 {clear: none;}
+    ul#css3menu {
+        left: 334px;
+    }
+
+    
+}
+@media all and (max-width:1100px){
+   #mask_diapo {bottom: 400px;}
+}
+@media all and (max-width:1080px){
+   #metier .flippingcard {width: 300px;height: 445px;}
+}
+@media all and (max-width:1045px){
+	.hexagone:nth-child(even){margin-top:140px}
+}
+@media all and (max-width:1040px){
+   #all .article.article_accueil.paire .vignette{width:300px;}
+   #all .article.article_accueil.impaire .vignette{width:300px;}
+   #all .article.article_accueil.paire .prd_texte{width:60%}
+   #all .article.article_accueil.impaire .prd_texte{width:60%;}
+}
+@media all and (max-width:1030px){
+   #mask_diapo {
+
+    bottom: 435px;
+
+}
+}
+@media all and (max-width:1020px){
+   #logo {margin-left: 0px;width:315px;}
+   ul#css3menu a {padding: 16px 5px;}
+}
+@media all and (max-width:1005px){
+   #metier .flippingcard {margin: 25px 5px;}
+}
+@media all and (max-width:1000px){
+   #carte.gmap3{width:100%!important;display:block;}
+   .contact{width:100%;display:block;border:none;}
+   .line_photo,.line_photo:nth-child(even){flex-direction:column;}
+   .line_photo .photo{width:auto;}
+   .line_photo .txt{width:auto;}
+	.line_photo .photo img{height:auto;max-width:100%;min-width:100%;}
+	.title_spec{width:auto;margin:auto}
+	
+	
+}
+@media all and (max-width:990px){
+   #diaporama .label_skitter .info_diapo h2 {font-size: 50px;}
+   #diaporama .label_skitter .info_diapo .stitre{font-size:30px;}
+}
+@media all and (max-width:972px){
+   #metier .flippingcard{display:block;margin:25px auto}
+}
+@media all and (max-width:965px){
+  #mask_diapo {bottom: 465px;}
+  .txt_metier {width: 575px;}
+  #bloc_clients {width: 825px;}
+}
+@media all and (max-width:915px){
+   #all #menu ul#css3menu a{font-size: 13px;}
+   #all.scroll #menu ul#css3menu li a.toplink {padding-top: 5px;}
+   #all #menu ul#css3menu>li, #all ul#css3menu li {margin-right: 10px;}
+   #all #menu ul#css3menu li a.toplink {min-width: 75px;}
+   #all #menu ul#css3menu li a.link_4 .img {background-size:contain;margin-left:0px;width:100px;}
+   #all #menu ul#css3menu li a.link_3 .img {background-size:contain;margin-left:0px;width:100px;}
+   #all #menu ul#css3menu li a.link_2 .img {background-size:contain;margin-left:0px;width:90px;}
+   #all #menu ul#css3menu li a.link_1 .img {background-size:contain;margin-left:-20px;width:100px;}
+   
+
+   ul#css3menu .toproot,ul#css3menu .topmenu {
+    margin-top: -8px;
+    top:4px;
+    bottom: 4px;
+    padding-bottom: 2px;
+}
+ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
+    top:4px;
+    bottom: 4px;
+}
+
+}
+
+@media all and (min-width:881px){.sousmenu .column{display:none;}}
+@media all and (max-width:880px){
+   #all #menu ul#css3menu li a.toplink .img {display:none;}
+   #all .reference{float:none;margin:5px auto;max-width:100%;}
+   .scroll #logo{margin-left:0px;}
+}
+@media all and (max-width:850px){
+   ul#css3menu {left: 300px;}
+   .txt_metier {width: 65%;}
+}
+
+@media all and (max-width:810px){
+   #all #menu{top:125px;}
+   #logo{background:none;margin: auto;width:100%;transition:top 300ms linear}
+   #side{top:87px;right:50%;transform:translate(50%,0);transition:top 500ms linear}
+   #fond-head{z-index:0;height: 125px;position:absolute}
+   #header{height:129px;width:100%;background: white;z-index:1000;transition:top 600ms linear}
+   .mask{margin-top:174px;}
+   ul#css3menu{left:0;margin:auto;float:none;text-align: center;}
+   .scroll #menu {margin-top: -5px;}
+   .scroll #logo {top:-102%;}
+   .scroll #header {top:-102%;}
+   ul#css3menu .toproot, ul#css3menu .topmenu{float:none;display:inline-block;}
+   #logo img{margin-left:0;width:150px;margin:0 auto}
+   #logo{text-align:center;}
+}
+
+
+
+@media all and (max-width:600px){
+
+   .txt_metier{display:block;width:100%;margin-left:0;}
+   #side .soc.btn.tel span {width: 60px;}
+   #side .soc.btn.tel {width: 110px;}
+   #liensuivant, #lienprecedent{margin:10px;}
+   #bloc_link_haut{top:0;}
+}
+
+@media all and (max-width:550px){
+   #main{padding: 0px 5px;}
+   #goto_content{display:none;}
+   #btn_mobile{display:block;      background-color: transparent;}
+   #all #css3menu{display:none;overflow: hidden;}
+   #all.no-js #css3menu{display:block;}
+   #all ul#css3menu li, #all ul#css3menu{float:none;margin: 0px;background: #002d42;}
+   #all #allbg #menu ul#css3menu>li, #all #allbg ul#css3menu li{float:none;margin: 0px;border-radius: 0px;display: block;}
+   #all .sousmenu{position:relative;margin:0px;border-bottom: solid 1px #FFF;}
+   #all #menu{left: 0px;right: auto;width: 100%;margin: 0px;position: relative;top:0px;margin-top: 70px;}
+   #all #menu ul#css3menu li a.toplink{border-radius:0px;}
+   #all #menu ul#css3menu li a{font-size: 16px;line-height: 35px;}
+
+   #content{margin-top:0px !important;width: initial;}
+   #header{margin: 0px auto;background: #FFF;height: 140px;}
+   
+   #side {
+      margin: 15px auto;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+   }
+   #content {
+      position: fixed;
+      top: 8%;
+      width: 100%;
+      background-color: white;
+      transition: 600ms linear;
+   }
+   .scroll #content {
+      top: -10.5%;
+   }
+   #fond-head {
+      background-color: transparent;
+      margin:0;
+   }
+   
+   #all #menu ul#css3menu .sousmenu li a{background:#999;}
+
+   #bloc_liens_metier a{display:inline;}
+   #bloc_clients .bx-pager-item a{display:block;margin:0;}
+
+   ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after{width:40%;}
+}
+
+
+@media all and (max-width:480px){
+   #bloc_liens_metier a{
+      display:block;
+   }
+   #bloc_liens_metier{right:0}
+   .txt_metier h2{margin-bottom:45px}
+}
+
+@media all and (max-width:450px){
+   #all .article.article_equipe{width:330px;min-height:auto;}
+   #all .article.article_equipe .card-single{height:190px;}
+   .txt_marg p{line-height:20px;}
+   
+   #side .soc.btn.tel {width: 30%;margin-bottom: 10px;}
+   
+}
+
+
+@media all and (max-width:350px){
+   
+   #side .soc.btn:first-child {width: 40px;margin-left:19px;}
+   #side .soc.btn.tel {width: 120px;margin-left:0px;}   
+   #side .soc.btn:last-child {margin-left:0px;margin-right:19px;}
+}
+
+
+@media all and (max-width:315px){
+   .bloc_texte_photo{width:85%;}
+   #logo{width:100%;}
+}

@@ -1,0 +1,199 @@
+body {
+    
+}
+.nous {
+    width: 100%;
+    height: 500px;
+    margin: 10px 0 100px;
+    background:url("../images/blue-bg.jpg");
+    background-size: cover;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 3;
+}
+.nous::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color:#385292ab;
+    
+    z-index: 3;
+}
+
+.nous h2 {
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    background-color: #385292e7;
+    transform: rotate(270deg);
+    width:700px;
+    padding:10px 10px 10px 150px;
+    box-shadow: -10px 10px 20px 1px #385292b7;
+    margin-left: -100px;
+}
+
+.nous div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 5;
+    margin-left:-100px;
+}
+.nous div div {
+    display: flex;
+    flex-direction: row;
+}
+.nous div div p {
+    width: 50%;
+    font-size: 1.9vw;
+    color: rgb(255, 255, 255);
+    margin:0 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.nous div div p::before {
+    content: " - ";
+}
+.nous div .p {
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    padding:0 100px;
+    margin:-20px auto 60px;
+    margin-left: -140px;
+    font-size: 2vw;
+    font-family:cursive ;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+    .nous {
+        height: 400px;
+    }
+    .nous h2 {
+        font-size: 2rem;
+        background-color: #385292e7;
+        transform: rotate(270deg);
+        width:700px;
+        padding:10px 10px 10px 130px;
+        box-shadow: -10px 10px 20px 1px #385292b7;
+        margin-left: -200px;
+    }
+    .nous div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        z-index: 5;
+        margin-left:-100px;
+    }
+    .nous div div p {
+        width: 90%;
+        font-size: 2.1vw;
+        color: rgb(255, 255, 255);
+        margin:0 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .nous div div p::before {
+        content: " - ";
+    }
+    .nous div .p {
+        color: rgb(255, 255, 255);
+        z-index: 5;
+        padding:0 60px;
+        margin:-10px auto 40px;
+        margin-left: -180px;
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 600px) {
+    .nous {
+        height: 300px;
+    }
+    .nous h2 {
+        font-size: 1.6rem;
+        background-color: #385292e7;
+        transform: rotate(270deg);
+        width:550px;
+        padding:10px 10px 10px 80px;
+        box-shadow: -10px 10px 20px 1px #385292b7;
+        margin-left: -130px;
+    }
+    .nous div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        z-index: 5;
+        margin-left:-90px;
+    }
+    .nous div div p {
+        width: 100%;
+        font-size: 2.4vw;
+        color: rgb(255, 255, 255);
+        margin:0 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .nous div div p::before {
+        content: " - ";
+    }
+    .nous div .p {
+        color: rgb(255, 255, 255);
+        z-index: 5;
+        padding:0 40px;
+        margin:-10px auto 30px;
+        margin-left: -100px;
+        font-size: 2.6vw;
+    }
+}
+
+@media (max-width: 380px) {
+    .nous {
+        height: 250px;
+    }
+    .nous h2 {
+        font-size: 1.3rem;
+        background-color: #385292e7;
+        transform: rotate(270deg);
+        width:400px;
+        padding:10px 10px 10px 70px;
+        box-shadow: -10px 10px 20px 1px #385292b7;
+        margin-left: -130px;
+    }
+    .nous div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        z-index: 5;
+        margin-left:-75px;
+    }
+    .nous div div p {
+        width: 100%;
+        font-size: 3vw;
+        color: rgb(255, 255, 255);
+        margin:0 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .nous div div p::before {
+        content: " - ";
+    }
+    .nous div .p {
+        color: rgb(255, 255, 255);
+        z-index: 5;
+        padding:0 10px;
+        margin:-10px auto 20px;
+        margin-left: -70px;
+        font-size: 2.8vw;
+    }
+}
