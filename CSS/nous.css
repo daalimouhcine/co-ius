@@ -165,7 +165,7 @@ body {
         background-color: #385292e7;
         transform: rotate(270deg);
         width:400px;
-        padding:10px 10px 10px 70px;
+        padding:10px 10px 10px 55px;
         box-shadow: -10px 10px 20px 1px #385292b7;
         margin-left: -130px;
     }
@@ -180,7 +180,7 @@ body {
     }
     .nous div div p {
         width: 100%;
-        font-size: 3vw;
+        font-size: 3.3vw;
         color: rgb(255, 255, 255);
         margin:0 10px;
         font-family: 'Nunito', sans-serif;
@@ -194,6 +194,6 @@ body {
         padding:0 10px;
         margin:-10px auto 20px;
         margin-left: -70px;
-        font-size: 2.8vw;
+        font-size: 3vw;
     }
 }
