@@ -1,7 +1,7 @@
 <?php
 $Email = Trim(stripslashes($_POST['email'])); // Collecting the users email
 $EmailTo = "daalim277@gmail.com"; // Your email address to receive the message.
-$Subject = "#"; // Subject of the email
+$Subject = "no"; // Subject of the email
 $Name = Trim(stripslashes($_POST['first-name'])); // Collecting the users Name
 
 // If statement checking whether the users email is valid
@@ -10,7 +10,7 @@ header("Location: https://daalimouhcine.github.io/co-ius/"); // Web address of y
 exit();
 }
 
-$Message = Trim(stripslashes($_POST['message'])); // Collecting users message
+$Message = Trim(stripslashes($_POST['messages'])); // Collecting users message
 
 // Validation
 $validationOK=true;
@@ -34,7 +34,7 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 $Body .= "Message: ";
-$Body .= $message;
+$Body .= $messages;
 $Body .= "\n";
 
 // Function to send the email.
@@ -44,7 +44,7 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$Email>");
 // If statement to check if the email was sent.
 // Redirect to the url you will enter on line 47 instead of the #.
 if ($success){
-print "<meta http-equiv=\"refresh\" content=\"0;URL=#.php\">";
+print "<meta http-equiv=\"refresh\" content=\"0;URL=https://daalimouhcine.github.io/co-ius/\">";
 }
 else{
 print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
