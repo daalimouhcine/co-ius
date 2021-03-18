@@ -225,7 +225,7 @@ ul#css3menu .toproot,ul#css3menu .topmenu {
     border: outset 4px rgba(0,0,0,0);
     bottom: 4px;
 }
-ul#css3menu .toproot:hover a:after,ul#css3menu .topmenu:hover a:after{
+ul#css3menu .toproot:hover a:after,ul#css3menu .topmenu:hover a:after, .active-menu a:after {
     content: "";
     height: 2px;
     width: 80%;
@@ -657,9 +657,9 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    #bloc_liens_metier a{display:inline;}
    #bloc_clients .bx-pager-item a{display:block;margin:0;}
 
-   ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after{width:40%;}
+   ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:40%;}
 }
-
+ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:80%;}
 
 @media all and (max-width:480px){
    #bloc_liens_metier a{

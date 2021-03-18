@@ -76,6 +76,7 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 #footer .about {
     width: 220px;
@@ -210,6 +211,7 @@ li {
     }
 }
 /*----- End Footer -----*/
+
 
 @media (max-width:540px) {
     
