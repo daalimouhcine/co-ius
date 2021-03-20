@@ -33,3 +33,18 @@ function clickDoc(e) {
         this.parentNode.remove();
     })
 }
+
+
+		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		if (isMobile) {
+            const d = document.querySelectorAll(".display-pdf");
+            for(var i = 0 ; i < d.length ; i++) {
+                d[i].remove();
+            }
+		} else {
+			const d = document.querySelectorAll(".display-google");
+            for(var i = 0 ; i < d.length ; i++) {
+                d[i].remove();
+                
+            }
+		}
