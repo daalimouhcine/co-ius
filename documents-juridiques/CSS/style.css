@@ -2156,6 +2156,17 @@ h5{letter-spacing:1px !important;}
 .iframe-div .open-doc-up {
     top:0%;
 }
+.iframe-div .phon-open-doc-up {
+    width:10%;
+    height:15%;
+    top:0%;
+    left: 3%;
+    border-radius: 5px;
+}
+
+.iframe-div .phon-open-doc-up i {
+    font-size: 2rem;
+}
 
 
 
@@ -2199,8 +2210,8 @@ body{
     height: 50px;
     text-align: center;
     border-radius: 10px;
+    z-index: 10000000;
 }
 .pdf-big i:hover {
     color:rgb(66, 65, 65);
 }
-
