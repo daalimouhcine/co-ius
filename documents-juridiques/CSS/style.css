@@ -2204,3 +2204,6 @@ body{
     color:rgb(66, 65, 65);
 }
 
+.display-google {
+    display:none;
+}
