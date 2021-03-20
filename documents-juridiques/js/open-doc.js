@@ -1,8 +1,33 @@
 
-function openDoc(e) {
-    const target = e.lastElementChild;
-    target.classList.add("open-doc-up");
-}
+
+		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		if (isMobile) {
+            const d = document.querySelectorAll(".display-pdf");
+            for(var i = 0 ; i < d.length ; i++) {
+                d[i].remove();
+            }
+
+            const e = document.querySelectorAll(".iframe-div");
+            for(var i = 0 ; i < e.length ; i++) {
+                const target = e[i].lastElementChild;
+                target.classList.add("phon-open-doc-up");
+            }
+            
+
+		} else {
+			const d = document.querySelectorAll(".display-google");
+            for(var i = 0 ; i < d.length ; i++) {
+                d[i].remove();
+                
+            }
+            function openDoc(e) {
+                const target = e.lastElementChild;
+                target.classList.add("open-doc-up");
+            }
+		}
+
+
+
 
 function closDoc(e) {
     const target = e.lastElementChild;
@@ -34,17 +59,3 @@ function clickDoc(e) {
     })
 }
 
-
-		var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-		if (isMobile) {
-            const d = document.querySelectorAll(".display-pdf");
-            for(var i = 0 ; i < d.length ; i++) {
-                d[i].remove();
-            }
-		} else {
-			const d = document.querySelectorAll(".display-google");
-            for(var i = 0 ; i < d.length ; i++) {
-                d[i].remove();
-                
-            }
-		}
