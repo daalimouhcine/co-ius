@@ -1,7 +1,9 @@
 li {
     list-style: none;
 }
-
+#footer .about .active-footer {
+    border-bottom:2px solid rgb(255, 255, 255);
+}
 /*----- Start Footer -----*/
 #footer {
     width:100%;
@@ -72,14 +74,14 @@ li {
 }
 
 #footer .footer-container {
-    width:900px;
+    width:970px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow-x: hidden;
 }
 #footer .about {
-    width: 220px;
+    width: 290px;
     height: fit-content;
     padding:50px 10px 20px 50px;
 }
@@ -112,7 +114,7 @@ li {
 }
 
 #footer .service {
-    width: 220px;
+    width: 250px;
     height: fit-content;
     padding:50px 10px 20px 50px;
 }
@@ -145,7 +147,7 @@ li {
 }
 
 #footer .other {
-    width: 220px;
+    width: 250px;
     height: fit-content;
     padding:50px 10px 20px 50px;
 }
