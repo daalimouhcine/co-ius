@@ -1,0 +1,352 @@
+.contacte-nous {
+    width: 100%;
+    height: fit-content;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.contacte-nous iframe {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 70px;
+}
+.contacte-nous h2 {
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    padding:0 70px;
+    color:#203774;
+}
+.contacte-nous hr {
+    width: 80%;
+    padding:0 70px
+}
+.contacte-nous .contacte-element {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin:0 70px;
+}
+.contacte-nous .contacte-element .media {
+    display: flex;
+    flex-direction: column;
+}
+.contacte-nous .contacte-element .media h3 {
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif; 
+    color:#203774;
+}
+.contacte-nous .contacte-element .media b {
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif; 
+    margin:3px 0;
+    color: rgb(95, 95, 95);
+}
+.contacte-nous .contacte-element .media a {
+    margin:5px 0;
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif; 
+    margin:5px 0;
+    color: rgb(95, 95, 95);
+}
+.contacte-nous .contacte-element .contacte-input {
+    margin: 0px auto;
+}
+.contacte-nous .contacte-element .contacte-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacte-nous .contacte-element .contacte-input form div {
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+}
+.contacte-nous .contacte-element .contacte-input form div input {
+    width: 300px;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;    
+    padding:10px;
+    margin:0 10px;
+}
+.contacte-nous .contacte-element .contacte-input form textarea {
+    font-size: 1.1rem;
+    padding:10px;
+    font-family: 'Nunito', sans-serif;    
+    margin:10px 10px;
+    height: 100px;
+    width: 70% !important;
+}
+.contacte-nous .contacte-element .contacte-input form input[type="submit"] {
+    text-align: center;
+    padding:10px;
+    font-family: 'Nunito', sans-serif; 
+    background-color: #385292;
+    border: 1px solid white;
+    border-radius:4px;
+    color: white;
+    cursor: pointer;
+    transition: background 250ms linear;
+}
+.contacte-nous .contacte-element .contacte-input form input[type="submit"]:hover {
+    background-color: #385292d7;
+}
+
+
+@media (max-width:1100px) {
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 240px;
+        font-size: 1.05rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:9px;
+        margin:0 10px;
+    }
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 1.1rem;
+        padding:10px;
+        font-family: 'Nunito', sans-serif;    
+        margin:10px 10px;
+        height: 100px;
+        width: 65% !important;
+    }
+}
+@media (max-width:1000px) {
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 200px;
+        font-size: 1rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:9px;
+        margin:0 8px;
+    }
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 1.05rem;
+        padding:7px;
+        font-family: 'Nunito', sans-serif;    
+        margin:10px 10px;
+        height: 100px;
+        width: 62% !important;
+    }
+    .contacte-nous .contacte-element .contacte-input form input[type="submit"] {
+        padding:9px;
+    }
+}
+
+@media (max-width:890px) {
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 170px;
+        font-size: 1rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:5px 7px;
+        margin:0 8px;
+    }
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 1.05rem;
+        padding:5px 7px;
+        font-family: 'Nunito', sans-serif;    
+        margin:10px 10px;
+        height: 80px;
+        width: 58% !important;
+    }
+    .contacte-nous h2 {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:800px) {
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 150px;
+        font-size: 0.9rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:4px 6px;
+        margin:0 6px;
+    }
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 9.5rem;
+        padding:4px 6px;
+        font-family: 'Nunito', sans-serif;    
+        margin:8px 8px;
+        height: 70px;
+        width: 54% !important;
+    }
+    .contacte-nous .contacte-element .contacte-input form input[type="submit"] {
+        font-size: 0.9rem;
+        padding:8px 0px;
+    }
+}
+
+@media (max-width:760px) {
+    .contacte-nous .contacte-element {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0 70px;
+    }
+    .contacte-nous .contacte-element .contacte-input {
+        margin-left: 0;
+        align-items: center;
+    }
+    .contacte-nous .contacte-element .contacte-input form div {
+        margin:10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 40%;
+        font-size: 1.05rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:9px;
+        margin:10px 10px;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 9.5rem;
+        padding:4px 6px;
+        font-family: 'Nunito', sans-serif;    
+        margin:8px 8px;
+        height: 70px;
+        width: 62% !important;
+    }
+}
+
+@media (max-width:760px) {
+    .contacte-nous .contacte-element .media {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -40px;
+    }
+
+
+    .contacte-nous .contacte-element {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0 70px;
+    }
+    .contacte-nous .contacte-element .contacte-input {
+        margin-left: -5vmax;
+        align-items: center;
+    }
+    .contacte-nous .contacte-element .contacte-input form div {
+        margin:10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 40%;
+        font-size: 1.05rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:9px;
+        margin:10px 10px;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 9.5rem;
+        padding:4px 6px;
+        font-family: 'Nunito', sans-serif;    
+        margin:8px 8px;
+        height: 70px;
+        width: 62% !important;
+    }
+}
+
+@media (max-width:530px) {
+    .contacte-nous .contacte-element .media {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -40px;
+    }
+
+    .contacte-nous h2 {
+        font-size: 2rem;
+    }
+    .contacte-nous .contacte-element {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0 70px;
+    }
+    .contacte-nous .contacte-element .contacte-input {
+        margin-left: -6vmax;
+        align-items: center;
+    }
+    .contacte-nous .contacte-element .contacte-input form div {
+        margin:5px;
+        align-items: center;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 30%;
+        font-size: 0.8rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:5px;
+        margin:8px;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 9rem;
+        padding:3px 5px;
+        font-family: 'Nunito', sans-serif;    
+        margin:6px;
+        height: 50px;
+        width: 45% !important;
+    }
+}
+
+@media (max-width:380px) {
+    .contacte-nous .contacte-element .media {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -20px;
+    }
+    .contacte-nous .contacte-element .media h3 {
+        font-size: 1.1rem;
+    }
+    .contacte-nous .contacte-element .media b {
+        font-size: 0.78rem;
+        margin:2.2px 0;
+    }
+    .contacte-nous .contacte-element .media a {
+        margin:3px 0;
+        font-size: 0.78rem;
+
+    }
+    .contacte-nous h2 {
+        font-size: 1.5rem;
+    }
+    .contacte-nous .contacte-element {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0 50px;
+    }
+    .contacte-nous .contacte-element .contacte-input {
+        margin-left: -6vmax;
+        align-items: center;
+    }
+    .contacte-nous .contacte-element .contacte-input form div {
+        margin:5px;
+        align-items: center;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form div input {
+        width: 30%;
+        font-size: 0.8rem;
+        font-family: 'Nunito', sans-serif;    
+        padding:5px;
+        margin:8px;
+    }
+
+    .contacte-nous .contacte-element .contacte-input form textarea {
+        font-size: 9rem;
+        padding:3px 5px;
+        font-family: 'Nunito', sans-serif;    
+        margin:6px;
+        height: 50px;
+        width: 45% !important;
+    }
+}
