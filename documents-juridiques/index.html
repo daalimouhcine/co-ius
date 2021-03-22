@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/style.css">
-    
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
 </head>
 <body>
@@ -75,16 +74,31 @@
                         </div>
                         <ul id="css3menu">
                             <li class="topmenu ">
-                                <a href="../index.html" title="################# | ##############" id="submenu15" class="jMenu toplink">Accueil</a>
+                                <a href="../" title="################# | ##############" id="submenu15" class="jMenu toplink a">Accueil</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink ">Nos Services</a>
+                                <a href="#" title="################# | ##############" class="toplink a">Nos Services</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink">A propose</a>
+                                <a href="#" title="################# | ##############" class="toplink a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../À-propos-de-nous/Qui-Sommes-Nous/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
+                                    <li><a href="../À-propos-de-nous/Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
+                                    <li><a href="../À-propos-de-nous/Le Syndic-Professionnel/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
+                                </ul>
+                                <script>
+                                    function openDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                    }
+                                    function closeDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                    }
+                                </script>
                             </li>
                             <li class="topmenu">
-                                <a href="../contactez-nous/index.html" title="################# | ##############" class="toplink ">Contacte-Nous</a>
+                                <a href="../contactez-nous" title="################# | ##############" class="toplink a">Contacte-Nous</a>
                             </li>
                         </ul>
                     </div>
@@ -113,7 +127,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xl-6">
                         <h6>Guide du syndic de copropriété au Maroc</h6><br>
-                        <div class="iframe-div" onclick="openDoc(this)" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
+                        <div class="iframe-div" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
                             <iframe class="display-google" frameborder="0" src="https://docs.google.com/document/d/1E860lVZ3ZdRTTQu_CJTl87CwOija4wu5iwxw67eBk6Q/edit?usp=sharing"></iframe>
                             <iframe class="display-pdf" frameborder="0" src="documents/guide-du-syndic-de-copropriete-au-maroc.pdf"></iframe>
                             <div class="do"><i onclick="clickDoc(this)" class="fas fa-expand-arrows-alt"></i></div>
@@ -121,7 +135,7 @@
                     </div>
                     <div class="col-md-6 col-xl-6">
                         <h6>Le règlement de copropriété type au Maroc</h6><br>
-                        <div class="iframe-div" onclick="openDoc(this)" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
+                        <div class="iframe-div" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
                             <iframe class="display-google" frameborder="0" src="https://docs.google.com/document/d/1pR7ApGg842DwaK2fqDtTbGJcQZ8VJdTWB0x5dFVEgkU/edit?usp=sharing"></iframe>
                             <iframe class="display-pdf" src="documents/le-reglement-de-copropriete-type-au-maroc.pdf" frameborder="0"></iframe>
                             <div class="do"><i onclick="clickDoc(this)" class="fas fa-expand-arrows-alt"></i></div>
@@ -131,7 +145,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xl-6">
                         <h6>Loi Loi n° 44-00 VEFA au Maroc</h6><br>
-                        <div class="iframe-div" onclick="openDoc(this)" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
+                        <div class="iframe-div" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
                             <iframe class="display-google" frameborder="0" src="https://docs.google.com/document/d/1ALT_eSVSgWjHZQSVKZIbjCnxL4qX6jueZ-MX_WWZAQg/edit?usp=sharing"></iframe>
                             <iframe class="display-pdf" src="documents/loi-18-00-modifiee-et-completee-par-la-loi-106-12-au-maroc.pdf" frameborder="0"></iframe>
                             <div class="do"><i onclick="clickDoc(this)" class="fas fa-expand-arrows-alt"></i></div>
@@ -139,7 +153,7 @@
                     </div>
                     <div class="col-md-6 col-xl-6">
                         <h6>Loi n° 25-90 relative aux lotissements au Maroc</h6><br>
-                        <div class="iframe-div" onclick="openDoc(this)" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
+                        <div class="iframe-div" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
                             <iframe class="display-google" frameborder="0" src="https://docs.google.com/document/d/1INfI2gJCjggJ1kBKRWpBoDMNuzNE1Sz7ro19kX_aJOU/edit?usp=sharing"></iframe>
                             <iframe class="display-pdf" src="documents/loi-loi-n-44-00-vefa-au-maroc.pdf" frameborder="0"></iframe>
                             <div class="do"><i onclick="clickDoc(this)" class="fas fa-expand-arrows-alt"></i></div>
@@ -149,7 +163,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xl-6">
                         <h6>Loi 18-00 modifiée et complétée par la loi 106-12 au Maroc</h6><br>
-                        <div class="iframe-div" onclick="openDoc(this)" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
+                        <div class="iframe-div" onmouseover="openDoc(this)" onmouseout="closDoc(this)">
                             <iframe class="display-google" frameborder="0" src="https://docs.google.com/document/d/1-OcYT6yZZgyKzdAA9ahBTSpFR7HlJjXfeJw7AfxWto4/edit"></iframe>
                             <iframe class="display-pdf" src="documents/loi-n-25-90-relative-aux-lotissements-au-maroc.pdf" frameborder="0"></iframe>
                             <div class="do"><i onclick="clickDoc(this)" class="fas fa-expand-arrows-alt"></i></div>
@@ -216,6 +230,10 @@
         <script src="JS/open-doc.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="../JS/up.js"></script>
-    
+        <script>
+            $("#btn_mobile").click(function(){
+                $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
+            });
+        </script>
     </body>
 </html>
