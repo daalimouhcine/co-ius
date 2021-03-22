@@ -75,17 +75,31 @@
                             Menu <i class="fas fa-bars"></i>
                         </div>
                         <ul id="css3menu">
-                            <li class="topmenu active-menu ">
-                                <a href="#" title="################# | ##############" id="submenu15" class="jMenu toplink">Accueil</a>
+                            <li class="topmenu active-menu">
+                                <a href="#" title="################# | ##############" id="submenu15" class="jMenu toplink a">Accueil</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink ">Nos Services</a>
+                                <a href="#" title="################# | ##############" class="toplink a">Nos Services</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink">A propose</a>
-                            </li>
+                                <a href="#" title="################# | ##############" class="toplink a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="À-propos-de-nous/Qui-Sommes-Nous/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
+                                    <li><a href="À-propos-de-nous/Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
+                                    <li><a href="À-propos-de-nous/Le Syndic-Professionnel/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
+                                </ul>
+                                <script>
+                                    function openDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                    }
+                                    function closeDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                    }
+                                </script>                            </li>
                             <li class="topmenu">
-                                <a href="contactez-nous/" title="################# | ##############" class="toplink ">Contacte-Nous</a>
+                                <a href="contactez-nous/" title="################# | ##############" class="toplink a">Contacte-Nous</a>
                             </li>
                         </ul>
                     </div>
@@ -222,7 +236,7 @@
                     <hr>
                     <p>CO-IUS vous garantit une réactivité et une qualité de service personnalisée, adaptées à vos besoins.</p>
                     <hr>
-                    <p>CO-IUS vous apporte une vision juridique éclairée sur <a href="documents-juridiques/index.html">la loi 18-00</a> relative au statut de la copropriété des immeubles bâtis, complétée et modifiée par <a href="documents-juridiques/index.html">la loi n° 106-1218/00</a>.</p>    
+                    <p>CO-IUS vous apporte une vision juridique éclairée sur <a href="documents-juridiques">la loi 18-00</a> relative au statut de la copropriété des immeubles bâtis, complétée et modifiée par <a href="documents-juridiques">la loi n° 106-1218/00</a>.</p>    
                 </div>
             </div>
         </div>
@@ -345,7 +359,7 @@
                 <li><a href="#">History</a></li>
                 <li><a href="#">Our Team</a></li>
                 <li><a href="#">Brand Guidelines</a></li>
-                <li><a href="documents-juridiques/index.html">Documents Juridiques</a></li>
+                <li><a href="documents-juridiques">Documents Juridiques</a></li>
                 <li><a href="#">Privacy Policy</a></li>
             </ul>
         </div>
@@ -418,5 +432,9 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="JS/up.js"></script>
-
+<script>
+    $("#btn_mobile").click(function(){
+        $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
+    });
+</script>
 </body>
