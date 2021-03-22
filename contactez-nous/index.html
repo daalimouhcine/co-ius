@@ -71,16 +71,30 @@
                         </div>
                         <ul id="css3menu">
                             <li class="topmenu">
-                                <a href="../" title="################# | ##############" id="submenu15" class="jMenu toplink  ">Accueil</a>
+                                <a href="../" title="################# | ##############" id="submenu15" class="jMenu toplink a">Accueil</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink ">Nos Services</a>
+                                <a href="#" title="################# | ##############" class="toplink a">Nos Services</a>
                             </li>
                             <li class="topmenu">
-                                <a href="#" title="################# | ##############" class="toplink">À propos de nous</a>
-                            </li>
+                                <a href="#" title="################# | ##############" class="toplink a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../À-propos-de-nous/Qui-Sommes-Nous/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
+                                    <li><a href="../À-propos-de-nous/Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
+                                    <li><a href="../À-propos-de-nous/Le Syndic-Professionnel/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
+                                </ul>
+                                <script>
+                                    function openDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                    }
+                                    function closeDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                    }
+                                </script>                            </li>
                             <li class="topmenu active-menu ">
-                                <a href="#" title="################# | ##############" class="toplink ">Contacte-Nous</a>
+                                <a href="#" title="################# | ##############" class="toplink a">Contacte-Nous</a>
                             </li>
                         </ul>
                     </div>
@@ -189,5 +203,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="../JS/up.js"></script>
-
+<script>
+    $("#btn_mobile").click(function(){
+        $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
+    });
+</script>
 </body>
