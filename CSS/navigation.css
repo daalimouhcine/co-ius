@@ -622,6 +622,9 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    #side .soc.btn.tel {width: 110px;}
    #liensuivant, #lienprecedent{margin:10px;}
    #bloc_link_haut{top:0;}
+   #side .soc.btn.tel span, #side .soc.btn.tel img {
+      margin-right: 15px;
+   }
 }
 
 @media all and (max-width:550px){
