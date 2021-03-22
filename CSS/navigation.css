@@ -225,7 +225,7 @@ ul#css3menu .toproot,ul#css3menu .topmenu {
     border: outset 4px rgba(0,0,0,0);
     bottom: 4px;
 }
-ul#css3menu .toproot:hover a:after,ul#css3menu .topmenu:hover a:after, .active-menu a:after {
+ul#css3menu .toproot:hover .a:after,ul#css3menu .topmenu:hover .a:after, .active-menu .a:after {
     content: "";
     height: 2px;
     width: 80%;
@@ -235,7 +235,9 @@ ul#css3menu .toproot:hover a:after,ul#css3menu .topmenu:hover a:after, .active-m
     left: 50%;
     transform: translate(-50%);
 }
-
+.sub-menu-tactive {
+   background: #223870;
+}
 
 ul#css3menu .toproot:hover a,ul#css3menu .topmenu:hover a{cursor:pointer;}
 
@@ -336,7 +338,6 @@ ul#css3menu ul li.root > a:first-letter{
 
 
 #all ul#css3menu li a.toplink{transition:all 500ms;min-width: 100px;text-align: center;border-radius: 0px 0px 10px 10px;text-transform: uppercase;}
-#all ul#css3menu li a.toplink:hover{margin-top: -5px;}
 
 #all ul#css3menu li a.toplink .img{position:absolute;transition:all 1s;}
 #all ul#css3menu li a.link_1 .img{margin-left: -45px;width:144px;height:148px;background:url(/img/link_1.png) no-repeat;}
@@ -526,6 +527,9 @@ ul#css3menu ul li.root > a:first-letter{
 @media all and (max-width:1020px){
    #logo {margin-left: 0px;width:315px;}
    ul#css3menu a {padding: 16px 5px;}
+   .sub-menu li a {
+      font-size: 0.9rem !important;
+   }
 }
 @media all and (max-width:1005px){
    #metier .flippingcard {margin: 25px 5px;}
@@ -563,6 +567,11 @@ ul#css3menu ul li.root > a:first-letter{
    #all #menu ul#css3menu li a.link_2 .img {background-size:contain;margin-left:0px;width:90px;}
    #all #menu ul#css3menu li a.link_1 .img {background-size:contain;margin-left:-20px;width:100px;}
    
+
+   .sub-menu li a{
+      font-size: 0.8rem !important;
+
+   }
 
    ul#css3menu .toproot,ul#css3menu .topmenu {
     margin-top: -8px;
@@ -620,8 +629,22 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    #goto_content{display:none;}
    #btn_mobile{display:block;      background-color: transparent;}
    #all #css3menu{display:none;overflow: hidden;}
+   #all #css3menu{height: 600px;}
+   .sub-menu {
+      width: 80% !important;
+      margin-left:30% !important;
+   }
+   
+   .sub-menu li a {
+      font-size: 1rem !important;
+   }
+   .sub-menu hr {
+      width: 75%;
+      background: rgb(147, 149, 168);
+      border-radius: 100px;
+   }
    #all.no-js #css3menu{display:block;}
-   #all ul#css3menu li, #all ul#css3menu{float:none;margin: 0px;background: #002d42;}
+   #all ul#css3menu li, #all ul#css3menu{float:none;margin: 0px;background: #203774;}
    #all #allbg #menu ul#css3menu>li, #all #allbg ul#css3menu li{float:none;margin: 0px;border-radius: 0px;display: block;}
    #all .sousmenu{position:relative;margin:0px;border-bottom: solid 1px #FFF;}
    #all #menu{left: 0px;right: auto;width: 100%;margin: 0px;position: relative;top:0px;margin-top: 70px;}
@@ -684,10 +707,80 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
    #side .soc.btn:first-child {width: 40px;margin-left:19px;}
    #side .soc.btn.tel {width: 120px;margin-left:0px;}   
    #side .soc.btn:last-child {margin-left:0px;margin-right:19px;}
+   .sub-menu {
+      width: 80% !important;
+      margin-left:20% !important;
+   }
 }
 
 
 @media all and (max-width:315px){
    .bloc_texte_photo{width:85%;}
    #logo{width:100%;}
+}
+@media all and (max-width:280px){
+   .sub-menu {
+      width: 80% !important;
+      margin-left:20% !important;
+   }
+}
+@media all and (max-width:250px){
+   .sub-menu {
+      width: 80% !important;
+      margin-left:20% !important;
+   }
+}
+
+
+
+
+
+.topmenu { position: relative; }
+
+.sub-menu { 
+   visibility: hidden; /* hides sub-menu */
+   opacity: 0;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 120%;
+   height: 150px;
+   transform: translateY(-2em);
+   z-index: -1;
+   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: left !important;
+   padding: 0 !important;
+}
+
+
+.topmenu:focus .sub-menu,
+.topmenu:focus-within .sub-menu,
+.topmenu:hover .sub-menu {
+   visibility: visible; /* shows sub-menu */
+   opacity: 1;
+   z-index: 1;
+   transform: translateY(0%);
+   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+.sub-menu {
+   background: #385292;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+
+.sub-menu li {
+   transition: background 400ms linear;
+   border-radius: 4px;
+}
+.sub-menu li:hover {
+   background: #223870;
+}
+.sub-menu hr {
+   width: 85%;
+   background: rgb(147, 149, 168);
+   border-radius: 100px;
 }
