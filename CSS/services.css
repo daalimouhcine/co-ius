@@ -624,3 +624,68 @@ margin-right: -1px;
 }
 
 }
+
+
+/*** 
+=============================================
+    Services Style1 Area Style      
+=============================================
+***/
+
+.services-style1-area {
+    position: relative;
+    display: block;
+    background: #f5f5f5;
+    padding-bottom: 35px;
+    z-index: 1;
+}
+.services-style1-area:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44%;
+    height: 95%;
+    content: "";
+    background: url("../images/apela.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: .5s ease; 
+}
+.secpd1{
+    padding: 50px 0;
+}
+.services-style1-area .metiers-div {
+    text-align: left;
+}
+.services-style1-area .sec-title h3 {
+    color: #203774;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.metiers-div {width: 80%; margin: 0 auto 30px; } 
+.metiers-div strong { font-size: 42px; color: #203774; }
+.metiers-div {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(60, 59, 65);
+    font-size: 1.1rem;
+}
+
+@media (max-width:590px) {
+    .metiers-div strong { font-size: 2rem; color: #203774; }
+    .metiers-div {
+        font-size: 1rem;
+    }
+}
+@media (max-width:420px) {
+    .metiers-div strong { font-size: 1.5rem; color: #203774; }
+    .metiers-div {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:330px) {
+    .metiers-div strong { font-size: 1.3rem; color: #203774; }
+    .metiers-div {
+        font-size: 0.82rem;
+    }
+}
