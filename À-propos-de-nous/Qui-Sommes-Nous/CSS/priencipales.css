@@ -25,7 +25,7 @@
     width: 90%;
     display: flex;
     flex-direction:column;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .priencipales div div {
     width: 100%;
@@ -34,7 +34,7 @@
     height: 450px;
     align-items: center;
     position:relative;
-    
+    margin:0 5px;
 }
 .priencipales div div ol {
     width: 50%;
@@ -65,7 +65,7 @@
     position: absolute;
     background-color: gray;
     z-index: 1;
-    top: 4%;
+    top: 0%;
     right: -2%;
 }
 .priencipales div + div::before {
@@ -75,7 +75,7 @@
     position: absolute;
     background-color: gray;
     z-index: 1;
-    top: 5%;
+    top: 1%;
     left: -2%;
 }
 
@@ -92,13 +92,13 @@
     .priencipales div div::before {
         width: 400px;
         height: 320px;
-        top: 6%;
+        top: 1%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 400px;
         height: 300px;
-        top: 6%;
+        top: 2%;
         left: -2%;
     }
     
@@ -121,13 +121,13 @@
     .priencipales div div::before {
         width: 400px;
         height: 300px;
-        top: 9%;
+        top: 3%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 400px;
         height: 290px;
-        top: 8%;
+        top: 2%;
         left: -2%;
     }
     
@@ -152,13 +152,13 @@
     .priencipales div div::before {
         width: 320px;
         height: 260px;
-        top: 7%;
+        top: 2%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 320px;
         height: 250px;
-        top: 7%;
+        top: 2%;
         left: -2%;
     }
     
@@ -188,20 +188,20 @@
     .priencipales div div::before {
         width: 310px;
         height: 200px;
-        top: 15%;
+        top: 1%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 310px;
         height: 200px;
-        top: 15%;
+        top: 1%;
         left: -2%;
     }
     
 }
 @media (max-width:800px) {
     .priencipales div div {
-        height: 400px;
+        height: 470px;
     }
     .priencipales h2 {
         font-size: 1.8rem;
@@ -223,20 +223,52 @@
     .priencipales div div::before {
         width: 220px;
         height: 170px;
-        top: 21%;
+        top: 1%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 220px;
         height: 170px;
-        top: 21%;
+        top: 1%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:720px) {
+    .priencipales h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.05rem;
+        line-height: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin:8px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 45%;
+    }
+
+    .priencipales div div::before {
+        width: 220px;
+        height: 170px;
+        top: 3%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 220px;
+        height: 170px;
+        top: 3%;
         left: -2%;
     }
     
 }
 @media (max-width:650px) {
     .priencipales div div {
-        height: 400px;
+        height: 450px;
     }
     .priencipales h2 {
         font-size: 1.7rem;
@@ -261,13 +293,13 @@
     .priencipales div div::before {
         width: 200px;
         height: 160px;
-        top: 25%;
+        top: 1%;
         right: -2%;
     }
     .priencipales div + div::before {
         width: 200px;
         height: 160px;
-        top: 25%;
+        top: 1%;
         left: -2%;
     }
     
@@ -313,7 +345,7 @@
 }
 @media (max-width:500px) {
     .priencipales div div {
-        height: 480px;
+        height: 470px;
     }
     .priencipales h3 {
         font-size: 0.8rem;
@@ -356,7 +388,7 @@
         
     }
     .priencipales div div {
-        height: 530px;
+        height: 470px;
     }
     .priencipales h2 {
         font-size: 1.4rem;
