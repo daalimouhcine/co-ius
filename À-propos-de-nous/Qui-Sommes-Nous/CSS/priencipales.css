@@ -204,7 +204,7 @@
     }
     .priencipales h2 {
         font-size: 1.8rem;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .priencipales div div ol li {
         list-style-type: square;
@@ -277,7 +277,7 @@
     }
     .priencipales h2 {
         font-size: 1.6rem;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     .priencipales div div ol {
         width: 60%;
@@ -319,7 +319,6 @@
     }
     .priencipales h2 {
         font-size: 1.6rem;
-        margin-bottom: 40px;
     }
     .priencipales div div ol {
         width: 60%;
@@ -354,14 +353,14 @@
 }
 @media (max-width:460px) {
     .priencipales div {
-        width: 100%;
+        width: 98%;
+        
     }
     .priencipales div div {
-        height: 570px;
+        height: 530px;
     }
     .priencipales h2 {
         font-size: 1.4rem;
-        margin-bottom: 40px;
     }
     .priencipales div div ol {
         width: 60%;
@@ -400,7 +399,6 @@
     }
     .priencipales h2 {
         font-size: 1.3rem;
-        margin-bottom: 40px;
     }
     .priencipales div div ol {
         width: 90%;
