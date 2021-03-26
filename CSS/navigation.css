@@ -128,9 +128,9 @@ table.tright {float:right;}
 
 /*texte*/
 p, td, li{font-size:14px;color:#333030;}
-a:link{color:#005b86;text-decoration:none;font-weight:bold;}
-a:visited{color:#005b86;text-decoration:none;}
-a:hover{color:#005b86;text-decoration:underline;}
+a:link{text-decoration:none;font-weight:bold;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
 /* --- IMAGES - GALERIES --- */
 img{border:none;}
 
@@ -139,7 +139,6 @@ img{border:none;}
 
 .contact h2{margin: 20px 0px;text-align:center;font-family:DESYREL;font-size:35px;font-weight: normal;}
 
-#message{ display: flex;width: 100%;max-width: 95%;background:#EDEDED;resize:none;font-size:16px;}
    
 #side{
    position: fixed;
@@ -474,7 +473,7 @@ ul#css3menu ul li.root > a:first-letter{
         margin-left: 70px;
     }
     ul#css3menu {
-        left: 460px;
+        left: 390px;
     }
 }
 @media all and (max-width:1190px){
@@ -497,7 +496,7 @@ ul#css3menu ul li.root > a:first-letter{
     #logo{margin-left: 45px;}
     .reference.ref1 {clear: none;}
     ul#css3menu {
-        left: 334px;
+        left: 310px;
     }
 
     
@@ -534,17 +533,7 @@ ul#css3menu ul li.root > a:first-letter{
 @media all and (max-width:1005px){
    #metier .flippingcard {margin: 25px 5px;}
 }
-@media all and (max-width:1000px){
-   #carte.gmap3{width:100%!important;display:block;}
-   .contact{width:100%;display:block;border:none;}
-   .line_photo,.line_photo:nth-child(even){flex-direction:column;}
-   .line_photo .photo{width:auto;}
-   .line_photo .txt{width:auto;}
-	.line_photo .photo img{height:auto;max-width:100%;min-width:100%;}
-	.title_spec{width:auto;margin:auto}
-	
-	
-}
+
 @media all and (max-width:990px){
    #diaporama .label_skitter .info_diapo h2 {font-size: 50px;}
    #diaporama .label_skitter .info_diapo .stitre{font-size:30px;}
@@ -593,7 +582,7 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    .scroll #logo{margin-left:0px;}
 }
 @media all and (max-width:850px){
-   ul#css3menu {left: 300px;}
+   ul#css3menu {left: 281px;}
    .txt_metier {width: 65%;}
 }
 
