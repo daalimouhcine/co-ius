@@ -299,14 +299,14 @@
 
     .priencipales div div::before {
         width: 30%;
-        height: 110px;
-        top: 32%;
+        height: 190px;
+        top: 15%;
         right: -2%;
     }
     .priencipales div + div::before {
         width:30%;
-        height: 110px;
-        top: 32%;
+        height: 190px;
+        top: 15%;
         left: -2%;
     }
     
@@ -340,14 +340,12 @@
 
     .priencipales div div::before {
         width: 30%;
-        height: 110px;
-        top: 35%;
+        height: 190px;
         right: -2%;
     }
     .priencipales div + div::before {
         width:30%;
-        height: 110px;
-        top: 35%;
+        height: 190px;
         left: -2%;
     }
     
@@ -382,14 +380,14 @@
 
     .priencipales div div::before {
         width: 30%;
-        height: 90px;
-        top: 39%;
+        height: 180px;
+        top: 19%;
         right: -2%;
     }
     .priencipales div + div::before {
         width:30%;
-        height: 90px;
-        top: 39%;
+        height: 180px;
+        top: 19%;
         left: -2%;
     }
     
