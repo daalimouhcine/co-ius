@@ -1,0 +1,433 @@
+.priencipales {
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.priencipales h3 {
+    font-size: 1.2rem;
+    color: rgb(78, 78, 78);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 50px;
+    align-self: flex-start;
+    border-bottom:3px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+.priencipales h2 {
+    width: 90%;
+    font-size: 2rem;
+    color: #385292;
+    font-family: 'Nunito', sans-serif;
+}
+.priencipales div {
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+}
+.priencipales div div {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    height: 450px;
+    align-items: center;
+    position:relative;
+    
+}
+.priencipales div div ol {
+    width: 50%;
+    margin:0 20px;
+    z-index: 2;
+    background-color: white;
+}
+.priencipales div div ol li {
+    list-style-type: square;
+    font-size: 1.1rem;
+    line-height: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin:20px 0;
+    color: rgb(60, 59, 65);
+}
+.priencipales div div ol li a {
+    color:#385292;
+}
+.priencipales div div img {
+    width: 50%;
+    z-index: 2;
+}
+
+.priencipales div div::before {
+    content:" ";
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    background-color: gray;
+    z-index: 1;
+    top: 4%;
+    right: -2%;
+}
+.priencipales div + div::before {
+    content:" ";
+    width: 400px;
+    height: 340px;
+    position: absolute;
+    background-color: gray;
+    z-index: 1;
+    top: 5%;
+    left: -2%;
+}
+
+@media (max-width:1160px) {
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.1rem;
+        line-height: 22px;
+        font-family: 'Nunito', sans-serif;
+        margin:10px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div::before {
+        width: 400px;
+        height: 320px;
+        top: 6%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 400px;
+        height: 300px;
+        top: 6%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:1100px) {
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.1rem;
+        line-height: 22px;
+        font-family: 'Nunito', sans-serif;
+        margin:10px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 50%;
+        z-index: 2;
+    }
+
+    .priencipales div div::before {
+        width: 400px;
+        height: 300px;
+        top: 9%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 400px;
+        height: 290px;
+        top: 8%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:1000px) {
+    .priencipales div div {
+        height: 390px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.1rem;
+        line-height: 22px;
+        font-family: 'Nunito', sans-serif;
+        margin:10px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 45%;
+    }
+
+    .priencipales div div::before {
+        width: 320px;
+        height: 260px;
+        top: 7%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 320px;
+        height: 250px;
+        top: 7%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:900px) {
+    .priencipales div div {
+        height: 370px;
+    }
+    .priencipales h2 {
+        font-size: 1.8rem;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.05rem;
+        line-height: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin:8px 0;
+        color: rgb(60, 59, 65);
+    }
+    .priencipales div div ol {
+        width:55%;
+    }
+    .priencipales div div img {
+        width: 45%;
+    }
+
+    .priencipales div div::before {
+        width: 310px;
+        height: 200px;
+        top: 15%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 310px;
+        height: 200px;
+        top: 15%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:800px) {
+    .priencipales div div {
+        height: 400px;
+    }
+    .priencipales h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1.05rem;
+        line-height: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin:8px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 45%;
+    }
+
+    .priencipales div div::before {
+        width: 220px;
+        height: 170px;
+        top: 21%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 220px;
+        height: 170px;
+        top: 21%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:650px) {
+    .priencipales div div {
+        height: 400px;
+    }
+    .priencipales h2 {
+        font-size: 1.7rem;
+        margin-bottom: 50px;
+    }
+    .priencipales div div ol {
+        margin:0 10px 0 -10px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1rem;
+        line-height: 19px;
+        font-family: 'Nunito', sans-serif;
+        margin:7px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 45%;
+    }
+
+    .priencipales div div::before {
+        width: 200px;
+        height: 160px;
+        top: 25%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width: 200px;
+        height: 160px;
+        top: 25%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:590px) {
+    .priencipales div div {
+        height: 470px;
+    }
+    .priencipales h2 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    .priencipales div div ol {
+        width: 60%;
+        margin:0 10px 0 -10px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1rem;
+        line-height: 19px;
+        font-family: 'Nunito', sans-serif;
+        margin:7px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 40%;
+    }
+
+    .priencipales div div::before {
+        width: 30%;
+        height: 110px;
+        top: 32%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width:30%;
+        height: 110px;
+        top: 32%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:500px) {
+    .priencipales div div {
+        height: 480px;
+    }
+    .priencipales h3 {
+        font-size: 0.8rem;
+    }
+    .priencipales h2 {
+        font-size: 1.6rem;
+    }
+    .priencipales div div ol {
+        width: 60%;
+        margin:0 10px 0 -10px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 1rem;
+        line-height: 19px;
+        font-family: 'Nunito', sans-serif;
+        margin:7px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 40%;
+    }
+
+    .priencipales div div::before {
+        width: 30%;
+        height: 110px;
+        top: 35%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width:30%;
+        height: 110px;
+        top: 35%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:460px) {
+    .priencipales div {
+        width: 98%;
+        
+    }
+    .priencipales div div {
+        height: 530px;
+    }
+    .priencipales h2 {
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+    .priencipales div div ol {
+        width: 60%;
+        margin:0 10px 0 -10px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 0.9rem;
+        line-height: 19px;
+        font-family: 'Nunito', sans-serif;
+        margin:7px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 40%;
+    }
+
+    .priencipales div div::before {
+        width: 30%;
+        height: 90px;
+        top: 39%;
+        right: -2%;
+    }
+    .priencipales div + div::before {
+        width:30%;
+        height: 90px;
+        top: 39%;
+        left: -2%;
+    }
+    
+}
+@media (max-width:380px) {
+    .priencipales div div {
+        height: fit-content;
+    }
+    .priencipales h2 {
+        font-size: 1.3rem;
+    }
+    .priencipales div div ol {
+        width: 90%;
+        margin:0 10px 0 -10px;
+    }
+    .priencipales div div ol li {
+        list-style-type: square;
+        font-size: 0.9rem;
+        line-height: 19px;
+        font-family: 'Nunito', sans-serif;
+        margin:7px 0;
+        color: rgb(60, 59, 65);
+    }
+
+    .priencipales div div img {
+        width: 40%;
+        display: none;
+    }
+
+    .priencipales div div::before {
+        display: none;
+    }
+    .priencipales div + div::before {
+        display: none;
+    }
+    
+}
+
+
+
+
