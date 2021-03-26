@@ -13,15 +13,20 @@
     <meta property="og:title" content="CO-IUS">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/logo-icon.jpg" />
+    <meta property="og:img" content="images/logo-icon.jpg" />
     <meta property="og:url" content="https://co-ius.netlify.app">
     <link rel="shortcut icon" href="images/logo-icon.jpg">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
+    <link rel="stylesheet" href="CSS/qui-nous.css">
+    <link rel="stylesheet" href="CSS/priencipales.css">
+    <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="../../CSS/navigation.css">
     <link rel="stylesheet" href="../../CSS/footer.css">
     <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">    
+
 </head>
 <body>
     <div id="all" class="">
@@ -75,20 +80,24 @@
                                 <a href="#" title="################# | ##############" class="toplink a">Nos Services</a>
                             </li>
                             <li class="topmenu active-menu">
-                                <a href="#" title="################# | ##############" class="toplink  a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <a href="#" title="################# | ##############" class="toplink a" >À propos de nous <i id="sortdown" class="fas fa-sort-down"></i></a>
                                 <ul class="sub-menu">
                                     <li class="sub-menu-tactive"><a href="#" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
                                     <li><a href="../Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
                                     <li><a href="../Le Syndic-Professionnel/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
                                 </ul>
                                 <script>
+
+                                    const a = document.querySelectorAll(".sub-menu");
+                                    a.addEventListener("mouseover",openDrop());
+                                    a.addEventListener("click",openDrop());
+                                    a.addEventListener("mouseout",closeDrop());
+
                                     function openDrop(){
-                                        const a = document.querySelectorAll(".sub-menu");
-                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                        a.style.cssText ='visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;';
                                     }
                                     function closeDrop(){
-                                        const a = document.querySelectorAll(".sub-menu");
-                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;';
                                     }
                                 </script>
                             </li>
@@ -112,11 +121,112 @@
 
         <header id="header-nous">
             <h1>QUI SOMMMES NOUS ?</h1>
+            <p><a href="../../">Accueil </a> / Qui sommes nous...</p>
         </header>
+
+
+        <section class="qui-nous">
+            <h3>Qui Sommes Nous ? </h3>
+            <div>
+                <p>À CO-IUS, une petite, mais dynamique entreprise spécialisée de la gestion de syndic, nous sommes animés par la passion du bon plan et de l’efficacité du service client. C’est pourquoi nous nous engageons à vous apporter les deux. <br> Si vous cherchez quelque chose de nouveau, vous êtes au bon endroit. Notre mission est de tout faire pour répondre au mieux à vos envies. <br> Nos clients restent au top de nos priorités et nous travaillons dur pour développer avec eux une relation sur le long terme, basée sur la confiance et l’authenticité.</p>
+                <img src="images/services.png">
+            </div>
+        </section>
+            
+        <section id="gallery">
+        
+            <img class="img-1-gallery" src="images/img-1.jpg" data-description="">
+            
+            <img class="img-2-gallery" src="images/img-2.jpg" data-description="">
+
+            <img class="img-3-gallery" src="images/img-3.jpg" data-description="">
+            
+            <img class="img-4-gallery" src="images/img-4.jpg" data-description="">
+
+            <img class="img-5-gallery" src="images/img-5.jpg" data-description="">
+
+            <img class="img-6-gallery" src="images/img-6.jpg" data-description="">
+
+            <img class="img-7-gallery" src="images/img-7.jpg" data-description="">
+
+            <img class="img-8-gallery" src="images/img-8.jpg" data-description="">
+            
+            <img class="img-9-gallery" src="images/img-9.jpg" data-description="">
+
+            <img class="img-10-gallery" src="images/img-10.jpg" data-description="">
+            
+        </section>
+
+        <section class="priencipales">
+            <h3>Principales</h3>
+            <h2>Les principales missions d'un Syndic Professionnel</h2>
+            <div>
+                <div>
+                    <ol>
+                        <li>Organiser le volet juridique et comptable de la copropriété.</li>
+                        <li>Préparer et voter le budget annuel nécessaire à la gestion de la résidence en concertation avec le Syndicat des Copropriétaires ou le Conseil Syndical.</li>
+                        <li>Maîtrise des dépenses respectant l’anticipation des besoins.</li>
+                        <li>Renégociation systématique des contrats.</li>
+                        <li>Recherche de subvention dans les dossiers travaux.</li>
+                        <li>Délivrer un quitus au copropriétaire en cas de vente s’il n’est débiteur à l’égard du syndicat.</li>
+                    </ol>
+                    <img src="images/syndic-handshake.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/syndic-office.jpg" alt="">
+                    <ol>
+                        <li>Collecter les participations des copropriétaires aux charges.</li>
+                        <li>Mettre en place et suivre l'ensemble des prestataires choisis pour leur sérieux et qualité de service.</li>
+                        <li>Tenir les archives et les registres relatifs au syndicat</li>
+                        <li>Organiser toutes les réunions du Conseil Syndical ainsi que les Assemblées Générales Ordinaires et Extraordinaires.</li>
+                        <li>Tenir les comptes de la copropriété et les présenter lors des Assemblées Générales pour leur approbation.</li>
+                        <li>Se tenir et se conformer à toutes les missions du syndic de copropriété citées dans <a href="../../documents-juridiques/">la loi 18-00</a>.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-form">
+                <h3>Nous sommes toujours prêts á vous</h3>
+                <h2>Envoyer des informations plus détaillée</h2>
+                <form action="">
+                    <input type="text" name="full-name" id="full-name" placeholder="Votre nome complet">
+                    <input type="email" name="email" id="email" placeholder="Votre e-mail">
+                    <input type="text" name="sujet" id="sujet" placeholder="Sujet de votre demande">
+                    <textarea name="message" id="message" placeholder="Votre message"></textarea>
+                    <input type="submit" name="submit" id="submit" value="ENVOYER LE MESSAGE">
+                </form>
+            </div>
+            <div class="touch">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h6>Numéro de téléphone</h6>
+                        <a href="tel:+212634175255">06.70.68.52.59</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <div>
+                        <h6>E-mail</h6>
+                        <a href="mailto:the.daali.mouhcine@gmail.com">the.mouhicne@gmail.com</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h6>Carte Rue</h6>
+                        <a href="https://www.google.com/maps/place/33%C2%B057'32.9%22N+6%C2%B051'52.1%22W/@33.9591477,-6.8666689,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.9591477!4d-6.8644802?hl=en" target="_blank">Rue Annajd Villa n°6, Rabat</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
     
 
-<footer id="footer" style="margin-top:250px">
+<footer id="footer" style="margin-top:150px; z-index: -1;">
     <div class="title">
         <h4>CO-IUS</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam ne dignissim elit, at dignissim enim.</p>
@@ -127,7 +237,7 @@
             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
         </ul>
         <div id="mouhcine">
-            <p><span>❤️ Mouhcine Daali ❤️</span><br> 2020/2021 &copy;</p>
+            <p><span> CO-IUS </span><br> 2020/2021 &copy;</p>
         </div>
     </div>
 
