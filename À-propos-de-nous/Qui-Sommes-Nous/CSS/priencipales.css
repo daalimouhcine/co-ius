@@ -353,6 +353,9 @@
     
 }
 @media (max-width:460px) {
+    .priencipales div {
+        width: 100%;
+    }
     .priencipales div div {
         height: 570px;
     }
