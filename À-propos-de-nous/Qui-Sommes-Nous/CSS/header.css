@@ -78,6 +78,10 @@
     #header-nous h1 {
         font-size: 1.7rem;
     }
+    #header-nous p {
+        font-size: 0.9rem;
+        right: 20px;
+    }
 }
 @media (max-width:400px) {
     #header-nous {
@@ -90,9 +94,8 @@
     #header-nous p {
         position: absolute;
         bottom:15px ;
-        right: 30px;
         z-index: 2;
-        font-size: 0.9rem;
+
     }
 }
 @media (max-width:330px) {
