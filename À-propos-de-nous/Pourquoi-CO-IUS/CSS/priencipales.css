@@ -344,13 +344,13 @@
 
     .priencipales div div::before {
         width: 30%;
-        height: 190px;
+        height: 180px;
         top: 20%;
         right: -2%;
     }
     .priencipales div + div::before {
         width:30%;
-        height: 190px;
+        height: 180px;
         top: 17%;
         left: -2%;
     }
@@ -427,14 +427,14 @@
 
     .priencipales div div::before {
         width: 30%;
-        height: 180px;
-        top: 19%;
+        height: 130px;
+        top: 21%;
         right: -2%;
     }
     .priencipales div + div::before {
         width:30%;
-        height: 180px;
-        top: 25%;
+        height: 130px;
+        top: 27%;
         left: -2%;
     }
     
