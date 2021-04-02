@@ -31,7 +31,7 @@
     width: 100%;
     display: flex;
     flex-direction:row;
-    height: 450px;
+    height: fit-content;
     align-items: center;
     position:relative;
     margin:0 5px;
@@ -132,9 +132,7 @@
     
 }
 @media (max-width:1000px) {
-    .priencipales div div {
-        height: 390px;
-    }
+
     .priencipales div div ol li {
         list-style-type: square;
         font-size: 1.2rem;
@@ -163,9 +161,7 @@
     
 }
 @media (max-width:900px) {
-    .priencipales div div {
-        height: 370px;
-    }
+
     .priencipales h2 {
         font-size: 1.8rem;
     }
@@ -199,9 +195,7 @@
     
 }
 @media (max-width:800px) {
-    .priencipales div div {
-        height: 470px;
-    }
+
     .priencipales h2 {
         font-size: 1.8rem;
         margin-bottom: 30px;
@@ -267,7 +261,7 @@
 }
 @media (max-width:650px) {
     .priencipales div div {
-        height: 450px;
+        height: fit-content;
     }
     .priencipales h2 {
         font-size: 1.7rem;
@@ -304,9 +298,7 @@
     
 }
 @media (max-width:590px) {
-    .priencipales div div {
-        height: 470px;
-    }
+
     .priencipales h2 {
         font-size: 1.6rem;
         margin-bottom: 10px;
@@ -343,9 +335,7 @@
     
 }
 @media (max-width:500px) {
-    .priencipales div div {
-        height: 470px;
-    }
+
     .priencipales h3 {
         font-size: 1rem;
     }
@@ -387,7 +377,7 @@
         
     }
     .priencipales div div {
-        height: 470px;
+        height: fit-content;
     }
     .priencipales h2 {
         font-size: 1.4rem;
@@ -424,9 +414,7 @@
     
 }
 @media (max-width:380px) {
-    .priencipales div div {
-        height: fit-content;
-    }
+
     .priencipales h3 {
         font-size: 0.9rem;
     }
