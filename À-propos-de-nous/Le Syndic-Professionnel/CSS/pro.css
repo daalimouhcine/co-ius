@@ -1,0 +1,46 @@
+.pro a {
+    color:#385292;
+}
+.pro {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+.pro .content {
+    width: 45%;
+    display: flex;
+    flex-direction:column;
+}
+.pro .content h3 {
+    font-size: 1.2rem;
+    color: rgb(78, 78, 78);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 50px;
+    align-self: flex-start;
+    border-bottom:3px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+.pro .content h2 {
+    width: 90%;
+    font-size: 2.5rem;
+    color: #385292;
+    font-family: 'Nunito', sans-serif;
+}
+.pro .content p {
+    list-style-type: square;
+    font-size: 1.1rem;
+    line-height: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin:8px 0;
+    color: rgb(60, 59, 65);
+}
+.pro .image {
+    width: 45%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}

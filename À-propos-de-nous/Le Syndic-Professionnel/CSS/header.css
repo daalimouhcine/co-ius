@@ -1,0 +1,122 @@
+
+#header-nous {
+    width: 100%;
+    height: 450px ;
+    background-image: url("../images/about_us_small_02.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+}
+#header-nous::after {
+    content: " ";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+#header-nous h1 {
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+    margin:auto;
+    color: #385292;
+    z-index: 2;
+}
+
+#header-nous p {
+    position: absolute;
+    bottom:20px ;
+    right: 50px;
+    z-index: 2;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(60, 59, 65);
+}
+#header-nous p a {
+    color: #385292;
+}
+
+@media (max-width:920px) {
+    #header-nous {
+        height: 350px ;
+    }
+    #header-nous h1 {
+        font-size: 2.7rem;
+    }
+    #header-nous p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:800px) {
+    #header-nous {
+        height: 330px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:650px) {
+    #header-nous {
+        height: 300px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width:490px) {
+    #header-nous {
+        height: 280px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 1.7rem;
+    }
+    #header-nous p {
+        font-size: 0.9rem;
+        right: 20px;
+    }
+}
+@media (max-width:400px) {
+    #header-nous {
+        height: 250px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 1.5rem;
+    }
+    #header-nous p {
+        position: absolute;
+        bottom:15px ;
+        z-index: 2;
+
+    }
+}
+@media (max-width:330px) {
+    #header-nous {
+        height: 230px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 1.2rem;
+    }
+    #header-nous p {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:260px) {
+    #header-nous {
+        height: 220px ;
+        margin-top: 150px;
+    }
+    #header-nous h1 {
+        font-size: 7vw;
+    }
+}

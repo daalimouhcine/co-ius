@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CO-IUS</title>
-    
+
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="CO-IUS">
@@ -13,18 +13,18 @@
     <meta property="og:title" content="CO-IUS">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/logo-icon.jpg" />
+    <meta property="og:img" content="images/logo-icon.jpg" />
     <meta property="og:url" content="https://co-ius.netlify.app">
     <link rel="shortcut icon" href="images/logo-icon.jpg">
-
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/pro.css">
+    <link rel="stylesheet" href="CSS/définition.css">
+    <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="../../CSS/navigation.css">
     <link rel="stylesheet" href="../../CSS/footer.css">
     <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet"><body>
     <div id="all" class="">
         <div id="allbg" class="huge_mask">
             <div id="side">
@@ -76,20 +76,24 @@
                                 <a href="#" title="################# | ##############" class="toplink a">Nos Services</a>
                             </li>
                             <li class="topmenu active-menu">
-                                <a href="#" title="################# | ##############" class="toplink  a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <a href="#" title="################# | ##############" class="toplink a" >À propos de nous <i id="sortdown" class="fas fa-sort-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="../Qui-Sommes-Nous/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
                                     <li><a href="../Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
                                     <li class="sub-menu-tactive"><a href="#" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
                                 </ul>
                                 <script>
+
+                                    const a = document.querySelectorAll(".sub-menu");
+                                    a.addEventListener("mouseover",openDrop());
+                                    a.addEventListener("click",openDrop());
+                                    a.addEventListener("mouseout",closeDrop());
+
                                     function openDrop(){
-                                        const a = document.querySelectorAll(".sub-menu");
-                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                        a.style.cssText ='visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;';
                                     }
                                     function closeDrop(){
-                                        const a = document.querySelectorAll(".sub-menu");
-                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;';
                                     }
                                 </script>
                             </li>
@@ -111,10 +115,124 @@
             })
         </script>
 
+        <header id="header-nous">
+            <h1>LE SYNDIC PROFESSIONEL</h1>
+            <p><a href="../../">Accueil </a> / Le syndic Professionnel...</p>
+        </header>
+
+        <section class="pro">
+            <div class="content">
+                <h3>Le syndic Professionnel</h3>
+                <h2>Le syndic et la copropriété au Maroc</h2>
+                <p>Le concept d’immeubles en copropriété est relativement récent dans le paysage Marocain. Une première loi est venue réglementer le secteur en 1946 mais il a fallu attendre l’entrée en vigueur de <a href="../../documents-juridiques/"> la loi 18.00 </a>(Nov. 2002) portant statut de la copropriété des immeubles bâtis pour assister à un profond changement du statut de la copropriété grâce à l’instauration d’une réglementation stricte. en Mai 2016, la loi 106-12 est venue compléter et amender <a href="../../documents-juridiques/"> la loi 18-00 </a>qui est toujours en vigueur. Cette nouvelle mouture vient grandement modifier les règles de majorité et les conforter les usages, notamment pour tout ce qui touchent aux Assemblées Générales.</p>
+                <p>Cette réglementation était nécessaire étant donné le développement des logements en copropriété. Il existe plus d’un million de logements en copropriété dont plus de 40 % dans la seule ville de Casablanca.</p>
+                <p>Le champ d’application de ces lois est large puisqu’il concerne tant les immeubles à usage d’habitation que les immeubles de bureaux ainsi que les regroupements de villas dans un espace fermé ou coexistent des parties divises et indivises (copropriété horizontale).</p>
+            </div>
+            <div class="image">
+                <img src="images/pro.png" alt="">
+            </div>
+        </section>
+
+        <section class="définition">
+            <div class="container">
+                <div class="image-content">
+                    <img src="images/definition.jpg" alt="">
+                    <h4>Le Syndic</h4>
+                    <p>Différence entre syndic professionnel et syndic non professionnel Le syndic peut être professionnel ou non professionnel (il va alors s’agir d’un syndic bénévole parmi les copropriétaires de l’immeuble). Il peut s’agir d’une personne physique ou d’une personne morale, d’une société voire d’une association.</p>
+                    
+                    <h4>Nomination du syndic</h4>
+                    <p> <a href="../../documents-juridiques/"> La loi 106-12 </a>précise les modalités d’élection du syndic et de son adjoint. Attention, tout ce qui concerne le syndic (nomination, révocation…) et son adjoint doit se faire à la majorité des 3/4 des voix.</p>
+
+                    <h4>Avantage du syndic professionnel</h4>
+                    <p>Si le choix d’un syndic professionnel représente un coût financier, ses connaissances légales et son professionnalisme sont un gage de sécurité juridique et de bon fonctionnement de l’immeuble mais aussi l’assurance de la pérennisation de la valeur de l’immeuble.</p>
+                    <p>Ex : Il sera plus difficile pour un syndic bénévole de prendre la décision de poursuivre en justice un copropriétaire en retard pour le paiement de ses charges de copropriété, que pour un syndic professionnel, qui connaît bien son travail. Le syndic professionnel se doit lui, après une relance de poursuivre en justice le copropriétaire qui ne paye pas ses charges.</p>
+                    <p>Sachez aussi que la responsabilité d’un syndic peut être engagée par un copropriétaire ou plusieurs copropriétaires qui sont victimes d’un préjudice résultant d’un acte du syndic.</p>
+                    
+                    <p>Exercer l’activité de SYNDIC DE COPROPRIÉTÉ demande de multiples compétences :</p>
+                    <ul>
+                        <li>- Avoir de bonnes compétences commerciales.</li>
+                        <li>- Diplomatie associée à rigueur et fermeté.</li>
+                        <li>- Être bon gestionnaire et maîtriser un plan comptable.</li>
+                        <li>- Savoir manager les équipes et avoir un sens de l’organisation irréprochable.</li>
+                        <li>- Détenir des compétences juridiques et maîtriser les <a href="../../documents-juridiques/"> lois 18.00 </a> et <a href="../../documents-juridiques/"> 106-12 </a> du statut de la copropriété des immeubles bâtis.</li>
+                        <li>- Maîtriser les notions de parties divises et indivises et aussi avoir eu une formation adéquate en assurances responsabilité civile, incendie, recours des tiens, évaluation des capitaux à couvrir.</li>
+                        <p>En effet, nous sommes étonnés de constater que les <a href="../../documents-juridiques/"> lois 18.00 </a> et <a href="../../documents-juridiques/"> 106-12 </a> ne sont toujours pas bien comprises ni appliquées.</p>
+                    </ul>
+                </div>
+                <div class="text-content">
+                    <h3>Définitions</h3>
+                    <h2>Le syndicat de copropriété</h2>
+                    <p>Il est l’émanation de l’ensemble des copropriétaires.</p>
+
+                    <h4>Le règlement de copropriété</h4>
+                    <p>Ce document est élaboré par le promoteur de l’immeuble (obligation légale) et ce dernier doit déposer le règlement auprès de la Conservation foncière. Le règlement de copropriété détermine le nombre et la superficie des parties divises ainsi que le nombre des millièmes des parties indivises. Il définit les règles de fonctionnement de la copropriété, les droits et les obligations des copropriétaires et des locataires d’un l’immeuble, les lots et la quote-part des charges qui leur sont affectées.</p>
+                    <p>En découle la répartition des coûts entre copropriétaires, les conditions de jouissance des parties communes et des parties privatives.</p>
+                    <p>Pour tout immeuble neuf, le promoteur remettra le règlement de copropriété au premier acquéreur. En cas de revente, le règlement de copropriété est remis par le notaire à tout nouveau copropriétaire, les dispositions du règlement s’imposent obligatoirement à tout copropriétaire.</p>
+
+                    <h4>Attributions du syndic</h4>
+                    <p>Les missions principales du syndic sont notamment :</p>
+                    <ul>
+                        <li>- De faire appliquer le règlement de copropriété.</li>
+                        <li>- De veiller au bon usage des parties communes en assurant leur entretien, ex : <br>
+                            faire réparer un ascenseur en panne, éviter les nuisances nocturnes ou encore faire intervenir un professionnel pour réparer une fuite d’eau,
+                        </li>
+                        <li>- D’assurer la garde des principales entrées de l’immeuble et des équipements communs.</li>
+                        <li>- De collecter les charges de copropriété contre récépissé. Chaque copropriétaire a l’obligation de payer ses charges. Sans cette participation financière, le syndic ne peut pas assurer l’administration courante, l’entretien des parties communes et des équipements collectifs ou souscrire les diverses polices d’assurances de l’immeuble. Il est à noter que le syndic doit délivrer un récépissé au copropriétaire lors de la vente de son bien indiquant qu’il n’est pas débiteur visa vis du syndicat de copropriété,</li>
+                        <li>- De communiquer la situation de trésorerie du syndicat au copropriétaires et cela au moins chaque 3 mois en informant tous les copropriétaires sur l’affectation des fonds et la situation de trésorerie de chaque copropriétaire.</li>
+                        <li>- De préparer le budget du syndicat pour son examen et son approbation lors de l’assemblée générale (ensemble des copropriétaires).</li>
+                        <li>- De convoquer l’assemblée générale qui doit se réunir au moins une fois par an.</li>
+                        <li>- De faire exécuter les décisions de l’assemblée générale.</li>
+                        <li>- De représenter le syndicat des copropriétaires en justice sur autorisation spéciale de l’assemblée générale.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <h4>L’assemblée générale des copropriétaires</h4>
+                <p>La loi oblige la convocation et la tenue de l’assemblée générale des copropriétaires une fois par an. La loi ne prévoit rien quant à l’ordre du jour mais oblige maintenant à un délai de quinze (15) jours pour les convocations.</p>
+                <p>C’est au syndic qu’il appartient de convoquer l’assemblée générale. Les décisions prisent en assemblée générale obéissent à des majorités différentes selon l’importance des décisions votées :</p>
+                <p>Il convient de préciser que les décisions prisent en assemblée générale ne seront valables que si les copropriétaires présents à l’assemblée (à la première convocation) représentent au moins 50% des voix, le quorum est alors atteint. Dans le cas contraire, une seconde assemblée générale devra être convoquée dans les trente jours. A cette seconde assemblée les décisions se prendrons en fonction des présents ou représentés.</p>
+                <p>On distingue 4 types de majorité selon l’importance des décisions à prendre : majorité simple, majorité absolue 50% des voix, la majorité qualifiée 3 /4 des voix, et enfin unanimité des voix.</p>
+            </div>
+
+        </section>
 
     
-
-    
+    <section class="contact">
+        <div class="contact-form">
+            <h3>Nous sommes toujours prêts á vous</h3>
+            <h2>Envoyer des informations plus détaillée</h2>
+            <form action="">
+                <input type="text" name="full-name" id="full-name" placeholder="Votre nome complet" required >
+                <input type="email" name="email" id="email" placeholder="Votre e-mail" required >
+                <input type="text" name="sujet" id="sujet" placeholder="Sujet de votre demande" required >
+                <textarea name="message" id="message" placeholder="Votre message" required ></textarea>
+                <input type="submit" name="submit" id="submit" value="ENVOYER LE MESSAGE">
+            </form>
+        </div>
+        <div class="touch">
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <h6>Numéro de téléphone</h6>
+                    <a href="tel:+212634175255">06.70.68.52.59</a>
+                </div>
+            </div>
+            <div>
+                <i class="far fa-envelope"></i>
+                <div>
+                    <h6>E-mail</h6>
+                    <a href="mailto:the.daali.mouhcine@gmail.com">the.mouhicne@gmail.com</a>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h6>Carte Rue</h6>
+                    <a href="https://www.google.com/maps/place/33%C2%B057'32.9%22N+6%C2%B051'52.1%22W/@33.9591477,-6.8666689,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.9591477!4d-6.8644802?hl=en" target="_blank">Rue Annajd Villa n°6, Rabat</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <footer id="footer" style="margin-top:250px">
     <div class="title">
@@ -127,7 +245,7 @@
             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
         </ul>
         <div id="mouhcine">
-            <p><span>❤️ Mouhcine Daali ❤️</span><br> 2020/2021 &copy;</p>
+            <p><span> CO-IUS </span><br> 2020/2021 &copy;</p>
         </div>
     </div>
 
