@@ -68,7 +68,7 @@
     .qui-nous div p{
         width: 65%;
         margin:15px auto;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -88,7 +88,6 @@
     .qui-nous div p{
         width: 65%;
         margin:15px auto;
-        font-size: 1rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -107,7 +106,7 @@
     .qui-nous div p{
         width: 65%;
         margin:15px auto;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -125,33 +124,12 @@
         padding:0 30px;
     }
 }
+
 @media (max-width:600px) {
     .qui-nous div p{
         width: 65%;
         margin:15px auto;
-        font-size: 0.9rem;
-        font-family: 'Nunito', sans-serif;
-        color: rgb(60, 59, 65);
-    }
-    .qui-nous div p::first-letter {
-        font-size: 1.5rem;
-        color: #0e204e;
-        margin-left: 20px;
-    }
-    .qui-nous div img {
-        width: 30%;
-        height: 200px;
-        margin-top: 50px;
-    }
-    .qui-nous {
-        padding:0 20px;
-    }
-}
-@media (max-width:600px) {
-    .qui-nous div p{
-        width: 65%;
-        margin:15px auto;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -169,14 +147,13 @@
         padding:0 20px;
     }
     .qui-nous h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 @media (max-width:500px) {
     .qui-nous div p{
         width: 65%;
         margin:15px auto;
-        font-size: 0.9rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -201,7 +178,6 @@
     .qui-nous div p{
         width: 100%;
         margin:15px auto;
-        font-size: 0.8rem;
         font-family: 'Nunito', sans-serif;
         color: rgb(60, 59, 65);
     }
@@ -227,7 +203,7 @@
     .qui-nous div p{
         width: 100%;
         margin:15px auto;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .qui-nous div p::first-letter {
         font-size: 1.3rem;
