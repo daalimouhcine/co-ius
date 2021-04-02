@@ -43,7 +43,7 @@
 }
 .priencipales div div ol li {
     list-style-type: square;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     line-height: 25px;
     font-family: 'Nunito', sans-serif;
     margin:20px 0;
@@ -81,7 +81,7 @@
 @media (max-width:1160px) {
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -105,7 +105,7 @@
 @media (max-width:1100px) {
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -137,7 +137,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -171,7 +171,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.05rem;
+        font-size: 1.2rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -208,7 +208,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.05rem;
+        font-size: 1.15rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -240,7 +240,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1.05rem;
+        font-size: 1.15rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -278,7 +278,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -317,7 +317,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1rem;
+        font-size: 1.1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -347,7 +347,7 @@
         height: 470px;
     }
     .priencipales h3 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .priencipales h2 {
         font-size: 1.6rem;
@@ -358,7 +358,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 1rem;
+        font-size: 1.05rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -398,7 +398,7 @@
     }
     .priencipales div div ol li {
         list-style-type: square;
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -427,6 +427,10 @@
     .priencipales div div {
         height: fit-content;
     }
+    .priencipales h3 {
+        font-size: 0.9rem;
+    }
+    
     .priencipales h2 {
         font-size: 1.3rem;
     }
