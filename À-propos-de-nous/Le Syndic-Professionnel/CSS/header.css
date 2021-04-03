@@ -1,12 +1,12 @@
 .body {
-    background-image: url("../images/header-bg.jpg");
+    background-image: url("../images/page-pattern.png");
     background-repeat: repeat;
 }
 
 #header-nous {
     width: 100%;
     height: 450px ;
-    background-image: url("../images/about_us_small_02.jpg");
+    background-image: url("../images/header-bg.jpg");
     background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
