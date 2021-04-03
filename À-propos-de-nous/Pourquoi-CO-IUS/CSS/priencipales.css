@@ -41,11 +41,10 @@
     width: 50%;
     margin:0 20px 0 30px;
     z-index: 2;
-    background-color: white;
     padding:0;
 }
 .priencipales div div ul li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 25px;
     font-family: 'Nunito', sans-serif;
     margin:20px 0;
@@ -90,7 +89,7 @@
 
 @media (max-width:1160px) {
     .priencipales div div ol li {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -113,7 +112,7 @@
 }
 @media (max-width:1100px) {
     .priencipales div div ol li {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -142,7 +141,7 @@
 @media (max-width:1000px) {
 
     .priencipales div div ul li {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         line-height: 22px;
         font-family: 'Nunito', sans-serif;
         margin:10px 0;
@@ -176,7 +175,7 @@
         margin:0 15px;
     }
     .priencipales div div ul li {
-        font-size: 1.05rem;
+        font-size: 1.015rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -217,7 +216,7 @@
         margin-bottom: 20px;
     }
     .priencipales div div ul li {
-        font-size: 1.05rem;
+        font-size: 1.1rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -248,7 +247,6 @@
         margin-bottom: 20px;
     }
     .priencipales div div ul li {
-        font-size: 1.05rem;
         line-height: 20px;
         font-family: 'Nunito', sans-serif;
         margin:8px 0;
@@ -288,7 +286,6 @@
     }
 
     .priencipales div div ul li {
-        font-size: 1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -327,7 +324,6 @@
         width: 60%;
     }
     .priencipales div div ul li {
-        font-size: 1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -369,7 +365,6 @@
         width: 60%;
     }
     .priencipales div div ul li {
-        font-size: 1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -410,7 +405,7 @@
         width: 60%;
     }
     .priencipales div div ul li {
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
@@ -449,7 +444,7 @@
         margin:0 10px 0 0px;
     }
     .priencipales div div ul li {
-            font-size: 0.9rem;
+        font-size: 0.9rem;
         line-height: 19px;
         font-family: 'Nunito', sans-serif;
         margin:7px 0;
