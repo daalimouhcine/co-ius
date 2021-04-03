@@ -17,7 +17,7 @@
     border-bottom-style: solid;
 }
 .priencipales h2 {
-    width: 90%;
+    width: 100%;
     font-size: 2rem;
     color: #385292;
     font-family: 'Nunito', sans-serif;
@@ -356,7 +356,7 @@
         margin:0 5px;
     }
     .priencipales h3 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .priencipales h2 {
         font-size: 1.6rem;
@@ -435,6 +435,9 @@
     .priencipales div div {
         height: fit-content;
         margin:0 0 0 10px;
+    }
+    .priencipales h3 {
+        font-size: 1rem;
     }
     .priencipales h2 {
         font-size: 1.3rem;
