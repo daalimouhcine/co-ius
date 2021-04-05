@@ -190,6 +190,7 @@ li {
     display:flex;
     animation:up 1300ms infinite forwards linear;
     cursor:pointer;
+    z-index: 2;
 }
 
 #footer .up i {

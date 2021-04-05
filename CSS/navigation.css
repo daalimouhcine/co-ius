@@ -9,6 +9,7 @@ body{
    margin:0px;
    background:#FFF;
 }
+
 #content #menutop a{color:black;}
 #bloc_texte-titre {
 text-align:center;
@@ -19,13 +20,13 @@ border:1px solid #f6f6f6;
 padding: 18px 70px;
 }
 .staat {
-    text-align: right;
-    font-family: 'Staatliches', cursive;
-    Color: #4b4c4c;
-    font-size: 70px;
-    line-height: 76%;
-    margin-bottom: 0px;
-    margin-top:0
+   text-align: right;
+   font-family: 'Staatliches', cursive;
+   Color: #4b4c4c;
+   font-size: 70px;
+   line-height: 76%;
+   margin-bottom: 0px;
+   margin-top:0
 }
 
 
@@ -131,6 +132,7 @@ p, td, li{font-size:14px;color:#333030;}
 a:link{text-decoration:none;font-weight:bold;}
 a:visited{text-decoration:none;}
 a:hover{text-decoration:underline;}
+
 /* --- IMAGES - GALERIES --- */
 img{border:none;}
 
@@ -623,7 +625,7 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    #all #css3menu{display:none;overflow: hidden;}
    #all #css3menu{height: 600px;}
    .sub-menu {
-      width: 80% !important;
+      width: fit-content !important;
       margin-left:30% !important;
    }
    .sub-menu li {
@@ -678,7 +680,12 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:40%;}
 }
 ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:80%;}
-
+@media all and (max-width:400px) {
+   .sub-menu {
+      width: fit-content !important;
+      margin-left:22% !important;
+   }
+}
 @media all and (max-width:480px){
    #bloc_liens_metier a{
       display:block;
@@ -703,8 +710,7 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
    #side .soc.btn.tel {width: 120px;margin-left:0px;}   
    #side .soc.btn:last-child {margin-left:0px;margin-right:19px;}
    .sub-menu {
-      width: 80% !important;
-      margin-left:20% !important;
+      margin-left:18% !important;
    }
 }
 
@@ -715,16 +721,10 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
 }
 @media all and (max-width:280px){
    .sub-menu {
-      width: 80% !important;
-      margin-left:20% !important;
+      margin-left:10% !important;
    }
 }
-@media all and (max-width:250px){
-   .sub-menu {
-      width: 80% !important;
-      margin-left:20% !important;
-   }
-}
+
 
 
 
@@ -765,6 +765,8 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
    background: #385292;
    border-bottom-left-radius: 4px;
    border-bottom-right-radius: 4px;
+   height:fit-content;
+   width: 160%;
 }
 
 .sub-menu li {
