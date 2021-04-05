@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO-IUS</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="CO-IUS">
+    <meta property="og:site_name" content="CO-IUS">
+    <meta property="og:title" content="CO-IUS">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../../images/logo-icon.jpg" />
+    <meta property="og:url" content="https://co-ius.netlify.app">
+    <link rel="shortcut icon" href="../../images/logo-icon.jpg">
+
+    <link rel="stylesheet" href="../../CSS/navigation.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/content.css">
+    <link rel="stylesheet" href="CSS/question-contact.css">
+    <link rel="stylesheet" href="../../CSS/footer.css">
+    <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div id="all" class="">
+        <div id="allbg" class="huge_mask">
+            <div id="side">
+                <div class="soc btn tel">
+                    <div class="tel-sm">
+                        <a href="tel:0623524682">
+                            <span class="ma">0623524682</span>
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="soc btn">
+                    <div class="fb">
+                        <a href="https://www.facebook.com/coius2021" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="soc btn">
+                    <div class="gp">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="header">
+                <div id="logo" itemscope="">
+                    <a href="/" itemprop="url">
+                        <img src="../../images/logo.png" alt="Le cabinet CO-IUS : la gestion immobilière, facilité management ainsi que la conciergerie immobilière." title="Le cabinet CO-IUS : la gestion immobilière, facilité management ainsi que la conciergerie immobilière." itemprop="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div id="content">
+                <div id="fond-head"></div>
+                <nav id="menu">
+                    <div>
+                        <div id="btn_mobile">
+                            Menu <i class="fas fa-bars"></i>
+                        </div>
+                        <ul id="css3menu">
+                            <li class="topmenu">
+                                <a href="../../" title="################# | ##############" id="submenu15" class="jMenu toplink a">Accueil</a>
+                            </li>
+                            <li class="topmenu active-menu">
+                                <a href="#" title="################# | ##############" class="toplink a">Nos Métiers <i class="fas fa-sort-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-tactive"><a href="../syndic/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">SYNDIC</a></li> <hr>
+                                    <li><a href="../conciergerie/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">CONCIERGERIE</a></li> <hr>
+                                    <li><a href="../gestion-locative/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">GESTION LOCATIVE</a></li> <hr>
+                                    <li><a href="../facility-management/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">FACILITY MANAGEMENT</a></li>
+                                </ul>
+                            </li>
+                            <li class="topmenu">
+                                <a href="#" title="################# | ##############" class="toplink a" onmouseover="openDrop()" onmouseout="closeDrop()" onclick="openDrop()">À propos de nous <i class="fas fa-sort-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../À-propos-de-nous/Qui-Sommes-Nous/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Qui Sommes Nous ?</a></li> <hr>
+                                    <li><a href="../../À-propos-de-nous/Pourquoi-CO-IUS/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">Pourquoi CO-IUS ?</a></li> <hr>
+                                    <li><a href="../../À-propos-de-nous/Le Syndic-Professionnel/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">Le Syndic Professionnel</a></li>
+                                </ul>
+                                <script>
+                                    function openDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: visible;opacity: 1;z-index: 1;transform: translateY(0%);transition-delay: 0s, 0s, 0.3s;'
+                                    }
+                                    function closeDrop(){
+                                        const a = document.querySelectorAll(".sub-menu");
+                                        a.style.cssText = 'visibility: hidden;opacity: 0;'
+                                    }
+                                </script>                            </li>
+                            <li class="topmenu">
+                                <a href="../../contactez-nous/" title="################# | ##############" class="toplink a">Contacte-Nous</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+        <script>
+            window.addEventListener("scroll",function() {
+                var nav = document.querySelector("#header");
+                var fond = document.querySelector("#allbg");
+                nav.classList.toggle("scroll", window.scrollY > 150);
+                fond.classList.toggle("scroll", window.scrollY > 150);
+            })
+        </script>
+
+
+<header id="header-nous">
+    <h1>SYNDIC</h1>
+    <p><a href="../../">Accueil </a> / SYNDIC...</p>
+</header>
+
+
+<section class="main-content">
+    <div class="elements">
+        <img src="images/work.jpg" alt="">
+        <h2>CO-IUS : VOTRE PATRIMOINE, NOTRE MÉTIER..</h2>
+        <p>Acteur reconnu de la gestion professionnelle de syndic au Maroc, CO-IUS vous offrira bien plus qu'une gestion rigoureuse de votre copropriété. Grâce à notre expérience, et nous méthodes exclusives, nous contribuerons à la maîtrise des charges de votre copropriété et à la valorisation de votre patrimoine.</p>
+        <p>Organisé pour mieux gérer votre copropriété, géographiquement proche de vous, CO-IUS mettra à votre disposition un interlocuteur unique et responsable entouré d'une équipe professionnelle maîtrisant l’ensemble des missions administratives, juridiques, comptables et techniques relatives à la gestion de votre copropriété.Organisé pour mieux gérer votre copropriété, géographiquement proche de vous, CO-IUS mettra à votre disposition un interlocuteur unique et responsable entouré d'une équipe professionnelle maîtrisant l’ensemble des missions administratives, juridiques, comptables et techniques relatives à la gestion de votre copropriété.</p>
+        <h3>POURQUOI CONFIER À CO-IUS LA GESTION DE VOTRE COPROPRIÉTÉ ?</h3>
+        <ul>
+            <li>Vous bénéficiez d’une gestion sûre, efficace et transparente</li>
+            <li>Nous n’assurons la gestion d’une copropriété que si nous pouvons la suivre de façon assidue</li>
+            <li>Vos charges sont maîtrisée, votre patrimoine et pérennisé</li>
+            <li>Notre gestion administrative et financière est stricte et vérifiable à tout moment</li>
+            <li>Nous travaillons en étroite collaboration avec le conseil syndical</li>
+            <li>Vous pouvez compter sur une équipe professionnelle, disponible et à l’écoute</li>
+            <li>Nous mettons à la disposition de votre copropriété une équipe dédiée ainsi qu’un gestionnaire unique.</li>
+            <li>Nous effectuons des visites régulières et planifiée de votre copropriété</li>
+            <li>Nous vous proposons un contrat d’honoraires exactement adapté à vos attentes</li>
+            <li>Parce que nous avons l’habitude de travailler et négocier avec les grands promoteurs</li>
+            <li>Parce que nous avons de belles références témoins de notre excellence</li>
+            <li>Parce que nous maitrisons les rouages juridiques de la copropriété</li>
+            <li>Parce que les fondateurs de CO-IUS sont des professionnels de terrain qui se déplacent dans les sites et restent votre interlocuteur privilégié.</li>
+            <li>Parce CO-IUS peut vous mettre à disposition de votre copropriété une gamme complète de services innovants tels la conciergerie résidentielle, la gestion locative ou encore le Facility Management.</li>
+        </ul>
+        <h3>NOS AXES D’INTERVENTION DANS LE CADRE DE GESTION DE VOTRE COPROPRIETE</h3>
+
+        <div class="acc-container">
+        
+            <button class="acc-btn">
+                GESTIOON ADMINISTRATIVE
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Elaboration ou amendement  du règlement de copropriété.</li>
+                    <li>Elaboration du règlement intérieur et des statuts de votre copropriété</li>
+                    <li>Etablissement et mise à jour de la base de données des copropriétaires</li>
+                    <li>Prise de toute mesure administrative et juridique de nature à faciliter la bonne exécution des règlements de copropriété.</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                ASSEMBLEES GENERALES
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Etablissement de l’ordre du jour</li>
+                    <li>Elaboration et envoi des convocations</li>
+                    <li>Etablissement de la feuille de présence</li>
+                    <li>Rédaction et notification du procès-verbal</li>
+                    <li>Déclaration des décisions de l’assemblée générale aux autorités locales</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                COMPTABILITÉ  GÉNÉRALE DU SYNDICAT
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Ouverture de Compte bancaire séparé au nom de votre copropriété</li>
+                    <li>Etablissement du compte  de gestion générale et de ses annexes  </li>
+                    <li>Présentation des comptes  en conformité avec la réglementation en vigueur</li>
+                    <li>Etablissement du budget prévisionnel, en collaboration avec le conseil syndical</li>
+                    <li>Tenue des comptes  individuels des propriétaires</li>
+                    <li>Vérification et paiement des factures.</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                ADMINISTRATION ET GESTION QUOTIDIENNE DE VOTRE COPROPRIETE
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Elaboration et affichage de la fiche synthétique de votre copropriété</li>
+                    <li>Détention,  gestion et conservation   des  archives du syndicat</li>
+                    <li>Etablissement et mise à jour du carnet d’entretien </li>
+                    <li>Gestion des travaux d’entretien et de maintenance.</li>
+                    <li>Négociation, passation, suivi des marchés des prestataires et gestion des contrats à l’échéance dans le cadre du budget prévisionnel</li>
+                    <li>Gestion de tous les diagnostics, contrats et dossiers obligatoires</li>
+                    <li>Recevoir, traiter et résoudre les réclamations des copropriétaires en relation avec la gestion des parties communes</li>
+                    <li>Gestion du personnel du syndicat</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                GESTION MULTI-TECHNIQUE
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Conservation et pérennisation du patrimoine commun</li>
+                    <li>Maintien en état de fonctionnement des installations techniques et équipements communs</li>
+                    <li>Réparation des pannes et défauts occasionnels </li>
+                    <li>Amélioration de la résidence et de ses installations</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                ASSURANCES
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Souscription des polices d’assurance multirisques au nom du syndicat</li>
+                    <li>Déclaration des sinistres concernant les parties communes</li>
+                </ul>
+            </div>
+        
+            <button class="acc-btn">
+                PROCEDURES DE RECOUVREMENT ET CONTENTIEUX
+            </button>
+            <div class="acc-content">
+                <ul>
+                    <li>Envoie et relance des appels des charges de copropriété</li>
+                    <li>Envoie des lettres de mise en demeure par huissier de justice</li>
+                    <li>Présentation des requêtes en injonction de payer</li>
+                    <li>La saisie-arrêt</li>
+                    <li>La saisie-gagerie </li>
+                    <li>Le privilège sur les meubles se trouvant dans le lot privatif </li>
+                </ul>
+            </div>
+        
+
+        
+        </div>
+        
+        <script>
+            const btns = document.querySelectorAll(".acc-btn");
+
+                // fn
+                function accordion() {
+                // this = the btn | icon & bg changed
+                this.classList.toggle("is-open");
+
+                // the acc-content
+                const content = this.nextElementSibling;
+
+                // IF open, close | else open
+                if (content.style.maxHeight) content.style.maxHeight = null;
+                else content.style.maxHeight = content.scrollHeight + "px";
+                }
+
+                // event
+                btns.forEach((el) => el.addEventListener("click", accordion));
+
+                /*
+                
+                    Jokes are from > 
+                        https://chartcons.com/100-funny-trick-questions-answers/
+                        Background image from > 
+                        https://www.magicpattern.design/tools/css-backgrounds
+                
+                */
+
+        </script>
+    </div>
+
+    <hr>
+
+    <div class="side">
+        <div class="metiers">
+            <h4>NOS MÉTIERS</h4>
+            <ul>
+                <li class="syndic-active"><a href="#">SYNDIC</a></li>
+                <li class="conciergerie-active"><a href="##">CONCIERGERIE</a></li>
+                <li class="gestion-active"><a href="###">GESTION LOCATIVE</a></li>
+                <li class="facility-active"><a href="####">FACILITY MANAGEMENT</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h4>NOS CONTACTS</h4>
+            <div class="touch-container">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h6>Numéro de téléphone</h6>
+                        <a href="tel:+212634175255">06.70.68.52.59</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <div>
+                        <h6>E-mail</h6>
+                        <a href="mailto:the.daali.mouhcine@gmail.com">the.mouhicne@gmail.com</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h6>Carte Rue</h6>
+                        <a href="https://www.google.com/maps/place/33%C2%B057'32.9%22N+6%C2%B051'52.1%22W/@33.9591477,-6.8666689,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.9591477!4d-6.8644802?hl=en" target="_blank">Rue Annajd Villa n°6, Rabat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="quistion-contact">
+    <h3>UNE QUESTION? CONTACTEZ-NOUS</h3>
+    <div class="contacte-element">
+        <div class="contacte-input">
+            <form action="mailto:the.daali.mouhcine@gmail.com">
+                <div>
+                    <input type="text" name="first-name" id="first-name" placeholder="Nome*" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Prénom*" required>
+                </div>
+                <div>
+                    <input type="text" id="phone" placeholder="Téléphone">
+                    <input type="email" name="email" id="email" placeholder="Email*" required>
+                </div>
+                <div>
+                    <input type="text" name="ville" id="ville" placeholder="Ville">
+                    <input type="text" name="postale" id="postale" placeholder="Code Postale">
+                </div>
+                <textarea name="message" id="message" placeholder="Message*" required></textarea>
+                <input type="submit" value="ENVOYER">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="title">
+        <h4>CO-IUS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam ne dignissim elit, at dignissim enim.</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <div id="mouhcine">
+            <p><span> CO-IUS </span><br> 2020/2021 &copy;</p>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="about">
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Brand Guidelines</a></li>
+                <li><a href="../../documents-juridiques">Documents Juridiques</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    
+        <div class="service">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">How to Order</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Payment Method</a></li>
+            </ul>
+        </div>
+    
+        <div class="other">
+            <h4>Other</h4>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            speed: 1000,
+
+            autoplay: {
+                delay : 6000,
+                disableOnInteraction:false,
+            },
+
+            parallax:true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../JS/up.js"></script>
+<script>
+    $("#btn_mobile").click(function(){
+        $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
+    });
+</script>
+</body>

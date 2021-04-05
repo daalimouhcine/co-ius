@@ -1,0 +1,222 @@
+.main-content {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:100px 0px -50px;
+}
+.main-content .elements {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 30px;
+}
+.main-content .elements img {
+    width: 100%;
+}
+.main-content .elements h2 {
+    width: 90%;
+    font-size: 2.4rem;
+    color: #1a3066;
+    font-family: 'Nunito', sans-serif;
+    margin:40px 0 15px;
+}
+.main-content .elements p {
+    width: 87%;
+    font-size: 1.2rem;
+    line-height: 26px;
+    font-family: 'Nunito', sans-serif;
+    margin:5px 0;
+    color: rgb(60, 59, 65);
+}
+.main-content .elements h3 {
+    width: 90%;
+    font-size: 1.8rem;
+    color: #1a3066;
+    font-family: 'Nunito', sans-serif;
+    margin:40px 0 0px;
+
+}
+.main-content .elements ul {
+    width: 87%;
+}
+.main-content .elements ul li {
+    list-style-type: square;
+    font-size: 1.2rem;
+    line-height: 23px;
+    font-family: 'Nunito', sans-serif;
+    margin:20px 0;
+    color: rgb(60, 59, 65);
+}
+
+
+.main-content hr {
+    border:1px solid rgb(211, 211, 211);
+}
+
+
+.main-content .side {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.main-content .side h4 {
+    font-size: 1.7rem;
+    font-family: 'Nunito', sans-serif;
+    color:#1a3066;
+    margin:70px 0 0px;
+}
+.main-content .side .metiers {
+    width: 70%;
+    margin:0 auto;
+    margin-left: 20px;
+}
+.main-content .side  ul {
+    width: 100%;
+    padding:0;
+}
+.main-content .side ul li {
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+.main-content .side ul li::after {
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background:linear-gradient(to right, rgb(35 65 36), rgb(113 176 81));
+    position:absolute;
+    bottom: 0%;
+    left: -100%;
+    transition: left 400ms linear;
+}
+.main-content .side ul .syndic-active::after {
+    width: 25%;
+    left: 0%;
+}
+.main-content .side ul .conciergerie-active::after {
+    width: 45%;
+    left: 0%;
+}
+.main-content .side ul .gestion-active::after {
+    width: 58%;
+    left: 0%;
+}
+.main-content .side ul .facility-active::after {
+    width: 70%;
+    left: 0%;
+}
+.main-content .side ul li:hover:after {
+    left: 0%;
+
+}
+.main-content .side ul li a {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding:20px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(202, 202, 202);
+}
+.main-content .side ul li a:hover {
+    text-decoration: none;
+}
+
+
+.main-content .contact {
+    width: 70%;
+    margin:0 auto;
+    margin-left: 20px;
+}
+.main-content .contact .touch-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .contact .touch-container div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10px 0;
+}
+.main-content .contact .touch-container div i {
+    font-size: 1.5rem;
+    color:#1a3066;
+    margin:0 10px;
+}
+.main-content .contact .touch-container div div {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main-content .contact .touch-container div div h6 {
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(45, 44, 48);
+    margin:10px 0;
+}
+
+
+
+
+
+
+.acc-container {
+    padding: 1.5rem 2rem;
+}
+.acc-btn {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: rgb(39, 39, 39);
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+.acc-btn:after {
+    content: "\27A4";
+    color: #1a3066;
+    float: right;
+    transition: all 0.3s linear;
+}
+.acc-btn.is-open:after {
+    transform: rotate(90deg);
+}
+.acc-btn:hover, .acc-btn.is-open {
+    background-color: rgb(240, 240, 240);
+}
+
+.acc-content {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}
+.acc-content ul li {
+    list-style-type: disc !important;
+    font-size: 1rem !important;
+    line-height: 19px !important;
+    font-family: 'Nunito', sans-serif;
+    margin:10px 0 !important;
+}
