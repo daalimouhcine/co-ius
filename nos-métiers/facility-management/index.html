@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CO-IUS</title>
+    <title>CO-IUS - FACILITY MANAGEMENT</title>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -18,10 +18,13 @@
     <link rel="shortcut icon" href="../../images/logo-icon.jpg">
 
     <link rel="stylesheet" href="../../CSS/navigation.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/content.css">
+    <link rel="stylesheet" href="CSS/question-contact.css">
     <link rel="stylesheet" href="../../CSS/footer.css">
     <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
@@ -76,10 +79,10 @@
                             <li class="topmenu active-menu">
                                 <a href="#" title="################# | ##############" class="toplink a">Nos Métiers <i class="fas fa-sort-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="../syndic/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">SYNDIC</a></li> <hr>
+                                    <li class="sub-menu-tactive"><a href="../syndic/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">SYNDIC</a></li> <hr>
                                     <li><a href="../conciergerie/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">CONCIERGERIE</a></li> <hr>
                                     <li><a href="../gestion-locative/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left;width: 100%;">GESTION LOCATIVE</a></li> <hr>
-                                    <li class="sub-menu-tactive"><a href="../facility-management/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">FACILITY MANAGEMENT</a></li>
+                                    <li><a href="../facility-management/" style="color:white;margin:5px 0;font-size:1rem;font-family:sans-serif;text-align: left; width: 100%;">FACILITY MANAGEMENT</a></li>
                                 </ul>
                             </li>
                             <li class="topmenu">
@@ -118,6 +121,141 @@
         </script>
 
 
+<header id="header-nous">
+    <h1>FACILITY MANAGEMENT</h1>
+    <p><a href="../../">Accueil </a> / FACILITY MANAGEMENT...</p>
+</header>
+
+
+<section class="main-content">
+    <div class="elements">
+        <img src="images/pm_hero.svg" alt="">
+        <p>CO-IUS vous propose une offre sur-mesure de solutions de Facility Management alliant qualité, flexibilité et gestion optimale des coûts.</p>
+        <h3>NOS PRESTATIONS DE FACILITY MANAGEMENT</h3>
+        <ul>
+            <li>Accueil</li>
+            <li>Gardiennage</li>
+            <li>Nettoyage</li>
+            <li>Conciergerie</li>
+            <li>Entretien d’espaces verts</li>
+            <li>Entretien des piscines</li>
+            <li>Maintenance des installations et équipements techniques</li>
+            <li>Traitement 3D : Dératisation, désinsectisation, Désinfection</li>
+            <li>Electricité</li>
+            <li>Portes/ Barrières automatiques</li>
+            <li>Détection incendie</li>
+            <li>Climatisation/Ventilation</li>
+            <li>Plomberie</li>
+            <li>logistique, achat, coursier, chauffeur, etc…</li>
+        </ul>
+        <p>Choisir de confier ces prestations à CO-IUS vous permet de vous concentrer sur votre cœur de métier : la gestion de votre parc immobilier et la performance de vos collaborateurs.</p>
+        
+        <h3>NOS POINTS FORTS</h3>
+        <ul>
+            <li>Une démarche qualité qui a pour unique objectif la satisfaction du client, tout en conservant un excellent rapport qualité/prix.</li>
+            <li>Une maîtrise constante de vos coûts et une recherche d’optimisation de vos charges.</li>
+            <li>Un partenariat dans la durée par le suivi et le perfectionnement de nos prestations.</li>
+            <li>Une contribution directe à la performance environnementale de vos sites.</li>
+            <p>Notre seul objectif est de vous offrir des services de haute qualité et à forte valeur ajoutée.</p>
+        </ul>
+
+        </div>
+        
+        <script>
+            const btns = document.querySelectorAll(".acc-btn");
+
+                // fn
+                function accordion() {
+                // this = the btn | icon & bg changed
+                this.classList.toggle("is-open");
+
+                // the acc-content
+                const content = this.nextElementSibling;
+
+                // IF open, close | else open
+                if (content.style.maxHeight) content.style.maxHeight = null;
+                else content.style.maxHeight = content.scrollHeight + "px";
+                }
+
+                // event
+                btns.forEach((el) => el.addEventListener("click", accordion));
+
+                /*
+                
+                    Jokes are from > 
+                        https://chartcons.com/100-funny-trick-questions-answers/
+                        Background image from > 
+                        https://www.magicpattern.design/tools/css-backgrounds
+                
+                */
+
+        </script>
+    </div>
+
+    <hr>
+
+    <div class="side">
+        <div class="metiers">
+            <h4>NOS MÉTIERS</h4>
+            <ul>
+                <li><a href="#">SYNDIC</a></li>
+                <li><a href="##">CONCIERGERIE</a></li>
+                <li><a href="###">GESTION LOCATIVE</a></li>
+                <li class="facility-active"><a href="####">FACILITY MANAGEMENT</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h4>NOS CONTACTS</h4>
+            <div class="touch-container">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h6>Numéro de téléphone</h6>
+                        <a href="tel:+212634175255">06.70.68.52.59</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <div>
+                        <h6>E-mail</h6>
+                        <a href="mailto:the.daali.mouhcine@gmail.com">the.mouhicne@gmail.com</a>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h6>Carte Rue</h6>
+                        <a href="https://www.google.com/maps/place/33%C2%B057'32.9%22N+6%C2%B051'52.1%22W/@33.9591477,-6.8666689,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.9591477!4d-6.8644802?hl=en" target="_blank">Rue Annajd Villa n°6, Rabat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="quistion-contact">
+    <h3>UNE QUESTION? CONTACTEZ-NOUS</h3>
+    <div class="contacte-element">
+        <div class="contacte-input">
+            <form action="mailto:the.daali.mouhcine@gmail.com">
+                <div>
+                    <input type="text" name="first-name" id="first-name" placeholder="Nome*" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Prénom*" required>
+                </div>
+                <div>
+                    <input type="text" id="phone" placeholder="Téléphone">
+                    <input type="email" name="email" id="email" placeholder="Email*" required>
+                </div>
+                <div>
+                    <input type="text" name="ville" id="ville" placeholder="Ville">
+                    <input type="text" name="postale" id="postale" placeholder="Code Postale">
+                </div>
+                <textarea name="message" id="message" placeholder="Message*" required></textarea>
+                <input type="submit" value="ENVOYER">
+            </form>
+        </div>
+    </div>
+</section>
 
 
 <footer id="footer">
@@ -214,7 +352,7 @@
             });
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="JS/up.js"></script>
+<script src="../../JS/up.js"></script>
 <script>
     $("#btn_mobile").click(function(){
         $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
