@@ -160,16 +160,16 @@
         margin:0 6px;
     }
     .contacte-nous .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
         height: 70px;
         width: 54% !important;
     }
-    .contacte-nous .contacte-element .contacte-input form input[type="submit"] {
+    .quistion-contact  .contacte-element .contacte-input form input[type="submit"] {
         font-size: 0.9rem;
-        padding:8px 0px;
+        padding:8px 7px;
+        margin:5px 0;
     }
 }
 
@@ -200,7 +200,6 @@
     }
 
     .contacte-nous .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
@@ -243,7 +242,6 @@
     }
 
     .contacte-nous .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
@@ -287,7 +285,7 @@
     }
 
     .contacte-nous .contacte-element .contacte-input form textarea {
-        font-size: 9rem;
+        font-size: 1rem;
         padding:3px 5px;
         font-family: 'Nunito', sans-serif;    
         margin:6px;
@@ -342,7 +340,7 @@
     }
 
     .contacte-nous .contacte-element .contacte-input form textarea {
-        font-size: 9rem;
+        font-size: 0.9rem;
         padding:3px 5px;
         font-family: 'Nunito', sans-serif;    
         margin:6px;
