@@ -23,7 +23,7 @@
     background-image: radial-gradient(ellipse farthest-side at 100% 1%, #f1f1f13b 20%, #3131314d 50%, #00000086 100%);
 }
 #header-nous h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     margin:auto;
     color: #f5f5f5;
@@ -74,7 +74,7 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
 }
 
@@ -84,7 +84,7 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 }
 @media (max-width:490px) {
@@ -93,7 +93,7 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     #header-nous p {
         font-size: 0.9rem;
@@ -106,7 +106,7 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     #header-nous p {
         position: absolute;
@@ -121,7 +121,7 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     #header-nous p {
         font-size: 0.8rem;
@@ -133,6 +133,6 @@
         margin-top: 150px;
     }
     #header-nous h1 {
-        font-size: 7vw;
+        font-size: 8.5vw;
     }
 }
