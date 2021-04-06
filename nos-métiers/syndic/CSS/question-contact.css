@@ -13,9 +13,10 @@
     margin-bottom: 70px;
 }
 .quistion-contact h3 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-family: 'Nunito', sans-serif;
-    padding:0 70px;
+    width: 90%;
+    text-align: center;
     color:#203774;
 }
 .quistion-contact hr {
@@ -89,87 +90,96 @@
     }
 }
 @media (max-width:1000px) {
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 200px;
         font-size: 1rem;
         font-family: 'Nunito', sans-serif;    
         padding:9px;
         margin:0 8px;
     }
-    .quistion-contact .contacte-element .contacte-input form textarea {
+    .quistion-contact  .contacte-element .contacte-input form textarea {
         font-size: 1.05rem;
         padding:7px;
         font-family: 'Nunito', sans-serif;    
         margin:10px 10px;
         height: 100px;
-        width: 52% !important;
+        width: 62% !important;
     }
-    .quistion-contact .contacte-element .contacte-input form input[type="submit"] {
+    .quistion-contact  .contacte-element .contacte-input form input[type="submit"] {
         padding:9px;
     }
 }
 
 @media (max-width:890px) {
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 170px;
         font-size: 1rem;
         font-family: 'Nunito', sans-serif;    
         padding:5px 7px;
         margin:0 8px;
     }
-    .quistion-contact .contacte-element .contacte-input form textarea {
+    .quistion-contact  .contacte-element .contacte-input form textarea {
         font-size: 1.05rem;
         padding:5px 7px;
         font-family: 'Nunito', sans-serif;    
         margin:10px 10px;
         height: 80px;
-        width: 48% !important;
+        width: 58% !important;
     }
-    .quistion-contact h2 {
-        font-size: 2.5rem;
+    .quistion-contact  h3 {
+        font-size: 1.9rem;
+        width: 90%;
+        text-align: center;
     }
 }
 @media (max-width:800px) {
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 150px;
         font-size: 0.9rem;
         font-family: 'Nunito', sans-serif;    
         padding:4px 6px;
         margin:0 6px;
     }
-    .quistion-contact .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
+    .quistion-contact  .contacte-element .contacte-input form textarea {
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
         height: 70px;
-        width: 44% !important;
+        width: 54% !important;
     }
-    .quistion-contact .contacte-element .contacte-input form input[type="submit"] {
+    .quistion-contact  .contacte-element .contacte-input form input[type="submit"] {
         font-size: 0.9rem;
-        padding:8px 0px;
+        padding:8px 7px;
+        margin:5px 0;
     }
 }
 
 @media (max-width:760px) {
-    .quistion-contact .contacte-element {
+    .quistion-contact  .contacte-element {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         margin:0 70px;
     }
-    .quistion-contact .contacte-element .contacte-input {
+    .quistion-contact  .contacte-element .contacte-input {
         margin-left: 0;
         align-items: center;
+        align-content: center;
+        width: 100%;
     }
-    .quistion-contact .contacte-element .contacte-input form div {
+    .quistion-contact  .contacte-element .contacte-input form {
+        width: fit-content;
+        margin:0 auto;
+        align-self: center;
+    }
+    .quistion-contact  .contacte-element .contacte-input form div {
         margin:10px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 40%;
         font-size: 1.05rem;
         font-family: 'Nunito', sans-serif;    
@@ -178,41 +188,38 @@
     }
 
     .quistion-contact .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
         height: 70px;
-        width: 52% !important;
+        width: 62% !important;
     }
 }
 
 @media (max-width:760px) {
-    .quistion-contact .contacte-element .media {
+    .quistion-contact  .contacte-element .media {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: -40px;
     }
 
-
-    .quistion-contact .contacte-element {
+    .quistion-contact  .contacte-element {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         margin:0 70px;
     }
-    .quistion-contact .contacte-element .contacte-input {
-        margin-left: -5vmax;
+    .quistion-contact  .contacte-element .contacte-input {
         align-items: center;
     }
-    .quistion-contact .contacte-element .contacte-input form div {
+    .quistion-contact  .contacte-element .contacte-input form div {
         margin:10px;
         display: flex;
         flex-direction: row;
     }
 
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 40%;
         font-size: 1.05rem;
         font-family: 'Nunito', sans-serif;    
@@ -220,43 +227,41 @@
         margin:10px 10px;
     }
 
-    .quistion-contact .contacte-element .contacte-input form textarea {
-        font-size: 9.5rem;
+    .quistion-contact  .contacte-element .contacte-input form textarea {
         padding:4px 6px;
         font-family: 'Nunito', sans-serif;    
         margin:8px 8px;
         height: 70px;
-        width: 52% !important;
+        width: 62% !important;
     }
 }
 
 @media (max-width:530px) {
-    .quistion-contact .contacte-element .media {
+    .quistion-contact  .contacte-element .media {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: -40px;
     }
 
-    .quistion-contact h2 {
-        font-size: 2rem;
+    .quistion-contact  h3 {
+        font-size: 1.5rem;
     }
-    .quistion-contact .contacte-element {
+    .quistion-contact  .contacte-element {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         margin:0 70px;
     }
-    .quistion-contact .contacte-element .contacte-input {
-        margin-left: -6vmax;
+    .quistion-contact  .contacte-element .contacte-input {
         align-items: center;
     }
-    .quistion-contact .contacte-element .contacte-input form div {
+    .quistion-contact  .contacte-element .contacte-input form div {
         margin:5px;
         align-items: center;
     }
 
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 30%;
         font-size: 0.8rem;
         font-family: 'Nunito', sans-serif;    
@@ -264,54 +269,53 @@
         margin:8px;
     }
 
-    .quistion-contact .contacte-element .contacte-input form textarea {
-        font-size: 9rem;
+    .quistion-contact  .contacte-element .contacte-input form textarea {
+        font-size: 1rem;
         padding:3px 5px;
         font-family: 'Nunito', sans-serif;    
         margin:6px;
         height: 50px;
-        width: 35% !important;
+        width: 45% !important;
     }
 }
 
 @media (max-width:380px) {
-    .quistion-contact .contacte-element .media {
+    .quistion-contact  .contacte-element .media {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: -20px;
     }
-    .quistion-contact .contacte-element .media h3 {
-        font-size: 1.2rem;
+    .quistion-contact  .contacte-element .media h3 {
+        font-size: 1.1rem;
     }
-    .quistion-contact .contacte-element .media b {
+    .quistion-contact  .contacte-element .media b {
         font-size: 0.78rem;
         margin:2.2px 0;
     }
-    .quistion-contact .contacte-element .media a {
+    .quistion-contact  .contacte-element .media a {
         margin:3px 0;
         font-size: 0.78rem;
 
     }
-    .quistion-contact h2 {
-        font-size: 1.5rem;
+    .quistion-contact  h3 {
+        font-size: 1.2rem;
     }
-    .quistion-contact .contacte-element {
+    .quistion-contact  .contacte-element {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         margin:0 50px;
     }
-    .quistion-contact .contacte-element .contacte-input {
-        margin-left: -6vmax;
+    .quistion-contact  .contacte-element .contacte-input {
         align-items: center;
     }
-    .quistion-contact .contacte-element .contacte-input form div {
+    .quistion-contact  .contacte-element .contacte-input form div {
         margin:5px;
         align-items: center;
     }
 
-    .quistion-contact .contacte-element .contacte-input form div input {
+    .quistion-contact  .contacte-element .contacte-input form div input {
         width: 30%;
         font-size: 0.8rem;
         font-family: 'Nunito', sans-serif;    
@@ -319,12 +323,12 @@
         margin:8px;
     }
 
-    .quistion-contact .contacte-element .contacte-input form textarea {
-        font-size: 9rem;
+    .quistion-contact  .contacte-element .contacte-input form textarea {
+        font-size: 0.9rem;
         padding:3px 5px;
         font-family: 'Nunito', sans-serif;    
         margin:6px;
         height: 50px;
-        width: 35% !important;
+        width: 45% !important;
     }
 }

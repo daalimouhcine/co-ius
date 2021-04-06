@@ -38,7 +38,6 @@
     color: #1a3066;
     font-family: 'Nunito', sans-serif;
     margin:40px 0 0px;
-
 }
 .main-content .elements ul {
     width: 87%;
@@ -70,11 +69,11 @@
     font-size: 1.7rem;
     font-family: 'Nunito', sans-serif;
     color:#1a3066;
-    margin:70px 0 0px;
+    margin:0px 0 0px;
 }
 .main-content .side .metiers {
     width: 70%;
-    margin:0 auto;
+    margin:0 auto 70px;
     margin-left: 20px;
 }
 .main-content .side  ul {
@@ -177,7 +176,7 @@
 }
 .acc-btn {
     width: 100%;
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 1rem;
     font-size: 1.1rem;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -195,6 +194,7 @@
     color: #1a3066;
     float: right;
     transition: all 0.3s linear;
+    margin:0 0 0 10px;
 }
 .acc-btn.is-open:after {
     transform: rotate(90deg);
@@ -219,4 +219,223 @@
     line-height: 19px !important;
     font-family: 'Nunito', sans-serif;
     margin:10px 0 !important;
+}
+
+
+
+
+@media (max-width:1100px) {
+    .main-content .elements h2 {
+        width: 90%;
+        font-size: 2.3rem;
+        margin:40px 0 10px;
+    }
+    .main-content .side {
+        width: 31%;
+    }
+    .main-content .side h4 {
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .main-content .elements {
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0 30px;
+    }
+    .main-content .elements h2 {
+        width: 100%;
+        font-size: 2.1rem;
+        margin:50px 0 10px;
+    }
+    .main-content .elements h3 {
+        width: 90%;
+        font-size: 1.6rem;
+    }
+    .main-content .elements p {
+        width: 100%;
+        font-size: 1.15rem;
+        line-height: 25px;
+        font-family: 'Nunito', sans-serif;
+        margin:5px 0;
+        color: rgb(60, 59, 65);
+    }
+    .main-content .elements ul li {
+        list-style-type: square;
+        font-size: 1.15rem;
+        line-height: 23px;
+        font-family: 'Nunito', sans-serif;
+        margin:15px 0;
+        color: rgb(60, 59, 65);
+    }
+
+
+    .main-content hr {
+        display: none;
+    }
+
+    .main-content .side {
+        width: 32%;
+    }
+    .main-content .side h4 {
+        font-size: 1.55rem;
+    }
+
+    .acc-content {
+        max-height: 0;
+        color: rgba(0,0,0,0.75);
+        font-size: 1.4rem;
+        margin: 0 2rem;
+        padding-left: 1rem;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        border-bottom: 1px solid #ccc;
+    }
+}
+@media (max-width:880px) {
+    .main-content .side h4 {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width:768px) {
+    .main-content {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main-content .elements {
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0 30px;
+    }
+    .main-content .elements h2 {
+        width: 100%;
+        font-size: 2rem;
+        margin:50px 0 10px;
+    }
+    .main-content .elements h3 {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+
+    
+.main-content .side {
+    width: 50%;
+    margin-top: 70px;
+}
+.main-content .side h4 {
+    font-size: 1.45rem;
+}
+.main-content .side ul li {
+    width: 150%;
+}
+.main-content .side ul li a {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding:20px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(202, 202, 202);
+}
+
+
+.acc-content {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}
+
+}
+@media (max-width:580px) {
+    .main-content .elements {
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0 30px;
+    }
+    .main-content .elements h2 {
+        width: 100%;
+        font-size: 1.9rem;
+        margin:50px 0 10px;
+    }
+    .main-content .elements h3 {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+    .main-content .side {
+        width: 70%;
+        margin-top: 60px;
+    }
+    .main-content .side ul li {
+        width: 120%;
+    }
+    .main-content .side ul li a {
+        font-size: 1rem;
+    }
+}
+@media (max-width:400px) {
+    .main-content .side {
+        width: 80%;
+        margin-top: 60px;
+    }
+    .main-content .side ul li {
+        width: 120%;
+    }
+    .main-content .side h4 {
+        font-size: 1.3rem;
+    }
+    .acc-content {
+        max-height: 0;
+        color: rgba(0,0,0,0.75);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+@media (max-width:330px) {
+    .main-content .elements h2 {
+        width: 100%;
+        font-size: 1.7rem;
+        margin:50px 0 10px;
+    }
+    .main-content .elements h3 {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+
+    .main-content .elements p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .main-content .side h4 {
+        font-size: 1.2rem;
+    }
+    .main-content .side ul li a {
+        font-size: 0.9rem;
+    }
+    .acc-content {
+        max-height: 0;
+        color: rgba(0,0,0,0.75);
+        font-size: 1.2rem;
+    }
 }
