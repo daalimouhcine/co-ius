@@ -4,6 +4,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 .engagement h3 {
     color:#414446 ;
@@ -15,16 +16,42 @@
     height: fit-content;
     display:flex;
     flex-direction: row;
-    margin:20px 10px;
+    justify-content: center;
+    margin:50px auto 0;
+}
+.engagement  .en-left {
+    transform: translate(-10%,0%);
+}
+.engagement  .en-right {
+    transform: translate(10%,0%);
 }
 .engagement div div {
-    width: 45%;
-    height: 300px;
+    width: 35%;
+    height: 250px;
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    background: cornflowerblue;
+    background: rgb(182, 199, 230);
+    padding:0 10px 0 30px;
+    margin:30px 50px;
+    border-radius: 5px;
 }
 .engagement div div img {
-    transform: translate(20%,-50%);
+    width: 35%;
+    transform: translate(0%,-70%);
+    border-radius: 100px;
+}
+.engagement div div h4 {
+    font-size:1.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #203774;
+    margin:-70px 0 0 0;
+    text-align: left;
+}
+.engagement div div p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(60, 59, 65);
+    text-align: left;
 }
