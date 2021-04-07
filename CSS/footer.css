@@ -10,7 +10,7 @@ li {
     display:flex;
     flex-direction:row;
     background-color:#203774;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     justify-content: center;
     position:relative;
 }
@@ -18,7 +18,8 @@ li {
     width:400px;
     display: flex;
     flex-direction: column;
-    padding:30px 50px;
+    padding:50px 30px 30px 50px;
+    background: #142450;
 }
 #footer .title h4 {
     font-size:3rem;
@@ -78,12 +79,13 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     overflow-x: hidden;
 }
 #footer .about {
-    width: 290px;
-    height: fit-content;
-    padding:50px 10px 20px 50px;
+    width: 270px;
+    height:250px;
+    padding:0px 5px 10px 20px;
 }
 #footer .about h4 {
     font-size:2rem;
@@ -115,8 +117,8 @@ li {
 
 #footer .service {
     width: 250px;
-    height: fit-content;
-    padding:50px 10px 20px 50px;
+    height:250px;
+    padding:0px 5px 20px 20px;
 }
 #footer .service h4 {
     font-size:2rem;
@@ -147,12 +149,12 @@ li {
 }
 
 #footer .other {
-    width: 250px;
-    height: fit-content;
-    padding:50px 10px 20px 50px;
+    width: 200px;
+    height:250px;
+    padding:0px 10px 20px 20px;
 }
 #footer .other h4 {
-    font-size:2rem;
+    font-size:1.9rem;
     font-weight:400;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.6mm;

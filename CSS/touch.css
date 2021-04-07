@@ -8,10 +8,10 @@
     margin-bottom: 120px;
 }
 .touch h3 {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     font-family: 'Nunito', sans-serif;
     margin: 20px 10px 0px;
-    color: #203774;
+    color: #414446 ;
 }
 .touch .hr {
     display: block;
@@ -30,7 +30,7 @@
     display: block;
     width: 180px;
     height: 2px;
-    background-color: #203774;
+    background-color: #414446 ;
     position: absolute;
     top:50%;
     transform: translate(0%,-50%);
@@ -40,7 +40,7 @@
     content:" ";
     width: 180px;
     height: 2px;
-    background-color: #203774;
+    background-color: #414446 ;
     position:absolute;
     top:50%;
     right:-2000% ;

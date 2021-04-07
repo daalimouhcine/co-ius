@@ -17,9 +17,9 @@
     width: 100%;
 }
 .services .services-parti-1 h2 {
-    color: #203774;
+    color: #414446 ;
     margin-top:-10px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-family: 'Nunito', sans-serif;
 }
 .services .services-parti-1 .hr {
@@ -39,7 +39,7 @@
     display: block;
     width: 180px;
     height: 2px;
-    background-color: #203774;
+    background-color: #414446 ;
     position: absolute;
     top:50%;
     transform: translate(0%,-50%);
@@ -49,7 +49,7 @@
     content:" ";
     width: 180px;
     height: 2px;
-    background-color: #203774;
+    background-color: #414446 ;
     position:absolute;
     top:50%;
     right:-2000% ;
@@ -658,8 +658,8 @@ margin-right: -1px;
     text-align: left;
 }
 .services-style1-area .sec-title h3 {
-    color: #203774;
-    font-size: 2rem;
+    color:#414446 ;
+    font-size: 2.2rem;
     font-family: 'Nunito', sans-serif;
 }
 
