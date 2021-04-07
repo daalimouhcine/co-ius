@@ -49,8 +49,14 @@
     right: 50px;
     z-index: 2;
     font-size: 1.1rem;
-    font-weight: 500;
-    color: rgb(60, 59, 65);
+    font-weight: 600;
+
+}
+#header-nous p span {
+    color: transparent;
+    background:linear-gradient(to right, rgb(39, 38, 38) 40%, white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 #header-nous p a {
     color: #385292;
