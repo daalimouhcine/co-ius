@@ -10,6 +10,7 @@
     color:#414446 ;
     font-size: 2.2rem;
     font-family: 'Nunito', sans-serif;
+    width: 80%;
 }
 .engagement div {
     width: 80%;
@@ -26,7 +27,7 @@
     transform: translate(10%,0%);
 }
 .engagement div div {
-    width: 35%;
+    width: 38%;
     height: 250px;
     display:flex;
     flex-direction: column;
@@ -46,10 +47,12 @@
     border-radius: 100px;
     animation: ani 2.5s infinite linear alternate 1s;
 }
+
 .engagement div div .l-1 {animation: ani 2.5s infinite linear alternate 1s;}
 .engagement div div .l-2 {animation: ani 2.5s infinite linear alternate 0.1s;}
 .engagement div div .r-1 {animation: ani 2.5s infinite linear alternate 1.2s;}
 .engagement div div .r-2 {animation: ani 2.5s infinite linear alternate 0.3s;}
+
 .engagement div div h4 {
     font-size:1.5rem;
     font-family: 'Nunito', sans-serif;
@@ -71,4 +74,99 @@
     50% {transform: translate(8%,-70%);}
     75% {transform: translate(4%,-70%);}
     100% {transform: translate(0%,-70%);}
+}
+
+
+
+@media (max-width:1100px) {
+    .engagement div div {
+        width: 40%;
+        height: 250px;
+        padding:0 10px 0 30px;
+        margin:30px 30px;
+    }
+}
+@media (max-width:1000px) {
+    .engagement h3 {
+        font-size: 2.1rem;
+        margin-bottom: 70px;
+    }
+    .engagement div {
+        width: 80%;
+        height: fit-content;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0px auto 0;
+    }
+    .engagement  .en-left {
+        transform: translate(0%,0%);
+    }
+    .engagement  .en-right {
+        transform: translate(0%,0%);
+    }
+    .engagement div div {
+        width: 400px;
+        height: 260px;
+        padding:0 10px 0 30px;
+        margin:50px 30px;
+    }
+}
+@media (max-width:580px) {
+    .engagement h3 {
+        font-size: 1.9rem;
+        margin-bottom: 60px;
+    }
+    .engagement div div {
+        width: 350px;
+        height: 270px;
+        padding:0 10px 0 20px;
+    }
+    .engagement div div h4 {
+        font-size:1.35rem;
+        margin:-60px 0 0 0;
+    }
+    .engagement div div p {
+        font-size: 1.05rem;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(60, 59, 65);
+        text-align: left;
+    }
+}
+@media (max-width:460px) {
+    .engagement h3 {
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+    .engagement div div {
+        width: 310px;
+        height: 230px;
+    }
+    .engagement div div h4 {
+        font-size:1.25rem;
+        margin:-60px 0 0 0;
+    }
+    .engagement div div p {
+        font-size: 1rem;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(60, 59, 65);
+        text-align: left;
+    }
+}
+@media (max-width:370px) {
+    .engagement div div {
+        width: 95%;
+        height: fit-content;
+    }
+    .engagement div div h4 {
+        font-size:1.2rem;
+        margin:-50px 0 0 0;
+    }
+    .engagement div div p {
+        font-size: 1rem;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(60, 59, 65);
+        text-align: left;
+    }
 }

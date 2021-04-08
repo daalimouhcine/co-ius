@@ -238,9 +238,7 @@
         cursor: pointer;
     }
 }
-@media (max-width:411px){
-    
-    
+@media (max-width:411px){ 
 .contacte-nous .map-co .lo-map {
     min-width: 110px;
 }
@@ -306,5 +304,12 @@
         color: white;
         transition: background-color 200ms linear;
         cursor: pointer;
+    }
+}
+
+@media (max-width:360px) {
+    .contacte-nous .form-contacte form label {
+        min-width: 90%;
+        box-sizing: border-box;
     }
 }
