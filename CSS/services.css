@@ -450,20 +450,27 @@
     font-size: 0.8vw;
 }
 
+.services .services-parti-2 div{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+
 
 .services .services-parti-2 .content {
-width: 290px;
+width: 90%;
 padding-top:20px;
-margin-right: -230px;
+margin:0 auto;
+align-items: center;
 }
 .services .services-parti-2 .content h3 {
-margin:0px 0 20px 130px;
-font-size: 1.2rem;
-width: 120%;
+margin:0px 0 20px 10px;
+font-size: 1.28rem;
+width: 90%;
 color: #203774;
 }
 .services .services-parti-2 .content p {
-font-size: 0.8rem;
+font-size: 1rem;
 font-family: 'Nunito', sans-serif;
 margin: 5px 0;
 width: 90%;
@@ -475,18 +482,17 @@ padding:0;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-margin: 30px 0;
+margin: 30px auto;
 width:90%;
 }
 .services .services-parti-2 .image {
-width: 100px;
+width: 90%;
 padding:0px 5px 0;
 margin:10px 0 0;
 }
 .services .services-parti-2 .image img {
-width: 55%;
-margin-left: auto;
-margin-right: -10px;
+width: 85%;
+margin:0 auto;
 }
 
 
@@ -531,9 +537,7 @@ margin-right: -10px;
 
 
 .services .services-parti-2 .content {
-width: 250px;
 padding-top:20px;
-margin-right: 0px;
 }
 .services .services-parti-2 .content h3 {
 margin:0px 0 10px 0px;
@@ -542,7 +546,7 @@ width: 90%;
 color: #203774;
 }
 .services .services-parti-2 .content p {
-font-size: 0.7rem;
+font-size: 0.9rem;
 font-family: 'Nunito', sans-serif;
 margin: 5px 0;
 width: 90%;
@@ -555,16 +559,9 @@ justify-content: space-evenly;
 margin: 30px 0;
 width:90%;
 }
-.services .services-parti-2 .image {
-width: 100px;
-padding:0px 5px 0;
-margin:10px 0 0;
-display: none;
-}
+
 .services .services-parti-2 .image img {
-width: 42%;
-margin-left: auto;
-margin-right: -10px;
+
 }
 
 }
