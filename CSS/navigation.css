@@ -191,8 +191,12 @@ img{border:none;}
 .scroll #content #menu {
    top: 0.5%;
 }
+#css3menu {
+   transition: left 700ms linear;
+}
 .scroll #css3menu {
    margin-top: 10px;
+   left:400px
 }
 
 #menu {
@@ -458,6 +462,9 @@ ul#css3menu ul li.root > a:first-letter{
 }
 @media all and (max-width:1275px){
 	.title_spec{ width:auto; margin-left: 0; }
+      .scroll ul#css3menu {
+      left: 350px;
+  }
 }
 @media all and (max-width:1255px){
    #mask_diapo {bottom: 355px;}
@@ -466,6 +473,18 @@ ul#css3menu ul li.root > a:first-letter{
    /* .bloc_article.bloc_art_accueil{width:100%;} */
    #all .article.article_accueil .vignette img{max-width:none;max-height:100%;}
    #metier .flippingcard{margin:25px 10px}
+}
+@media all and (max-width:1230px) {
+
+   .scroll #es-client {
+      padding:0 !important;
+      margin-top: -5px;
+   }
+   .scroll #es-client a {
+      width: min-content;
+      font-size: 0.9rem !important;
+      padding: 0px 2px !important;
+   }
 }
 @media all and (max-width:1205px){
    .bloc_texte_photo{margin: 0 10px;}
@@ -480,6 +499,25 @@ ul#css3menu ul li.root > a:first-letter{
 }
 @media all and (max-width:1190px){
    #mask_diapo {bottom: 380px;}
+   ul#css3menu {
+      left: 400px;
+  }
+
+.scroll ul#css3menu {
+   left: 300px;
+}
+.scroll ul#css3menu .toplink {
+   padding: 5px 18px 16px;
+}
+.scroll #es-client {
+   padding:0 !important;
+   margin-top: -5px;
+}
+.scroll #es-client a {
+   min-width: 80px !important;
+   font-size: 0.9rem !important;
+   padding: 0px 2px !important;
+}
 }
 @media all and (max-width:1185px){
    .txt_metier{width:655px;}
@@ -498,16 +536,23 @@ ul#css3menu ul li.root > a:first-letter{
     #logo{margin-left: 45px;}
     .reference.ref1 {clear: none;}
     ul#css3menu {
-        left: 310px;
+        left: 330px;
     }
 
     
 }
 @media all and (max-width:1100px){
    #mask_diapo {bottom: 400px;}
+   .scroll ul#css3menu .toplink {
+      padding: 5px 17px 16px;
+   }
 }
 @media all and (max-width:1080px){
    #metier .flippingcard {width: 300px;height: 445px;}
+   .scroll #logo{margin-left:0px;width:260px;}
+   .scroll #logo img {width: 130px;}
+   .scroll #css3menu {left:220px !important}
+   .scroll .topmenu a {padding:inherit 1px !important}
 }
 @media all and (max-width:1045px){
 	.hexagone:nth-child(even){margin-top:140px}
@@ -534,11 +579,17 @@ ul#css3menu ul li.root > a:first-letter{
 }
 @media all and (max-width:1005px){
    #metier .flippingcard {margin: 25px 5px;}
+   .scroll ul#css3menu .toplink {
+      padding: 5px 15px 16px;
+   }
 }
 
 @media all and (max-width:990px){
    #diaporama .label_skitter .info_diapo h2 {font-size: 50px;}
    #diaporama .label_skitter .info_diapo .stitre{font-size:30px;}
+   .scroll ul#css3menu .toplink {
+      padding: 5px 12px 16px;
+   }
 }
 @media all and (max-width:972px){
    #metier .flippingcard{display:block;margin:25px auto}
@@ -547,11 +598,23 @@ ul#css3menu ul li.root > a:first-letter{
   #mask_diapo {bottom: 465px;}
   .txt_metier {width: 575px;}
   #bloc_clients {width: 825px;}
+
+  #css3menu #es-client {
+   position: fixed;
+   height: fit-content;
+   top:30%;
+   right:-20%;
+  }
+  .scroll #css3menu #es-client {
+     right: 0%;
+   }
+  .scroll ul#css3menu .toplink {
+   padding: 5px 20px 16px;
+}
 }
 @media all and (max-width:915px){
    #all #menu ul#css3menu a{font-size: 13px;}
    #all.scroll #menu ul#css3menu li a.toplink {padding-top: 5px;}
-   #all #menu ul#css3menu>li, #all ul#css3menu li {margin-right: 10px;}
    #all #menu ul#css3menu li a.toplink {min-width: 75px;}
    #all #menu ul#css3menu li a.link_4 .img {background-size:contain;margin-left:0px;width:100px;}
    #all #menu ul#css3menu li a.link_3 .img {background-size:contain;margin-left:0px;width:100px;}
@@ -563,7 +626,9 @@ ul#css3menu ul li.root > a:first-letter{
       font-size: 0.8rem !important;
 
    }
-
+   ul#css3menu {
+      left: 310px;
+  }
    ul#css3menu .toproot,ul#css3menu .topmenu {
     margin-top: -8px;
     top:4px;
@@ -591,7 +656,7 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
 @media all and (max-width:810px){
    #all #menu{top:125px;}
    #logo{background:none;margin: auto;width:100%;transition:top 300ms linear}
-   #side{top:87px;right:50%;transform:translate(50%,0);transition:top 500ms linear}
+   #side{top:87px;right:50%;transform:translate(50%,0);transition:top 500ms linear; width: fit-content;margin-right:0;}
    #fond-head{z-index:0;height: 125px;position:absolute}
    #header{height:129px;width:100%;background: white;z-index:1000;transition:top 600ms linear}
    .mask{margin-top:174px;}
@@ -599,11 +664,20 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
    .scroll #menu {margin-top: -5px;}
    .scroll #logo {top:-102%;}
    .scroll #header {top:-102%;}
+   .scroll ul#css3menu {left:0 !important}
+   ul#css3menu .topmenu { margin:-7px 0px 0 !important  } 
+   ul#css3menu .toplink {padding: 20px 12px 10px;}  
+   #es-client {margin:0 !important}
    ul#css3menu .toproot, ul#css3menu .topmenu{float:none;display:inline-block;}
    #logo img{margin-left:0;width:150px;margin:0 auto}
    #logo{text-align:center;}
 }
 
+@media (max-width:630px) {
+   .scroll ul#css3menu .toplink {
+      padding: 20px 8px 10px;
+   } 
+}
 
 
 @media all and (max-width:600px){
@@ -665,12 +739,32 @@ ul#css3menu .toproot:hover,ul#css3menu .topmenu:hover{
       transition: 600ms linear;
    }
    .scroll #content {
-      top: -10.7%;
+      top: -9.5%;
    }
    #fond-head {
       background-color: transparent;
       margin:0;
    }
+
+   
+   #css3menu #es-client {
+   position: static;
+   height: fit-content;
+   width: 200px !important;
+   margin:10px auto !important;
+   background-color: #3dc92b !important;
+   }
+   #css3menu #es-client a {
+      width: 100% ;
+      font-size: 1.1rem !important;
+   }
+   .scroll #css3menu #es-client {
+      right: 0%;
+   }
+   .scroll ul#css3menu .toplink {
+   padding: 5px 20px 16px;
+}
+
    
    #all #menu ul#css3menu .sousmenu li a{background:#999;}
 
@@ -715,9 +809,15 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
 }
 
 
-@media all and (max-width:315px){
+@media all and (max-width:318px){
    .bloc_texte_photo{width:85%;}
    #logo{width:100%;}
+   #all #menu {
+      top:10px;
+   }
+   .scroll #side {
+      top:-10%;
+   }
 }
 @media all and (max-width:280px){
    .sub-menu {
@@ -726,7 +826,52 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
 }
 
 
+#client {
+   background-color: #3dc92b;
+   border-radius: 4px !important;
+   width: fit-content;
+   display: inline-block;
+   transition: background 200ms linear;
+   margin: -7px 0 0 0 !important;
+}
+#client a {
+   display: block;
+   font-size: 1rem !important;
+   font-family: 'Nunito', sans-serif;
+   color:white;
+   padding: 8px 7px !important;
+   margin: 0 !important;
+   text-transform: uppercase;
+}
+#client:hover {
+   background-color: #2bac1a;
+}
+#client:hover a {
+   text-decoration: none;
+}
 
+#es-client {
+   display: none !important;
+   background-color: #3dc92b;
+   border-radius: 4px !important;
+   width: fit-content;
+   transition: 250ms linear;
+   opacity: 0 !important;
+}
+.scroll #css3menu #es-client {
+   display: block !important;
+   opacity: 1 !important;
+}
+#es-client a {
+   font-size: 1rem !important;
+   font-family: 'Nunito', sans-serif;
+   color:white;
+   padding: 5px 7px !important;
+   text-transform: uppercase;
+}
+#es-client:hover {
+   background-color: #2bac1a;
+}
 
 
 

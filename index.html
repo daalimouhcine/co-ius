@@ -51,6 +51,10 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="" id="client">
+                    <a href="#">espace client</a>
+                </div>
             </div>
         
             <div id="header">
@@ -97,9 +101,13 @@
                                         const a = document.querySelectorAll(".sub-menu");
                                         a.style.cssText = 'visibility: hidden;opacity: 0;'
                                     }
-                                </script>                            </li>
+                                </script>                            
+                            </li>
                             <li class="topmenu">
                                 <a href="contactez-nous/" title="################# | ##############" class="toplink a">Contacte-Nous</a>
+                            </li>
+                            <li class="topmenu client" id="es-client">
+                                <a href="#" class="toplink">ESPACE CLIENT</a>
                             </li>
                         </ul>
                     </div>
@@ -111,8 +119,11 @@
             window.addEventListener("scroll",function() {
                 var nav = document.querySelector("#header");
                 var fond = document.querySelector("#allbg");
+                var client = document.querySelector("#es-clinet");
+                var css = document.querySelector("#css3menu")
                 nav.classList.toggle("scroll", window.scrollY > 150);
                 fond.classList.toggle("scroll", window.scrollY > 150);
+
             })
         </script>
             <!-- Slider main container -->
@@ -246,7 +257,7 @@
                 <h4>Des moments de vie, des envies</h4>
                 <p>Des solutions d’accompagnement sur-mesure pour vous tenir informés sur la gestion de votre immeuble, avec des visites régulières</p>
             </div>
-            <div class="rr-2">
+            <div class="rr-1">
                 <img class="r-2" src="images/mesure.png" alt="">
                 <h4>Du sur-mesure, bien sûr !</h4>
                 <p>Un conseiller unique et dédié qui vous accompagne dans la préservation de votre immeuble et vos projets de rénovation énergétique</p>
