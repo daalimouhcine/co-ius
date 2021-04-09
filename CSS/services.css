@@ -348,6 +348,9 @@
         padding-top:20px;
         margin-right: -90px;
     }
+    .services .services-parti-2 .sp div div p {
+        margin:0;   
+    }
 }
 @media (max-width:600px) {
     .services .services-parti-2 .sp div h3 {
@@ -561,7 +564,7 @@ width:90%;
 }
 
 .services .services-parti-2 .image img {
-
+    width:70%;
 }
 
 }
@@ -589,7 +592,7 @@ width:90%;
 
     .slideUpBtn {
     padding:0.3% 1.7% 0.4%;
-    margin: -10px 20px 0;
+    margin: -10px 0px 0;
 }
 .slideUpBtn span {
     font-size: 4.4vw;
@@ -599,42 +602,18 @@ width:90%;
     font-size: 4.4vw;
 }
 
-
-.services .services-parti-2 .content {
-width: 200px;
-padding-top:20px;
-margin-right: -270px;
-}
-.services .services-parti-2 .content h3 {
-margin:0px 0 10px 100px;
-font-size: 0.9rem;
-width: 120%;
-color: #203774;
-}
-.services .services-parti-2 .content p {
-font-size: 0.6rem;
-font-family: 'Nunito', sans-serif;
-margin: 5px 0;
-width: 90%;
-color: rgb(60, 59, 65);
-}
-.services .services-parti-2 .content div {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin: 30px 0;
-width:90%;
-}
 .services .services-parti-2 .image {
-width: 100px;
-padding:0px 5px 0;
-margin:10px 0 0;
+    min-width: 200px;
+    width: 50%;
+    margin:0 auto;
+    padding: 0;
 }
 .services .services-parti-2 .image img {
-width: 37%;
-margin-left: auto;
-margin-right: -1px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
 }
+
 
 }
 
