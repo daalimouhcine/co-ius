@@ -99,7 +99,7 @@
 @media (max-width:800px) {
 .touch {
     width: 100%;
-    height: 400px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +119,7 @@
         right:-2000% ;
     }
     .touch h3 {
-        font-size: 1.78rem;
+        font-size: 2rem;
 
     }
 
@@ -133,19 +133,31 @@
         margin-bottom: 50px;
     }
     .touch .hr::before {
-        left: -1500%;
+        left: -2100%;
+        width:120px
     }
     .touch .hr::after {
-        right:-1500% ;
+        right:-2100% ;
+        width:120px
     }
     .touch h3 {
-        font-size: 1.18rem;
+        font-size: 1.9rem;
         margin:0 20px;
     }
     .touch .touch-container {
         padding:0 0px;
     }
 
+}
+@media (max-width:390px) {
+    .touch .hr::before {
+        left: -1900%;
+        width:90px
+    }
+    .touch .hr::after {
+        right:-1900% ;
+        width:90px
+    }
 }
     @media (max-width:420px) {
         .touch .hr {
@@ -155,17 +167,8 @@
             margin-top:0px;
             margin-bottom: 50px;
         }
-        
-        .touch .hr::before {
-            width: 80px;
-            left: -1400%;
-        }
-        .touch .hr::after {
-            width: 80px;
-            right:-1400% ;
-        }
         .touch h3 {
-            font-size: 1.06rem;
+            font-size: 2rem;
             margin:0 10px;
         }
         .touch .touch-container div {
@@ -197,16 +200,15 @@
         }
         .touch .hr::before {
             width: 80px;
-            height:1px;
-            left: -2000%;
+            left: -900%;
         }
         .touch .hr::after {
             width: 80px;
-            height:1px;
-            right:-2000% ;
+            right:-900% ;
         }
+
         .touch h3 {
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             margin:0 0px;
         }
         .touch .touch-container div {

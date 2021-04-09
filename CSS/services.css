@@ -274,9 +274,12 @@
 
 
 @media (max-width:800px) {
+    .services .services-parti-1 h2 {
+        font-size: 2rem;
+    }
     .services .services-parti-2 .sp div h3 {
         width: 90%;
-        font-size: 1.7rem;
+        font-size: 1.65rem;
         margin:0 20px;
     }
     .services .services-parti-2 .sp div div {
@@ -353,6 +356,9 @@
     }
 }
 @media (max-width:600px) {
+    .services .services-parti-1 h2 {
+        font-size: 1.9rem;
+    }
     .services .services-parti-2 .sp div h3 {
         font-size: 1.2rem;
         margin:0 20px;
@@ -420,12 +426,16 @@
 
 
 @media (max-width:470px) {
-    
+    .services .services-parti-1 h2 {
+        font-size: 1.8rem;
+    }
 .services .services-parti-1 .hr::before {
     left: -1500%;
+    width: 120px;
 }
 .services .services-parti-1 .hr::after {
     right:-1500% ;
+    width:120px
 }
 .services .services-parti-2 .sp div h3 {
     font-size: 1.1rem;
@@ -502,14 +512,17 @@ margin:0 auto;
 
 }
 @media (max-width:390px) {
-    
+    .services .services-parti-1 h2 {
+        font-size: 1.7rem;
+    }
+
     .services .services-parti-1 .hr::before {
-        width: 80px;
-        left: -900%;
+        width: 90px;
+        left: -1050%;
     }
     .services .services-parti-1 .hr::after {
-        width: 80px;
-        right:-900% ;
+        width: 90px;
+        right:-1050% ;
     }
     .services .services-parti-2 .sp div h3 {
         font-size: 1rem;
@@ -571,12 +584,21 @@ width:90%;
 
 @media (max-width:290px) {
     .services .services-parti-1 h2 {
-        color: #203774;
+        font-size: 1.6rem;
+    }
+    .services .services-parti-1 h2 {
         margin-top:-1px;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-family: 'Nunito', sans-serif;
     }
-    
+    .services .services-parti-1 .hr::before {
+        width: 80px;
+        left: -900%;
+    }
+    .services .services-parti-1 .hr::after {
+        width: 80px;
+        right:-900% ;
+    }
     .services .services-parti-2 .sp div h3 {
         font-size: 0.8rem;
         margin:0 0px;

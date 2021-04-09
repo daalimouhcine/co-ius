@@ -71,18 +71,28 @@
     font-weight:700;
     font-family: 'Nunito', sans-serif;
 }
+.swiper-container .swiper-slide .slide-content .header-link a span {
+    height: 100%;
+    width: 50px;
+    background: #385292;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0;
+    border:none;
+}
 .swiper-container .swiper-slide .slide-content .header-link a i {
     font-size: 1.5rem;
-    padding:17px;
-    background: #385292;
+    padding-left: 7px;
 }
-.swiper-container .swiper-slide .slide-content .header-link a i:hover {
-    animation: headerI linear 2.5s infinite;
+.swiper-container .swiper-slide .slide-content .header-link a:hover i {
+    animation: headerI linear 2s infinite;
 }
 @keyframes headerI {
     0%,100% {transform: translate(0,0);}
-    25%,75%{transform: translate(-20%,0);}
-    50%{transform: translate(-10%,0);}
+    20%{transform: translate(25%,0);}
+    50%{transform: translate(-25%,0);}
+    75%{transform: translate(25%,0);}
 }
 
 
