@@ -12,7 +12,7 @@ body {
     display: flex;
 }
 #juridique-header h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Nunito', sans-serif;
     margin:auto;
     color: white;
@@ -23,7 +23,7 @@ body {
         height: 350px ;
     }
     #juridique-header h1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 }
 

@@ -1,8 +1,14 @@
 li {
     list-style: none;
 }
-#footer .about .active-footer {
-    border-bottom:2px solid rgb(255, 255, 255);
+
+#footer div ul .active-footer a span {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+#footer div ul .active-footer a i {
+    color: rgb(39, 139, 233);
+    padding-left: 7px;
 }
 /*----- Start Footer -----*/
 #footer {
@@ -13,6 +19,7 @@ li {
     padding: 0px 0px 0px 0px;
     justify-content: center;
     position:relative;
+    margin-top: 160px;
 } 
 #footer .title {
     background-color:#142450
@@ -84,9 +91,6 @@ li {
     font-size:1.2rem;
     color: rgba(255, 255, 255, 0.801);
     font-family: 'Nunito', sans-serif;
-}
-#mouhcine p a:hover {
-    
 }
 
 #footer .footer-container {
@@ -281,20 +285,33 @@ li {
 }
 /*----- End Footer -----*/
 
-
-@media (max-width:540px) {
-    
+@media (max-width:760px) {
     #footer {
         display:flex;
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
     #footer .title {
-        width:80vw;
+        width:100%;
         display: flex;
         flex-direction: column;
-        padding:10px 30px 10px 0;
+        padding:10px 0px 10px 0;
+    }
+    #footer .title #co {
+        margin:0 auto;
+    }
+
+}
+@media (max-width:540px) {
+    
+
+    #footer .title #co {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10px 30px 20px;
     }
     
 #footer .title h4 {
@@ -356,11 +373,22 @@ li {
         color:rgb(16, 7, 66);
         margin:auto;
     }
+    #mouhcine p {
+        font-size:0.9rem;
+    }
+    #mouhcine p a {
+        font-size:1.05rem;
+    }
 }
 @media (max-width:290px) {
     #footer .title h4 {
         font-size:2rem;
-
+    }
+    #mouhcine p {
+        font-size:0.8rem;
+    }
+    #mouhcine p a {
+        font-size:0.95rem;
     }
     #footer .title p {
         font-size:0.85rem;
@@ -369,6 +397,9 @@ li {
         letter-spacing: 0.3mm;
         color: rgb(255, 255, 255);
         margin:20px 10px 30px;
+    }
+    #footer .title #co ul {
+        padding:0;
     }
 
     #footer .title ul li {

@@ -348,3 +348,8 @@
         width: 45% !important;
     }
 }
+@media (max-width:300px) {
+    .contacte-nous {
+        overflow: hidden;
+    }
+}
