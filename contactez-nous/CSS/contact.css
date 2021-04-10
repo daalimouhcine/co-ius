@@ -213,18 +213,22 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: -40px;
+        margin-top: 50px;
+        text-align: center;
+
     }
 
-
+    .contacte-nous hr {
+        width: 70%;
+    }
     .contacte-nous .contacte-element {
-        width: 100%;
+        width: fit-content;
         display: flex;
         flex-direction: column-reverse;
-        margin:0 70px;
+        margin:0 auto;
     }
     .contacte-nous .contacte-element .contacte-input {
-        margin-left: -5vmax;
+        margin-left: 0vmax;
         align-items: center;
     }
     .contacte-nous .contacte-element .contacte-input form div {
@@ -255,20 +259,22 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: -40px;
+        text-align: center;
+    }   
+    .contacte-nous hr {
+        width: 50%;
     }
 
     .contacte-nous h2 {
         font-size: 2rem;
     }
     .contacte-nous .contacte-element {
-        width: 100%;
+        width: fit-content;
         display: flex;
         flex-direction: column-reverse;
-        margin:0 70px;
+        margin:0 auto;
     }
     .contacte-nous .contacte-element .contacte-input {
-        margin-left: -6vmax;
         align-items: center;
     }
     .contacte-nous .contacte-element .contacte-input form div {
@@ -298,8 +304,6 @@
     .contacte-nous .contacte-element .media {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-left: -20px;
     }
     .contacte-nous .contacte-element .media h3 {
         font-size: 1.1rem;
@@ -311,23 +315,23 @@
     .contacte-nous .contacte-element .media a {
         margin:3px 0;
         font-size: 0.78rem;
-
+    }
+    .contacte-nous hr {
+        width: 40%;
     }
     .contacte-nous h2 {
         font-size: 1.5rem;
     }
     .contacte-nous .contacte-element {
-        width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        margin:0 50px;
     }
     .contacte-nous .contacte-element .contacte-input {
-        margin-left: -6vmax;
+        margin-left: 0vmax;
         align-items: center;
     }
+
     .contacte-nous .contacte-element .contacte-input form div {
-        margin:5px;
         align-items: center;
     }
 
