@@ -13,15 +13,17 @@ li {
     padding: 0px 0px 0px 0px;
     justify-content: center;
     position:relative;
-}
+} 
 #footer .title {
+    background-color:#142450
+}
+#footer .title #co {
     width:400px;
     display: flex;
     flex-direction: column;
     padding:50px 30px 30px 50px;
-    background: #142450;
 }
-#footer .title h4 {
+#footer .title #co h4 {
     font-size:3rem;
     font-weight:400;
     font-family: 'Nunito', sans-serif;
@@ -29,7 +31,7 @@ li {
     color: rgb(255, 255, 255);
     margin:10px;
 }
-#footer .title p {
+#footer .title #co p {
     font-size:1.1rem;
     font-weight:100;
     font-family: 'Nunito', sans-serif;
@@ -37,11 +39,11 @@ li {
     color: rgb(255, 255, 255);
     margin:20px 10px 30px;
 }
-#footer .title ul {
+#footer .title #co ul {
     display:flex;
     flex-direction:row;
 }
-#footer .title ul li {
+#footer .title #co ul li {
     display: block;
     text-decoration:none;
     text-align: center;
@@ -51,27 +53,40 @@ li {
     background:rgb(255, 255, 255);
     border-radius:510px;
 }
-#footer .title ul li a i {
+#footer .title #co ul li a i {
     font-size:1.4rem;
     transition:color 250ms linear,background 250ms linear;
     padding:11px;
     border-radius: 100px;
     color: #0f235a;
 }
-#footer .title ul li a i:hover {
+#footer .title #co ul li a i:hover {
     color: #647cbe;
 }
 #mouhcine {
+    width: 100%;
+    background-color: #08122e;
     text-align: center;
-    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:-10px;
+    border-top: 2px solid rgb(83, 83, 83);
 }
 #mouhcine p {
-    color:white;
-    font-size:0.9rem;
+    color: rgb(194, 190, 190);
+    font-size:1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
 }
-#mouhcine p span {
-    font-family: 'Nunito', sans-serif;
+#mouhcine p a {
     font-size:1.2rem;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: 'Nunito', sans-serif;
+}
+#mouhcine p a:hover {
+    
 }
 
 #footer .footer-container {
@@ -80,7 +95,9 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     overflow-x: hidden;
+    margin:60px auto 0;
 }
 #footer .about {
     width: 270px;
@@ -93,7 +110,9 @@ li {
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.6mm;
     color: rgb(255, 255, 255);
-    margin:10px;
+    margin:10px 10px 10px 0;
+    padding-left: 20px;
+    border-left: 5px solid white;
 }
 #footer .about ul {
     display:flex;
@@ -106,13 +125,26 @@ li {
     font-size:1rem;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.3mm;
-    color: rgb(255, 255, 255);
+    color: rgb(194, 190, 190);
     padding:3px 0px;
     border-bottom:2px solid transparent;
-    transition:border 250ms linear;
 }
-#footer .about ul li a:hover {
-    border-bottom:2px solid rgb(255, 255, 255);
+#footer .about ul li a span {
+    transition:padding 300ms linear;
+}
+#footer .about ul li a i {
+    transition:padding 250ms linear 250ms, color 200ms linear 200ms;
+}
+#footer .about ul li a i {
+    font-size: 0.7rem;
+}
+#footer .about ul li:hover a span {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+#footer .about ul li:hover a i {
+    color: rgb(39, 139, 233);
+    padding-left: 7px;
 }
 
 #footer .service {
@@ -126,7 +158,9 @@ li {
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.6mm;
     color: rgb(255, 255, 255);
-    margin:10px;
+    margin:10px 10px 10px 0;
+    padding-left: 20px;
+    border-left: 5px solid white;
 }
 #footer .service ul {
     display:flex;
@@ -139,14 +173,28 @@ li {
     font-size:1rem;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.3mm;
-    color: rgb(255, 255, 255);
+    color: rgb(194, 190, 190);
     padding:3px 0px;
     border-bottom:2px solid transparent;
-    transition:border 250ms linear;
 }
-#footer .service ul li a:hover {
-    border-bottom:2px solid rgb(255, 255, 255);
+#footer .service ul li a span {
+    transition:padding 300ms linear;
 }
+#footer .service ul li a i {
+    transition:padding 250ms linear 250ms, color 200ms linear 200ms;
+}
+#footer .service ul li a i {
+    font-size: 0.7rem;
+}
+#footer .service ul li:hover a span {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+#footer .service ul li:hover a i {
+    color: rgb(39, 139, 233);
+    padding-left: 7px;
+}
+
 
 #footer .other {
     width: 200px;
@@ -159,7 +207,9 @@ li {
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.6mm;
     color: rgb(255, 255, 255);
-    margin:10px;
+    margin:10px 10px 10px 0;
+    padding-left: 20px;
+    border-left: 5px solid white;
 }
 #footer .other ul {
     display:flex;
@@ -172,14 +222,28 @@ li {
     font-size:1rem;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.3mm;
-    color: rgb(255, 255, 255);
+    color: rgb(194, 190, 190);
     padding:3px 0px;
     border-bottom:2px solid transparent;
-    transition:border 250ms linear;
 }
-#footer .other ul li a:hover {
-    border-bottom:2px solid rgb(255, 255, 255);
+#footer .other ul li a span {
+    transition:padding 300ms linear;
 }
+#footer .other ul li a i {
+    transition:padding 250ms linear 250ms, color 200ms linear 200ms;
+}
+#footer .other ul li a i {
+    font-size: 0.7rem;
+}
+#footer .other ul li:hover a span {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+}
+#footer .other ul li:hover a i {
+    color: rgb(39, 139, 233);
+    padding-left: 7px;
+}
+
 
 #footer .up {
     height:4.5rem;
