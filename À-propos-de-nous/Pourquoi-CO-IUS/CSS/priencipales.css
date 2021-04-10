@@ -8,18 +8,18 @@
 }
 .priencipales h3 {
     font-size: 1.2rem;
-    color: rgb(78, 78, 78);
+    color: #385292;
     font-family: 'Nunito', sans-serif;
     margin-left: 50px;
     align-self: flex-start;
     border-bottom:3px;
-    border-bottom-color: gray;
+    border-bottom-color: #385292;
     border-bottom-style: solid;
 }
 .priencipales h2 {
     width: 100%;
     font-size: 2rem;
-    color: #385292;
+    color: #414446;
     font-family: 'Nunito', sans-serif;
 }
 .priencipales div {
@@ -53,9 +53,9 @@
     flex-direction: row;
     align-items: center;
 }
-.priencipales div div ul li i {
+.priencipales div div ul li img {
     margin:5px 30px 5px 10px;
-    font-size: 2rem;
+    width: 70px;
     color:#385292 ;
 }
 .priencipales div div ul li a {
@@ -79,11 +79,11 @@
 .priencipales div + div::before {
     content:" ";
     width: 400px;
-    height: 340px;
+    height: 250px;
     position: absolute;
     background-color: gray;
     z-index: 1;
-    top: 1%;
+    top: 25%;
     left: -2%;
 }
 
@@ -105,7 +105,7 @@
     .priencipales div + div::before {
         width: 400px;
         height: 300px;
-        top: 2%;
+        top: 18%;
         left: -2%;
     }
     
@@ -133,7 +133,7 @@
     .priencipales div + div::before {
         width: 400px;
         height: 290px;
-        top: 2%;
+        top: 19%;
         left: -2%;
     }
     
@@ -161,10 +161,12 @@
     .priencipales div + div::before {
         width: 320px;
         height: 250px;
-        top: 13%;
+        top: 23%;
         left: -2%;
     }
-    
+    .priencipales div div ul li img {
+        width: 50px;
+    }
 }
 @media (max-width:900px) {
 
@@ -202,7 +204,7 @@
     .priencipales div + div::before {
         width: 310px;
         height: 200px;
-        top: 10%;
+        top: 30%;
         left: -2%;
     }
     
@@ -236,10 +238,12 @@
     .priencipales div + div::before {
         width: 220px;
         height: 170px;
-        top: 8%;
+        top: 24%;
         left: -2%;
     }
-    
+    .priencipales div div ul li img {
+        width: 40px;
+    }
 }
 @media (max-width:720px) {
     .priencipales h2 {
@@ -252,10 +256,8 @@
         margin:8px 0;
         color: rgb(60, 59, 65);
     }
-    .priencipales div div ul li i {
-        margin:5px 20px 5px 7px;
-        font-size: 1.6rem;
-        color:#385292 ;
+    .priencipales div div ul li img{
+        margin:5px 15px 5px 7px;
     }
 
     .priencipales div div img {
@@ -271,7 +273,7 @@
     .priencipales div + div::before {
         width: 220px;
         height: 170px;
-        top: 15%;
+        top: 32%;
         left: -2%;
     }
     
@@ -291,8 +293,8 @@
         margin:7px 0;
         color: rgb(60, 59, 65);
     }
-    .priencipales div div ul li i {
-        margin:5px 15px 5px 20px;
+    .priencipales div div ul li img {
+        margin:5px 11px 5px 10px;
 
     }
 
@@ -309,7 +311,7 @@
     .priencipales div + div::before {
         width: 200px;
         height: 160px;
-        top: 15%;
+        top: 28%;
         left: -2%;
     }
     
@@ -329,9 +331,7 @@
         margin:7px 0;
         color: rgb(60, 59, 65);
     }
-    .priencipales div div ul li i {
-        margin:5px 15px 5px 20px;
-    }
+
 
     .priencipales div div img {
         width: 40%;
@@ -346,7 +346,7 @@
     .priencipales div + div::before {
         width:30%;
         height: 180px;
-        top: 17%;
+        top: 30%;
         left: -2%;
     }
     
@@ -425,8 +425,8 @@
     }
     .priencipales div + div::before {
         width:30%;
-        height: 130px;
-        top: 27%;
+        height: 140px;
+        top: 31%;
         left: -2%;
     }
     
@@ -455,7 +455,6 @@
     }
     .priencipales div div ul li i {
         margin:5px 15px 5px 20px;
-        font-size: 1rem;
         color:#385292 ;
     }
 
@@ -463,6 +462,11 @@
     .priencipales div div img {
         width: 40%;
         display: none;
+    }
+    .priencipales div div ul li img {
+        width: 40px;
+        margin:5px 10px 5px 10px;
+        display: block;
     }
 
     .priencipales div div::before {
