@@ -42,7 +42,7 @@
                     <div class="tel-sm">
                         <a href="tel:0623524682">
                             <span class="ma">0623524682</span>
-                            <i class="fas fa-phone-alt" title="téléphoner icon"></i>
+                            <i class="fas fa-phone-alt"></i>
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="soc btn">
                     <div class="fb">
                         <a href="https://www.facebook.com/coius2021" target="_blank">
-                            <i class="fab fa-facebook-f" title="facebook icon"></i>
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
     <div class="form-contacte">
         <h3>Parlons</h3>
         <p>Remplissez le formulaire, notre équipe vous répondra dans les 24 heures</p>
-        <div id="form">
+        <form id="form">
             <label for="first-name" style="width: 40%;">
                 <p>Prénom</p> 
                 <input type="text" name="first-name" id="first-name" placeholder="Entrez votre prénom*" required>
@@ -345,7 +345,7 @@
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Entrez vos message*" required></textarea>
             </label>
             <input type="submit" id="submit" value="Envoyer le message">
-        </div>
+        </form>
     </div>
 </section>
 
@@ -430,11 +430,7 @@
 
 
 
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
-<script src="JS/contact.js"></script>
-
-
+<script src="JS/email-contact.js"></script>
 
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
