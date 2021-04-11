@@ -10,12 +10,23 @@ body {
     background-repeat: no-repeat;
     margin-top: 80px;
     display: flex;
+    position:relative;
+}
+#juridique-header::after {
+    content: " ";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.300);
 }
 #juridique-header h1 {
     font-size: 4rem;
     font-family: 'Nunito', sans-serif;
     margin:auto;
     color: white;
+    z-index: 2;
 }
 
 @media (max-width:920px) {
