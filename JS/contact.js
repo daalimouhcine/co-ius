@@ -21,8 +21,7 @@ let submit = document.querySelector("#submit");
 
 const db = firestore.collection("Contact Data | CO-IUS");
 
-submit.addEventListener("click",function(e) {
-    e.preventDefault;
+submit.addEventListener("click",function() {
     let firstNameInput = firstName.value;
     let lastNameInput = lastName.value;
     let emailInput = email.value;
@@ -35,7 +34,11 @@ submit.addEventListener("click",function(e) {
         email: emailInput,
         message: messageInput
     }).then(function() {
-        console.log("Data Saved")
+        console.log("Data Saved");
+            firstNameInput = " ";
+            lastNameInput = " ";
+            emailInput = " ";
+            messageInput = " ";
     }).catch(function(error) {
         console.log("error");
     });
