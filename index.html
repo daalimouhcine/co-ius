@@ -32,7 +32,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
@@ -326,14 +325,14 @@
     <div class="form-contacte">
         <h3>Parlons</h3>
         <p>Remplissez le formulaire, notre équipe vous répondra dans les 24 heures</p>
-        <form method="POST" action="contactengine.php">
+        <form action="">
             <label for="first-name" style="width: 40%;">
                 <p>Prénom</p> 
                 <input type="text" name="first-name" id="first-name" placeholder="Entrez votre prénom*" required>
             </label>
             <label for="last-name" style="width: 40%;">
                 <p>Nom de famille</p>
-                <input type="text" name="last-name" id="last-name" placeholder="Entrez votre nom de famille*" required>
+                <input type="text" name="last-name" id="last-name" placeholder="Entrez votre nom*" required>
             </label>
 
             <label for="email">
@@ -341,11 +340,11 @@
                 <input type="email" name="email" id="email" placeholder="Entrez votre adresse email*" required>
             </label>
 
-            <label for="messages">
-                <p>Messages</p>
-                <textarea name="messages" id="messages" cols="30" rows="10" placeholder="Entrez vos messages*" required></textarea>
+            <label for="message">
+                <p>Message</p>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Entrez vos message*" required></textarea>
             </label>
-            <input type="submit" value="Envoyer des messages">
+            <input type="submit" id="submit" value="Envoyer le message">
         </form>
     </div>
 </section>
@@ -431,11 +430,13 @@
 
 
 
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+<script src="JS/contact.js"></script>
 
 
 
 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper-container', {
