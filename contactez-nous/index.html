@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../CSS/footer.css">
     <script src="https://kit.fontawesome.com/52c3d542f8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
 </head>
@@ -144,21 +144,62 @@
             <a href="mailto:the.daali.mouhcine@gmail.com"><i class="far fa-envelope" title="E-mail icon"></i> the.mouhcine@gmail.com</a>
         </div>
         <div class="contacte-input">
-            <form action="mailto:the.daali.mouhcine@gmail.com">
-                <div>
-                    <input type="text" name="first-name" id="first-name" placeholder="Nome*" required>
-                    <input type="text" name="last-name" id="last-name" placeholder="Prénom*" required>
+            <form>
+                <div class="f-in">
+                    <div class="name-form">
+                        <input type="text" name="first-name" id="first-name" class="first-name" autocomplete="off" required>
+                        <label class="label-name" for="name">
+                            <span>Nome</span>
+                        </label>
+                    </div>
+                    <div class="name-form">
+                        <input type="text" name="last-name" id="last-name" class="last-name" autocomplete="off" required>
+                        <label class="label-name" for="name">
+                            <span>Prénome</span>
+                        </label>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" id="phone" placeholder="Téléphone">
-                    <input type="email" name="email" id="email" placeholder="Email*" required>
+
+                <div class="f-in">
+                    <div class="email-form">
+                        <input type="text" name="email" id="email" class="email" autocomplete="off" required>
+                        <label class="label-email" for="email">
+                            <span>Email</span>
+                        </label>
+                    </div>
+                    <div class="phone-form">
+                        <input type="text" name="phone" id="phone" class="phone" autocomplete="off" required>
+                        <label class="label-phone" for="phone">
+                            <span>Téléphone</span>
+                        </label>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" name="ville" id="ville" placeholder="Ville">
-                    <input type="text" name="postale" id="postale" placeholder="Code Postale">
+
+                <div class="f-in">
+                    <div class="ville-form">
+                        <input type="text" name="ville" id="ville" class="ville" autocomplete="off" required>
+                        <label class="label-ville" for="email">
+                            <span>Ville</span>
+                        </label>
+                    </div>
+                    <div class="postale-form">
+                        <input type="text" name="postale" id="postale" class="postale" autocomplete="off" required>
+                        <label class="label-postale" for="email">
+                            <span>Code Postale</span>
+                        </label>
+                    </div>
                 </div>
-                <textarea name="message" id="message" placeholder="Message*" required></textarea>
-                <input type="submit" value="ENVOYER">
+
+                <div class="text-form">
+                    <textarea name="message" id="message" required cols="30" rows="10"></textarea>
+                    <label for="message" class="label-message">
+                        <span>Votre Message</span>
+                    </label>
+                </div>
+
+                <div class="submit-form">
+                    <input type="submit" name="submit" value="submit">
+                </div>
             </form>
         </div>
     </div>

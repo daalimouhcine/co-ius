@@ -70,14 +70,14 @@
     margin:10px 10px;
 }
 
-.contacte-nous .form-contacte form {
+.contacte-nous .form-contacte #form {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.contacte-nous .form-contacte form label {
+.contacte-nous .form-contacte #form label {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -86,7 +86,7 @@
     padding:10px 15px;
     margin:0;
 }
-.contacte-nous .form-contacte form label input {
+.contacte-nous .form-contacte #form label input {
     font-size: 0.9rem;
     height:30px;
     padding:5px 15px;
@@ -94,11 +94,11 @@
     border-radius:4px;
     outline-color: slategrey;
 }
-.contacte-nous .form-contacte form label p {
+.contacte-nous .form-contacte #form label p {
     font-size: 1.1rem;
     font-family: 'Nunito', sans-serif;
 }
-.contacte-nous .form-contacte form label textarea {
+.contacte-nous .form-contacte #form label textarea {
     box-sizing: border-box;
     width: 100%;
     font-size: 1.15rem;
@@ -108,7 +108,7 @@
     border-radius:4px;
     outline-color: slategrey;
 }
-.contacte-nous .form-contacte form input[type="submit"] {
+.contacte-nous .form-contacte #form input[type="submit"] {
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
     margin:20px 30px;
@@ -120,7 +120,7 @@
     transition: background-color 200ms linear;
     cursor: pointer;
 }
-.contacte-nous .form-contacte form input[type="submit"]:hover {
+.contacte-nous .form-contacte #form input[type="submit"]:hover {
     background-color: #6685d3b6;
 }
 
@@ -156,7 +156,7 @@
     .contacte-nous .form-contacte {
         width: 60%;
     }
-    .contacte-nous .form-contacte form label {
+    .contacte-nous .form-contacte #form label {
         min-width: 250px;
     }
 }
@@ -205,17 +205,17 @@
     .contacte-nous .form-contacte {
         width: 60%;
     }
-    .contacte-nous .form-contacte form label {
+    .contacte-nous .form-contacte #form label {
         min-width: 200px;
     }
-    .contacte-nous .form-contacte form label p {
+    .contacte-nous .form-contacte #form label p {
         font-size: 0.9rem;
         font-family: 'Nunito', sans-serif;
     }
-    .contacte-nous .form-contacte form label input {
+    .contacte-nous .form-contacte #form label input {
         font-size: 0.7rem;
     }
-    .contacte-nous .form-contacte form label textarea {
+    .contacte-nous .form-contacte #form label textarea {
         box-sizing: border-box;
         width: 100%;
         font-size: 1.15rem;
@@ -225,7 +225,7 @@
         border-radius:4px;
         outline-color: slategrey;
     }
-    .contacte-nous .form-contacte form input[type="submit"] {
+    .contacte-nous .form-contacte #form input[type="submit"] {
         font-size: 0.9rem;
         font-family: 'Nunito', sans-serif;
         margin:20px 10px;
@@ -239,7 +239,7 @@
     }
 }
 @media (max-width:450px) {
-    .contacte-nous .form-contacte form label {
+    .contacte-nous .form-contacte #form label {
         padding:15px 9px;
     }
 }
@@ -277,18 +277,18 @@
     .contacte-nous .form-contacte {
         width: 60%;
     }
-    .contacte-nous .form-contacte form label {
+    .contacte-nous .form-contacte #form label {
         min-width: 170px;
     }
-    .contacte-nous .form-contacte form label p {
+    .contacte-nous .form-contacte #form label p {
         font-size: 0.75rem;
         font-family: 'Nunito', sans-serif;
     }
-    .contacte-nous .form-contacte form label input {
+    .contacte-nous .form-contacte #form label input {
         font-size: 0.6rem;
         padding:4px 7px;
     }
-    .contacte-nous .form-contacte form label textarea {
+    .contacte-nous .form-contacte #form label textarea {
         box-sizing: border-box;
         width: 100%;
         font-size: 0.75rem;
@@ -298,7 +298,7 @@
         border-radius:4px;
         outline-color: slategrey;
     }
-    .contacte-nous .form-contacte form input[type="submit"] {
+    .contacte-nous .form-contacte #form input[type="submit"] {
         font-size: 0.7rem;
         font-family: 'Nunito', sans-serif;
         margin:10px 10px 20px 15px;
@@ -313,14 +313,14 @@
 }
 
 @media (max-width:360px) {
-    .contacte-nous .form-contacte form label {
+    .contacte-nous .form-contacte #form label {
         min-width: 90%;
         box-sizing: border-box;
     }
     
 }
 @media (max-width:320px) {
-    .contacte-nous .form-contacte form input[type="submit"] {
+    .contacte-nous .form-contacte #form input[type="submit"] {
         font-size: 0.7rem;
         font-family: 'Nunito', sans-serif;
         margin:10px 10px;
@@ -328,7 +328,7 @@
     }
 }
 @media (max-width:290px) {
-    .contacte-nous .form-contacte form input[type="submit"] {
+    .contacte-nous .form-contacte #form input[type="submit"] {
         font-size: 0.6rem;
         font-family: 'Nunito', sans-serif;
         margin:10px 5px;
