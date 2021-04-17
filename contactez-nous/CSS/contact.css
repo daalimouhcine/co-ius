@@ -192,7 +192,7 @@
 .submit-form input {
     height:100%;
     width:fit-content;
-    font-size:1.5rem;
+    font-size:1.1rem;
     font-weight:900;
     color:rgb(240, 240, 240);
     background-color:#11204b;
@@ -282,7 +282,7 @@
     transform:translateX(0%);
 }
 .submit-form input {
-    font-size:1.3rem;
+    font-size:1rem;
 }
 
 
@@ -335,6 +335,9 @@
 
     .contacte-nous h2 {
         font-size: 2rem;
+    }
+    .submit-form input {
+        font-size:0.9rem;
     }
 }
 
