@@ -803,7 +803,7 @@ ul#css3menu .toproot:hover a::after, ul#css3menu .topmenu:hover a::after {width:
 
 @media all and (max-width:365px) {
    #side .soc a {
-      width: 105px;
+      width: 105%;
    }
 }
 
