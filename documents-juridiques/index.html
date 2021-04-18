@@ -31,6 +31,16 @@
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/style.css">
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNVP0QTVSQ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-NNVP0QTVSQ');
+        </script>
 </head>
 <body>
 
@@ -238,8 +248,8 @@
 
         <!-- Javascript-->
         <script src="JS/open-doc.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="../JS/up.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+        <script src="../JS/up.js" defer></script>
         <script>
             $("#btn_mobile").click(function(){
                 $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
