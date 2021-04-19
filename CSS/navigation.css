@@ -109,7 +109,7 @@ table.tright {float:right;}
 #logo{
    overflow:hidden;
    position:relative;
-   margin-left:150px;
+   margin-left:100px;
    width:500px;
    transition:all 500ms linear;
    background:url(../images/polygone.png) no-repeat;
@@ -264,7 +264,7 @@ ul#css3menu,ul#css3menu ul{margin:0;padding:0;list-style:none;}
    box-shadow:  3px 5px 15px #333;
    margin-bottom:10px;
 }
-ul#css3menu{position:relative;display:block;font-size:0;float:left;left: 650px;}
+ul#css3menu{position:relative;display:block;font-size:0;float:left;left: 600px;}
 ul#css3menu ul{padding:0 10px 10px;}
 
 
