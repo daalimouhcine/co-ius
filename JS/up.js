@@ -5,3 +5,7 @@ $(document).ready(function () {
         },  2000);
     });
 })
+
+$("#btn_mobile").click(function(){
+    $("#css3menu, #menu_vertical").stop(true,false).slideToggle(400);
+});
